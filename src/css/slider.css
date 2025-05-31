@@ -1,0 +1,122 @@
+.slider {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+
+.slider * {
+    color: white;
+}
+
+.slider .background-blur {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background: radial-gradient(rgba(80, 80, 80, 0.459), rgba(0, 0, 0, 0.692));
+}
+
+.slider .background-gradient {
+    position: absolute;
+    inset: 0;
+    z-index: 5;
+    background: rgba(0, 34, 53, 8.84);
+    background: linear-gradient(90deg,rgba(0, 34, 53, 0.95) 0%, rgba(0, 98, 155, 0) 74%);
+}
+
+.slider .slider-content {
+    justify-content: space-between;
+    min-width: 100%;
+    /* align-items: center; */
+}
+
+.slider .image-list-slider {
+    position: absolute;
+    inset: 0;
+    overflow: hidden;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    /* background-color: red; */
+}
+
+.slider .image-list-slider::-webkit-scrollbar {
+    display: none;
+}
+
+.slider .image-list-slider img {
+    min-width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.slider .image-container {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.slider .center-line {
+    position: absolute;
+    z-index: 10;
+    top: 50%;
+    width: 100%;
+    height: fit-content;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider .center-line .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .center-line * {
+    font-weight: 100;
+}
+
+.slider .center-line .title {
+    /*font-size: calc(30px + 1.8vw);*/
+    text-align: center;
+}
+
+.slider .arrow {
+    min-width: calc(30px + 1.8vw);
+    aspect-ratio: 1;
+    margin: 20px;
+    border-radius: 100%;
+    background-color: #5c5656b0;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.slider .arrow:hover {
+    box-shadow: inset 0 0 50px 2px rgba(255, 255, 255, 0.384);
+}
+
+.slider .navigation-indicators {
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    z-index: 10;
+}
+
+.slider .indicators {
+    min-width: 50px;
+    min-height: 5px;
+    margin: 10px;
+    background-color: rgba(226, 226, 226, 0.842);
+    /* aspect-ratio: 1; */
+    border-radius: 20px;
+}
