@@ -1,0 +1,83 @@
+.horizontal-scroll-wrapper {
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .horizontal-scroll-container {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    padding: 10px 40px;
+    cursor: grab;
+  }
+  
+  .horizontal-scroll-container:active {
+    cursor: grabbing;
+  }
+  
+  .horizontal-scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  .horizontal-scroll-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+   .scroll-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    outline: none;
+    border: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .scroll-arrow:hover {
+    background-color: rgba(51, 51, 51, 0.8);
+    color: white;
+    transform: translateY(-50%) scale(1.05);
+  }
+  
+  .scroll-arrow.left {
+    left: 10px;
+  }
+  
+  .scroll-arrow.right {
+    right: 10px;
+  }
+  
+    .scroll-arrow:focus {
+        outline: none;
+        border: none;
+    }
+
+    @media (max-width: 480px) {
+        .horizontal-scroll-wrapper {
+            width: 100%;
+        }
+        
+        .horizontal-scroll-container {
+            padding: 10px 20px;
+        }
+        
+        .scroll-arrow {
+            width: 30px;
+            height: 30px;
+            font-size: 16px;
+        }
+    }

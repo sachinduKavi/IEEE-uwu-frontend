@@ -1,0 +1,14 @@
+.upcoming-event-title {
+    font-size: 3rem;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+    color: #00629B;
+}
+
+  @media (max-width: 480px) {
+    .upcoming-event-title {
+        font-size: 2rem;
+        margin: 15px 0;
+    }
+}

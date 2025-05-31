@@ -1,0 +1,154 @@
+
+.event-card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-width: 400px;
+    min-height: 600px;
+    margin: 40px auto;
+    border-radius: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .event-image {
+    width: 100%;
+    height: 300px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+  }
+  
+  .event-time-date {
+    display: flex;
+    background-color: #a1b0b857;
+    width: 90%;
+    margin: 20px 0 0 10px;
+    padding: 3px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: #888888;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+  }
+  .event-venue{
+    display: flex;
+    background-color: #81d3ff57;
+    width: 70%;
+    margin: 10px 0 0 10px;
+    padding: 3px;
+    padding-left: 20px;
+    border-radius: 5px;
+    color: #00629B;
+    align-items: center;
+    justify-content: start;
+    gap: 5px;
+  }
+  .event-date-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .event-time-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+  .event-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 20px;
+    color: black;
+  }
+  
+  .event-description {
+    font-size: 1rem;
+    color: #555555;
+    margin: 10px 20px;
+    flex-grow: 1;
+  }
+  
+  .event-button-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #00629B;
+    height: 45px;
+    margin: 20px auto;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 768px) {
+    .event-card {
+      min-width: auto;
+      min-height: auto;
+      margin: 20px;
+    }
+  
+    .event-title {
+      font-size: 1.3rem;
+    }
+  
+    .event-description {
+      font-size: 0.95rem;
+    }
+  
+    .event-button-container {
+      height: 42px;
+      font-size: 0.95rem;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .event-card {
+      margin: 15px;
+      border-radius: 15px;
+      min-width: 260px;
+    }
+  
+    .event-image {
+      height: 200px;
+      border-radius: 15px 15px 0 0;
+    }
+  
+    .event-time-date {
+      flex-direction: column;
+      font-size: 0.9rem;
+      width: 90%;
+      padding: 5px;
+      margin: 10px auto;
+    }
+    .event-venue{
+        font-size: 0.9rem;
+      width: 90%;
+      padding: 5px;
+      margin: 3px auto;
+      justify-content: center;
+    }
+    .event-time-data-seperator{
+        display: none;
+    }
+    .event-title {
+      font-size: 1.1rem;
+      margin: 10px 15px;
+    }
+  
+    .event-description {
+      font-size: 0.9rem;
+      margin: 10px 15px;
+    }
+  
+    .event-button-container {
+      height: 40px;
+      font-size: 0.9rem;
+    }
+  }
+  
