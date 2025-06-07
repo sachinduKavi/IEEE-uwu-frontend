@@ -6,7 +6,7 @@ const AboutUs = () => {
         <div className="bg-[#EBF8FF] py-16 px-6 lg:px-24">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
                 {/* Text Section */}
-                <div className="space-y-6">
+                <div className="space-y-6 ml-20">
                     <h2 className="text-[#005596] text-4xl md:text-5xl font-extrabold">
                         About IEEE UWU
                     </h2>
