@@ -1,19 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import { BrowserRouter, Routes, Route } from 'react-router'
-import Home from './pages/home/Home'
+import React from 'react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home/Home';
+import Footer from './components/Footer'; // Optional, if you added Footer
 
-function App() {
-  const [count, setCount] = useState(0)
-
+const App: React.FC = () => {
   return (
     <BrowserRouter>
-      <Routes>  
-        <Route path='/' element={<Home/>}/>
-      </Routes>
+      <div className="flex flex-col min-h-screen">
+        <main className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            {/* Add more routes here */}
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;
