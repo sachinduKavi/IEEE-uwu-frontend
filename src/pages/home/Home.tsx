@@ -12,10 +12,11 @@ export default function Home() {
     <div className='screen'>
         <Slider />
         <HeroSection/>
+        <AboutSection />
         <ChaptersSection/>
         <AboutUs/>
         <UpcomingEventSection/>
-        <AboutSection />
+        
         <Footer/>
     </div>
   )
