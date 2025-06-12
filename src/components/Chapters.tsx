@@ -1,6 +1,10 @@
 import { Card, CardFooter, CardContent } from "./ui/card"
 import { Button } from "./ui/button"
 import { ArrowRight } from "lucide-react"
+import CSGroupImage from '../assets/images/cs.jpg'
+import WIEGroupImage from '../assets/images/wie.jpg'
+import RASGroupImage from '../assets/images/ras.jpg'
+import IASGroupImage from '../assets/images/ias.jpg'
 
 export default function ChaptersSection() {
   const chapters = [
@@ -8,28 +12,28 @@ export default function ChaptersSection() {
       name: "Industrial Applications Society",
       acronym: "IAS",
       description: "Focuses on advancing the theory and practice of electrical and electronic engineering in the development and application of industrial systems.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: IASGroupImage,
       alt: "Industrial automation and manufacturing systems",
     },
     {
       name: "Robotics and Automation Society",
       acronym: "RAS",
       description: "Dedicated to promoting innovation, education, and collaboration in robotics and automation technologies.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: RASGroupImage,
       alt: "Robotics and automation technology",
     },
     {
       name: "Computer Society",
       acronym: "CS",
       description: "Engages students in computing technologies, software engineering, and emerging digital fields.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: CSGroupImage,
       alt: "Computer science and software engineering",
     },
     {
       name: "Women in Engineering",
       acronym: "WiE",
       description: "Empowers women in engineering and fosters diversity and inclusion through events, mentorship, and advocacy.",
-      image: "/placeholder.svg?height=200&width=300",
+      image: WIEGroupImage,
       alt: "Women in engineering collaboration and mentorship",
     },
   ]
@@ -72,9 +76,9 @@ export default function ChaptersSection() {
                   <div className="aspect-[4/3] relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent z-10"></div>
                     <img
-                        src={chapter.image || "/placeholder.svg"}
+                        src={chapter.image}
                         alt={chapter.alt}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-110"
                     />
                     <div className="absolute top-4 right-4 z-20">
                   <span

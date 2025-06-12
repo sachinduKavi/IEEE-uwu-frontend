@@ -28,7 +28,7 @@ export default function NavBar() {
   ];
 
   return (
-      <header className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${scrolled ? 'shadow-md bg-[#EBF8FF]/95' : 'bg-[#EBF8FF]'}`}>
+      <header className={`fixed w-full top-0 left-0 z-1 transition-all duration-300 ${scrolled ? 'shadow-md bg-[#EBF8FF]/95' : 'bg-[#EBF8FF]'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-20">
             {/* Logo */}
