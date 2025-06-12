@@ -49,7 +49,7 @@ export default function NavBar() {
                       className={`relative px-4 py-2 text-sm font-medium transition-all rounded-lg group ${
                           activeLink === item.href
                               ? 'text-white bg-[#005596] shadow-md'
-                              : 'text-[#1e3a8a] hover:bg-[#005596] hover:text-white'
+                              : 'text-[#1e3a8a] hover:bg-[#005596] hover:text-white focus:bg-[#005596] focus:text-white'
                       }`}
                       onClick={() => setActiveLink(item.href)}
                   >
