@@ -2,15 +2,19 @@ import { Card, CardContent } from "./ui/card"
 import { Target, Eye, Award } from "lucide-react"
 import { motion } from "framer-motion"
 import { fadeIn, staggerContainer } from "../utils/motion.tsx"
+import ChairImage from '../assets/images/asiri.jpg'
+import SecImage from '../assets/images/chandi.jpg'
+import TreasurerImage from '../assets/images/raeese.jpg'
+import WebmasterImage from '../assets/images/sachindu.jpg'
 
 
 
 export default function AboutSection() {
   const teamMembers = [
     {
-      name: "Sarah Johnson",
-      role: "Branch Chair",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Asiri Weerasinghe",
+      role: "Student Branch Chair",
+      image: ChairImage,
       description: "Computer Science senior passionate about AI and machine learning.",
       social: {
         linkedin: "#",
@@ -18,9 +22,9 @@ export default function AboutSection() {
       }
     },
     {
-      name: "Michael Chen",
-      role: "Vice Chair",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Chandima Jayawardhana",
+      role: "Secretary",
+      image: SecImage,
       description: "Electrical Engineering student focused on renewable energy systems.",
       social: {
         linkedin: "#",
@@ -28,9 +32,9 @@ export default function AboutSection() {
       }
     },
     {
-      name: "Emily Rodriguez",
-      role: "Secretary",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Raees ahamed",
+      role: "Treasurer",
+      image: TreasurerImage,
       description: "Software Engineering student with expertise in web development.",
       social: {
         linkedin: "#",
@@ -38,9 +42,9 @@ export default function AboutSection() {
       }
     },
     {
-      name: "David Kim",
-      role: "Treasurer",
-      image: "/placeholder.svg?height=200&width=200",
+      name: "Sachindu Kavishka",
+      role: "Webmaster",
+      image: WebmasterImage,
       description: "Mechanical Engineering student interested in robotics and automation.",
       social: {
         linkedin: "#",
@@ -167,7 +171,7 @@ export default function AboutSection() {
                         <div className="relative mx-auto mb-4 w-32 h-32">
                           <div className="absolute inset-0 bg-gradient-to-r from-[#005596] to-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-md"></div>
                           <img
-                              src={member.image || "/placeholder.svg"}
+                              src={member.image}
                               alt={member.name}
                               className="relative w-32 h-32 rounded-full mx-auto object-cover border-4 border-white z-10"
                           />
