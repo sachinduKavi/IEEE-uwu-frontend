@@ -1,21 +1,21 @@
-import { useState, useEffect } from "react"
-import { Link } from "react-router-dom"
-import { Button } from "./ui/button"
-import { Menu, X } from "lucide-react"
-import logo from '../assets/logo.png'
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { Button } from "./ui/button";
+import { Menu, X } from "lucide-react";
+import logo from '../assets/logo.png';
 
 export default function NavBar() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false)
-  const [activeLink, setActiveLink] = useState("#home")
-  const [scrolled, setScrolled] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeLink, setActiveLink] = useState("#home");
+  const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 10)
-    }
-    window.addEventListener('scroll', handleScroll)
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   const navigation = [
     { name: "Home", href: "#home" },
@@ -25,22 +25,13 @@ export default function NavBar() {
     { name: "Projects", href: "#projects" },
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
-  ]
-
-  // Color palette
-  const colors = {
-    primary: "#EBF8FF",       // Light blue background
-    secondary: "#005596",     // Dark blue for active states
-    accent: "#3daed2",       // Medium blue for accents
-    textDark: "#1e3a8a",     // Dark text
-    textLight: "#ffffff"     // White text
-  }
+  ];
 
   return (
       <header className={`fixed w-full top-0 left-0 z-50 transition-all duration-300 ${scrolled ? 'shadow-md bg-[#EBF8FF]/95' : 'bg-[#EBF8FF]'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16 md:h-20">
-            {/* Logo with proper sizing */}
+            {/* Logo */}
             <Link to="#home" className="flex items-center" onClick={() => setActiveLink("#home")}>
               <img
                   src={logo}
@@ -57,13 +48,13 @@ export default function NavBar() {
                       to={item.href}
                       className={`relative px-4 py-2 text-sm font-medium transition-all rounded-lg group ${
                           activeLink === item.href
-                              ? `text-white bg-[${colors.secondary}] shadow-md`
-                              : `text-[${colors.textDark}] hover:bg-[${colors.secondary}]/10 hover:text-[${colors.secondary}]`
+                              ? 'text-white bg-[#005596] shadow-md'
+                              : 'text-[#1e3a8a] hover:bg-[#005596] hover:text-white'
                       }`}
                       onClick={() => setActiveLink(item.href)}
                   >
                     {item.name}
-                    <span className={`absolute bottom-0 left-1/2 w-0 h-0.5 bg-[${colors.secondary}] transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%] ${
+                    <span className={`absolute bottom-0 left-1/2 w-0 h-0.5 bg-[#005596] transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%] ${
                         activeLink === item.href ? 'w-4/5 left-[10%]' : ''
                     }`}></span>
                   </Link>
@@ -105,11 +96,11 @@ export default function NavBar() {
                           className={`block px-4 py-3 rounded-lg text-base font-medium transition-colors ${
                               activeLink === item.href
                                   ? "bg-[#005596] text-white"
-                                  : "text-[#1e3a8a] hover:bg-[#005596]/10"
+                                  : "text-[#1e3a8a] hover:bg-[#005596] hover:text-white"
                           }`}
                           onClick={() => {
-                            setActiveLink(item.href)
-                            setIsMenuOpen(false)
+                            setActiveLink(item.href);
+                            setIsMenuOpen(false);
                           }}
                       >
                         {item.name}
@@ -127,5 +118,5 @@ export default function NavBar() {
           )}
         </div>
       </header>
-  )
+  );
 }
