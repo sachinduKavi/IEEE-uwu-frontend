@@ -50,7 +50,7 @@ export default function Footer() {
               <li key={link.name}>
                 <Link
                   to={link.href}
-                  className="text-white/90 hover:text-white text-sm font-medium transition-colors duration-200"
+                  className="text-white hover:text-white text-sm font-medium transition-colors duration-200"
                 >
                   {link.name}
                 </Link>
@@ -68,7 +68,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   to={social.href}
-                  className="text-white/80 hover:text-white transition-colors duration-200"
+                  className="text-white hover:text-white transition-colors duration-200"
                   aria-label={social.label}
                 >
                   <IconComponent className="h-5 w-5" />
