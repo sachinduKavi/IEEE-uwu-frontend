@@ -7,17 +7,24 @@ import AboutSection from '../../components/AboutSection.tsx';
 import Footer from '../../components/Footer.tsx';
 import ChaptersSection from '../../components/Chapters.tsx';
 import NavBar from '../../components/NavBar.tsx';
+import Events from '../../components/Events.tsx';
 
 export default function Home() {
   return (
     <div className='screen'>
+      
         <NavBar />
         <Slider />
+        <Events />
+    
+
         <HeroSection/>
+        
         <AboutSection />
         <ChaptersSection/>
         <AboutUs/>
-        <UpcomingEventSection/>
+        
+        {/* <UpcomingEventSection/> */}
         <Footer/>
     </div>
   )
