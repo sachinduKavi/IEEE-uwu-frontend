@@ -15,6 +15,7 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({
   const isDragging = useRef(false);
   const startX = useRef(0);
   const scrollLeft = useRef(0);
+  const sensivity = 1.8;
 
   const scroll = (direction: 'left' | 'right') => {
     if (containerRef.current) {
@@ -52,7 +53,7 @@ const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({
   const handleTouchMove = (e: React.TouchEvent) => {
     if (!isDragging.current || !containerRef.current) return;
     const x = e.touches[0].pageX - containerRef.current.offsetLeft;
-    const walk = x - startX.current;
+    const walk = (x - startX.current)*sensivity;
     containerRef.current.scrollLeft = scrollLeft.current - walk;
   };
 
