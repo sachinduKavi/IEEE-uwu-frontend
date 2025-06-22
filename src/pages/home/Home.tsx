@@ -24,7 +24,7 @@ export default function Home() {
         <ChaptersSection/>
         <AboutUs/>
         
-        {/* <UpcomingEventSection/> */}
+        <UpcomingEventSection/>
         <Footer/>
     </div>
   )

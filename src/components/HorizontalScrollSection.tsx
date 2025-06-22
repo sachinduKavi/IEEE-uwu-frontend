@@ -9,7 +9,7 @@ type HorizontalScrollSectionProps = {
 
 const HorizontalScrollSection: React.FC<HorizontalScrollSectionProps> = ({
   children,
-  scrollAmount = 400,
+  scrollAmount = 500,
 }) => {
   const containerRef = useRef<HTMLDivElement>(null);
   const isDragging = useRef(false);

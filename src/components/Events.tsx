@@ -8,7 +8,7 @@ export default function Events() {
         className='hide-scrollbar m-10'
         src="https://lu.ma/embed/event/evt-tcK43PzcFZ0VN5y/simple"
         width="600"
-        height="450"
+        height="800"
         style={{width: 'fit', height: 'fit', display: 'flex', justifyContent: 'center', alignItems: 'center', alignSelf: 'center'}}
         allowFullScreen={false}
         aria-hidden="false"
