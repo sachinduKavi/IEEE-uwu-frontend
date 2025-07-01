@@ -1,9 +1,9 @@
-import type { Team } from "../../types/types";
-import { Card, CardContent } from "../ui/card";
-import { Badge } from "../ui/badge";
-import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useState, useRef } from "react";
-import { motion} from "framer-motion";
+import type {Team} from "../../types/types";
+import {Card, CardContent} from "../ui/card";
+import {Badge} from "../ui/badge";
+import {ChevronLeft, ChevronRight} from "lucide-react";
+import {useState, useRef} from "react";
+import {motion} from "framer-motion";
 import chathutra from '../../assets/open day/Program Team/Program Team/Chathura Dilshan (IIT)-Program Team.jpg'
 import dahami from '../../assets/open day/Program Team/Program Team/Dahami Tharushika.jpg'
 import ishan from '../../assets/open day/Program Team/Program Team/Ishan(program Team).jpeg'
@@ -145,6 +145,32 @@ export default function TeamSection() {
     return (
         <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
             <div className="container mx-auto px-4">
+                <motion.div
+                    className="text-center mb-16"
+                    initial={{y: -20, opacity: 0}}
+                    whileInView={{y: 0, opacity: 1}}
+                    transition={{duration: 0.5, delay: 0.2}}
+                    viewport={{once: true, margin: "-100px"}}
+                >
+                    <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">Organizing Committee</h2>
+                    <motion.div
+                        className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8"
+                        initial={{scaleX: 0}}
+                        whileInView={{scaleX: 1}}
+                        transition={{duration: 0.8, delay: 0.4}}
+                        viewport={{once: true}}
+                    />
+                    <motion.p
+                        className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed"
+                        initial={{opacity: 0}}
+                        whileInView={{opacity: 1}}
+                        transition={{duration: 0.5, delay: 0.6}}
+                        viewport={{once: true}}
+                    >
+                        Meet the talented teams working behind the scenes to make this event a success.
+
+                    </motion.p>
+                </motion.div>
                 {/* Leadership Section with Framer Motion */}
                 <motion.section
                     className="mb-20 bg-white rounded-xl shadow-lg p-8 max-w-6xl mx-auto"
@@ -153,17 +179,6 @@ export default function TeamSection() {
                     transition={{duration: 0.6}}
                     viewport={{once: true, margin: "-100px"}}
                 >
-                    <div className="text-center mb-12">
-                        <h3 className="text-3xl font-bold text-blue-900 mb-4">Leadership</h3>
-                        <motion.div
-                            className="w-16 h-0.5 bg-blue-600 mx-auto"
-                            initial={{scaleX: 0}}
-                            whileInView={{scaleX: 1}}
-                            transition={{duration: 0.8}}
-                            viewport={{once: true}}
-                        />
-                    </div>
-
                     <motion.div
                         className="grid grid-cols-1 gap-8"
                         variants={containerVariants}
@@ -240,14 +255,6 @@ export default function TeamSection() {
 
                 {/* Department Teams Section - Simplified without Framer Motion */}
                 <section>
-                    <div className="text-center mb-12">
-                        <h3 className="text-3xl font-bold text-blue-900 mb-4">Department Teams</h3>
-                        <div className="w-16 h-0.5 bg-blue-600 mx-auto mb-8"/>
-                        <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
-                            Meet the talented teams working behind the scenes to make this event a success.
-                        </p>
-                    </div>
-
                     <div className="relative">
                         <button
                             onClick={prevSlide}
@@ -273,10 +280,11 @@ export default function TeamSection() {
                                     <div key={index} className="inline-block w-full px-4">
                                         <Card
                                             className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
-                                            <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-6">
+                                            <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-4">
                                                 <div className="flex items-center justify-between">
                                                     <h3 className="text-2xl font-bold text-white">{team.name}</h3>
-                                                    <Badge className="bg-blue-500 hover:bg-blue-400 text-white border-0">
+                                                    <Badge
+                                                        className="bg-blue-500 hover:bg-blue-400 text-white border-0">
                                                         {team.members.length} Members
                                                     </Badge>
                                                 </div>
@@ -297,7 +305,8 @@ export default function TeamSection() {
                                                                         key={`lead-${memberIndex}`}
                                                                         className="flex flex-col items-center md:items-start text-center md:text-left p-6 rounded-lg bg-gray-50 hover:bg-blue-50 transition-colors duration-200"
                                                                     >
-                                                                        <div className="mx-auto relative w-32 h-32 overflow-hidden rounded-full border-4 border-blue-200 mb-4">
+                                                                        <div
+                                                                            className="mx-auto relative w-32 h-32 overflow-hidden rounded-full border-4 border-blue-200 mb-4">
                                                                             <img
                                                                                 src={member.image}
                                                                                 alt={member.name}
@@ -321,7 +330,8 @@ export default function TeamSection() {
                                                         <h4 className="text-lg font-semibold text-blue-900 mb-6 text-center md:text-left">
                                                             Members
                                                         </h4>
-                                                        <div className="mt-11 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                                                        <div
+                                                            className="mt-11 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                                                             {team.members
                                                                 .filter(member => !member.role.toLowerCase().includes('lead'))
                                                                 .map((member, memberIndex) => (
@@ -329,7 +339,8 @@ export default function TeamSection() {
                                                                         key={`member-${memberIndex}`}
                                                                         className="flex flex-col items-center text-center p-4 rounded-lg bg-gray-50 hover:bg-blue-50 transition-colors duration-200"
                                                                     >
-                                                                        <div className="relative w-20 h-20 sm:w-24 sm:h-24 overflow-hidden rounded-full border-2 border-blue-200 mb-3">
+                                                                        <div
+                                                                            className="relative w-20 h-20 sm:w-24 sm:h-24 overflow-hidden rounded-full border-2 border-blue-200 mb-3">
                                                                             <img
                                                                                 src={member.image}
                                                                                 alt={member.name}
