@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "../ui/card";
 import { Users, Award, Calendar } from "lucide-react";
 import { motion, useInView, easeInOut } from "framer-motion";
@@ -43,7 +44,7 @@ export default function AboutSection() {
                         className="text-4xl md:text-5xl font-bold text-blue-900 mb-6"
                         variants={cardVariants}
                     >
-                        About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">IEEE Society</span>
+                        WHO <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">WE ARE</span>
                     </motion.h2>
 
                     <motion.div

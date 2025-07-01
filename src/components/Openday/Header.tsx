@@ -14,7 +14,7 @@ export default function Header() {
                         <div className="flex items-center space-x-4">
                             {/* Enhanced Logo Container */}
                             <div className="flex items-center">
-                                <div className="w-16 h-16 p-1 rounded-full bg-white/10 backdrop-blur-sm border border-blue-300/30 shadow-lg flex items-center justify-center">
+                                <div className="w-20 h-20 p-1 rounded-full bg-white/10 backdrop-blur-sm border border-blue-300/30 shadow-lg flex items-center justify-center">
                                     <img
                                         src={logo}
                                         alt="IEEE Logo"
