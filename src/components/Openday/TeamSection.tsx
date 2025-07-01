@@ -174,11 +174,11 @@ export default function TeamSection() {
                         {leadershipTeam?.members.map((member, index) => (
                             <motion.div
                                 key={index}
-                                className="flex flex-col md:flex-row items-center gap-8"
+                                className="flex flex-col md:flex-row items-center md:items-start gap-8"
                                 variants={itemVariants}
                             >
                                 <motion.div
-                                    className="w-full md:w-1/3 aspect-square max-w-xs relative rounded-xl overflow-hidden shadow-md"
+                                    className="w-full md:w-1/3 aspect-square max-w-xs relative rounded-xl overflow-hidden shadow-md mt-0"
                                     whileHover={{scale: 1.02}}
                                     whileInView={{scale: [0.95, 1], opacity: [0, 1]}}
                                     transition={{type: "spring", stiffness: 400, damping: 10}}
@@ -187,12 +187,13 @@ export default function TeamSection() {
                                     <img
                                         src={member.image}
                                         alt={member.name}
-                                        className="w-full h-full object-cover"
+                                        className="w-full h-full object-cover object-top"
                                     />
                                     <div
                                         className="absolute inset-0 bg-gradient-to-t from-blue-900/30 to-transparent"></div>
                                 </motion.div>
-                                <div className="w-full md:w-2/3">
+                                <div className="w-full md:w-2/3 my-auto text-center md:text-left">
+
                                     <motion.h4
                                         className="text-2xl md:text-3xl font-bold text-blue-900 mb-2"
                                         initial={{x: -20, opacity: 0}}
@@ -212,12 +213,13 @@ export default function TeamSection() {
                                         {member.role}
                                     </motion.p>
                                     <motion.div
-                                        className="w-16 h-0.5 bg-blue-400 mb-4"
+                                        className="w-16 h-0.5 bg-blue-400 mb-4 mx-auto md:mx-0"
                                         initial={{scaleX: 0}}
                                         whileInView={{scaleX: 1}}
                                         transition={{duration: 0.8, delay: 0.4}}
                                         viewport={{once: true}}
                                     />
+
                                     <motion.p
                                         className="text-gray-600 leading-relaxed text-lg"
                                         initial={{opacity: 0}}
@@ -226,8 +228,8 @@ export default function TeamSection() {
                                         viewport={{once: true}}
                                     >
                                         Leading the IEEE Open Day initiative with extensive experience in technology and
-                                        education.
-                                        Dr. Johnson brings over 15 years of academic leadership and a passion for
+                                        education. Dr. Johnson brings over 15 years of academic leadership and a passion
+                                        for
                                         student development.
                                     </motion.p>
                                 </div>
@@ -240,27 +242,26 @@ export default function TeamSection() {
                 <section>
                     <div className="text-center mb-12">
                         <h3 className="text-3xl font-bold text-blue-900 mb-4">Department Teams</h3>
-                        <div className="w-16 h-0.5 bg-blue-600 mx-auto mb-8" />
+                        <div className="w-16 h-0.5 bg-blue-600 mx-auto mb-8"/>
                         <p className="text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
                             Meet the talented teams working behind the scenes to make this event a success.
                         </p>
                     </div>
 
                     <div className="relative">
-                        {/* Slider Navigation Arrows */}
                         <button
                             onClick={prevSlide}
-                            className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center text-blue-600 hover:bg-blue-50 transition-colors duration-200"
+                            className="hover:cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center text-blue-600 hover:bg-blue-50 transition-colors duration-200"
                             aria-label="Previous team"
                         >
-                            <ChevronLeft size={24} />
+                            <ChevronLeft size={24}/>
                         </button>
                         <button
                             onClick={nextSlide}
-                            className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center text-blue-600 hover:bg-blue-50 transition-colors duration-200"
+                            className="hover:cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 w-12 h-12 rounded-full bg-white shadow-md flex items-center justify-center text-blue-600 hover:bg-blue-50 transition-colors duration-200"
                             aria-label="Next team"
                         >
-                            <ChevronRight size={24} />
+                            <ChevronRight size={24}/>
                         </button>
 
                         {/* Slider Container */}
@@ -270,7 +271,8 @@ export default function TeamSection() {
                             }}>
                                 {departmentTeams.map((team, index) => (
                                     <div key={index} className="inline-block w-full px-4">
-                                        <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
+                                        <Card
+                                            className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
                                             <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-6">
                                                 <div className="flex items-center justify-between">
                                                     <h3 className="text-2xl font-bold text-white">{team.name}</h3>
@@ -305,8 +307,10 @@ export default function TeamSection() {
                                                                                 }}
                                                                             />
                                                                         </div>
-                                                                        <h4 className="mx-auto text-lg font-semibold text-blue-900">{member.name}</h4>
-                                                                        <p className="mx-auto text-blue-600 font-medium text-sm">{member.role}</p>
+                                                                        <div className="text-center w-full">
+                                                                            <h4 className="mx-auto text-lg font-semibold text-blue-900">{member.name}</h4>
+                                                                            <p className="mx-auto text-blue-600 font-medium text-sm">{member.role}</p>
+                                                                        </div>
                                                                     </div>
                                                                 ))}
                                                         </div>
@@ -357,7 +361,7 @@ export default function TeamSection() {
                                 <button
                                     key={index}
                                     onClick={() => goToSlide(index)}
-                                    className={`w-3 h-3 rounded-full transition-all duration-300 ${activeIndex === index ? 'bg-blue-600 w-6' : 'bg-blue-300'}`}
+                                    className={`hover:cursor-pointer w-3 h-3 rounded-full transition-all duration-300 ${activeIndex === index ? 'bg-blue-600 w-6' : 'bg-blue-300'}`}
                                     aria-label={`Go to slide ${index + 1}`}
                                 />
                             ))}
