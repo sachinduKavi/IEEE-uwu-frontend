@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { FaFacebook, FaInstagram, FaLinkedin, FaGamepad, FaTrophy, FaRedo } from 'react-icons/fa';
-import { motion, AnimatePresence, useInView,easeOut } from 'framer-motion';
+import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { easeOut } from 'framer-motion';
 
 type GameState = 'menu' | 'playing' | 'finished';
 type Question = {
@@ -73,12 +74,13 @@ const TechGameSection = () => {
     ];
 
     useEffect(() => {
+        let timer: NodeJS.Timeout;
         if (gameState === 'playing' && timeLeft > 0) {
-            const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
-            return () => clearTimeout(timer);
+            timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
         } else if (gameState === 'playing' && timeLeft === 0) {
             setGameState('finished');
         }
+        return () => clearTimeout(timer);
     }, [timeLeft, gameState]);
 
     const startGame = () => {
@@ -129,7 +131,21 @@ const TechGameSection = () => {
             opacity: 1,
             y: 0,
             transition: {
-                duration: 1.5,
+                duration: 0.8,
+                ease: easeOut,
+                when: "beforeChildren",
+                staggerChildren: 0.1
+            }
+        }
+    };
+
+    const itemVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                duration: 0.6,
                 ease: easeOut
             }
         }
@@ -148,7 +164,10 @@ const TechGameSection = () => {
                     animate={isInView ? "visible" : "hidden"}
                     variants={containerVariants}
                 >
-                    <div className="text-center mb-12">
+                    <motion.div
+                        className="text-center mb-12"
+                        variants={itemVariants}
+                    >
                         <motion.h2
                             className="text-4xl font-bold text-blue-900 mb-4"
                             whileHover={{ scale: 1.02 }}
@@ -161,9 +180,12 @@ const TechGameSection = () => {
                         >
                             Test your knowledge about IEEE and technology in this interactive quiz game!
                         </motion.p>
-                    </div>
+                    </motion.div>
 
-                    <div className="bg-white rounded-xl shadow-2xl overflow-hidden">
+                    <motion.div
+                        className="bg-white rounded-xl shadow-2xl overflow-hidden"
+                        variants={itemVariants}
+                    >
                         <AnimatePresence mode="wait">
                             {gameState === 'menu' && (
                                 <motion.div
@@ -371,7 +393,7 @@ const TechGameSection = () => {
                                 </motion.div>
                             )}
                         </AnimatePresence>
-                    </div>
+                    </motion.div>
 
                     <motion.div
                         className="mt-12 text-center"

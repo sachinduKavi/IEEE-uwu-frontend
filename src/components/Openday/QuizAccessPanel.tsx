@@ -6,7 +6,7 @@ import { motion, useInView,easeOut } from "framer-motion";
 const QuizAccessPanel = () => {
     const [isCopied, setIsCopied] = useState(false);
     const isDisabled= useRef<boolean>(true);
-    const quizUrl = `${window.location.origin}/quiz`;
+    const quizUrl = `will be display`;
     const ref = useRef(null);
     const isInView = useInView(ref, { once: true, margin: "-100px" });
 
