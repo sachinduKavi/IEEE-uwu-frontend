@@ -13,15 +13,13 @@ export default function IEEEOpenDay() {
     const [selectedImage, setSelectedImage] = useState<string | null>(null)
 
     return (
-        <div className="min-h-screen w-screen bg-white  bg-gradient-to-br from-blue-50 to-indigo-100">
+        <div className="min-h-screen bg-white bg-gradient-to-br from-blue-50 to-indigo-100">
             <Header />
             <HeroSection />
             <AboutSection />
             <TeamSection />
             <GallerySection />
             <Lightbox selectedImage={selectedImage} setSelectedImage={setSelectedImage} />
-            {/*<GameSection/>*/}
-            {/*<QuizAccessPanel/>*/}
             <InteractiveTechPanel/>
             <Footer />
         </div>

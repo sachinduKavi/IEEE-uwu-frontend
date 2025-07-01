@@ -18,8 +18,7 @@ export default function HeroSection() {
     return (
         <section
             ref={ref}
-            className="relative py-20 text-white overflow-hidden h-screen flex items-center"
-            style={{ minHeight: '100vh' }}
+            className="relative py-16 md:py-20 text-white overflow-hidden h-[70vh] md:h-[100vh] flex items-center"
         >
             {/* Background with parallax effect */}
             <motion.div
@@ -46,14 +45,14 @@ export default function HeroSection() {
                         transition={{ duration: 0.8 }}
                     >
                         <motion.h2
-                            className="text-4xl md:text-5xl font-bold mb-2"
+                            className="text-3xl sm:text-4xl md:text-5xl font-bold mb-2"
                             initial={{ opacity: 0 }}
                             animate={{ opacity: 1 }}
                             transition={{ delay: 0.2 }}
                         >
-                            <span className="block text-blue-200">WELCOME TO</span>
+                            <span className="block text-blue-200 text-lg sm:text-xl md:text-2xl">WELCOME TO</span>
                             <motion.span
-                                className="block text-5xl md:text-7xl bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent mt-2"
+                                className="block text-4xl sm:text-5xl md:text-6xl lg:text-7xl bg-gradient-to-r from-blue-200 to-white bg-clip-text text-transparent mt-1 sm:mt-2"
                                 initial={{ opacity: 0, scale: 0.8 }}
                                 animate={{ opacity: 1, scale: 1 }}
                                 transition={{ delay: 0.4, type: "spring" }}
@@ -64,7 +63,7 @@ export default function HeroSection() {
                     </motion.div>
 
                     <motion.p
-                        className="text-xl md:text-2xl mb-8 text-blue-100"
+                        className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 sm:mb-8 text-blue-100 px-4 sm:px-0"
                         initial={{ opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 0.6 }}
@@ -73,19 +72,19 @@ export default function HeroSection() {
                     </motion.p>
 
                     <motion.div
-                        className="flex flex-wrap justify-center gap-6 mb-8"
+                        className="flex flex-wrap justify-center gap-3 sm:gap-4 md:gap-6 mb-6 sm:mb-8 px-2 sm:px-0"
                         initial={{ opacity: 0 }}
                         animate={{ opacity: 1 }}
                         transition={{ delay: 0.8 }}
                     >
                         {[
-                            { icon: <Calendar className="w-5 h-5" />, text: "July 6, 2025" },
-                            { icon: <MapPin className="w-5 h-5" />, text: "Uva Wellassa University" },
-                            { icon: <Users className="w-5 h-5" />, text: "200+ Attendees" }
+                            { icon: <Calendar className="w-4 h-4 sm:w-5 sm:h-5" />, text: "July 6, 2025" },
+                            { icon: <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />, text: "Uva Wellassa University" },
+                            { icon: <Users className="w-4 h-4 sm:w-5 sm:h-5" />, text: "200+ Attendees" }
                         ].map((item, index) => (
                             <motion.div
                                 key={index}
-                                className="flex items-center space-x-2 bg-blue-800/70 backdrop-blur-sm px-4 py-2 rounded-full border border-blue-600/50"
+                                className="flex items-center space-x-1 sm:space-x-2 bg-blue-800/70 backdrop-blur-sm px-3 py-1 sm:px-4 sm:py-2 rounded-full border border-blue-600/50 text-sm sm:text-base"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{
@@ -101,9 +100,9 @@ export default function HeroSection() {
                         ))}
                     </motion.div>
 
-                    {/* Scroll indicator */}
+                    {/* Scroll indicator - only shown on larger screens */}
                     <motion.div
-                        className="absolute bottom-10 left-1/2 transform -translate-x-1/2"
+                        className="hidden sm:block absolute bottom-10 left-1/2 transform -translate-x-1/2"
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ delay: 1.5 }}
@@ -119,7 +118,6 @@ export default function HeroSection() {
                             }}
                             className="flex flex-col items-center"
                         >
-
                         </motion.div>
                     </motion.div>
                 </motion.div>

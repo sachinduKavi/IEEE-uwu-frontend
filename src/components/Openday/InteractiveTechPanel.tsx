@@ -197,7 +197,7 @@ const InteractiveTechPanel = () => {
             {/* Main Content */}
             <div
                 ref={ref}
-                className="container mx-auto px-4"
+                className="container mx-auto px-4 mt-5"
             >
                 <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* Left Panel - Quiz Access */}
