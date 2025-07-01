@@ -27,6 +27,7 @@ export default function NavBar() {
     { name: "Projects", href: "#projects" },
     { name: "Blog", href: "#blog" },
     { name: "Contact", href: "#contact" },
+    { name: "Open Day", href: "/openDay" },
   ]
 
   const handleNavClick = (href: string) => {
