@@ -11,8 +11,8 @@ export default function HeroSection() {
                     backgroundAttachment: 'fixed'
                 }}
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-blue-950 via-blue-950/40 to-blue-900/80"></div>
-            <div className="absolute inset-0 bg-black/30"></div>
+            <div className="absolute inset-0 bg-gradient-to-r from-blue-950/61 via-blue-950/10 to-blue-900/80"></div>
+            <div className="absolute inset-0 bg-black/61"></div>
 
             {/* Content */}
             <div className="container mx-auto px-4 relative z-10">

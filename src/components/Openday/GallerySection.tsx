@@ -1,121 +1,117 @@
-import { useState } from "react";
-import type { GalleryImage } from "../../types/types";
-import { X } from "lucide-react";
+import { useState } from 'react';
+import backgroundImg from '../../assets/images/gallerySection.jpg';
 
-const galleryImages: GalleryImage[] = [
-    { src: "/placeholder.svg?height=300&width=400", caption: "IEEE Workshop 2024" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Student Presentations" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Networking Session" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Technical Exhibition" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Award Ceremony" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Team Building Activities" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Guest Speaker Session" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Innovation Showcase" },
-    { src: "/placeholder.svg?height=300&width=400", caption: "Student Projects" },
-];
 
-export default function GallerySection() {
-    const [isModalOpen, setIsModalOpen] = useState(false);
-    const [currentImageIndex, setCurrentImageIndex] = useState(0);
+const GallerySection = () => {
+    const [isGalleryOpen, setIsGalleryOpen] = useState(false);
 
-    const openModal = (index: number) => {
-        setCurrentImageIndex(index);
-        setIsModalOpen(true);
+    // Sample gallery data for the event
+    const eventImages = [
+        { id: 1, src: '/images/event1.jpg', alt: 'Event moment 1' },
+        { id: 2, src: '/images/event2.jpg', alt: 'Event moment 2' },
+        { id: 3, src: '/images/event3.jpg', alt: 'Event moment 3' },
+        { id: 4, src: '/images/event4.jpg', alt: 'Event moment 4' },
+        { id: 5, src: '/images/event5.jpg', alt: 'Event moment 5' },
+        { id: 6, src: '/images/event6.jpg', alt: 'Event moment 6' },
+    ];
+
+    const openGallery = () => {
+        setIsGalleryOpen(true);
+        document.body.style.overflow = 'hidden';
     };
 
-    const closeModal = () => {
-        setIsModalOpen(false);
-    };
-
-    const navigateImage = (direction: 'prev' | 'next') => {
-        if (direction === 'prev') {
-            setCurrentImageIndex(prev => (prev === 0 ? galleryImages.length - 1 : prev - 1));
-        } else {
-            setCurrentImageIndex(prev => (prev === galleryImages.length - 1 ? 0 : prev + 1));
-        }
+    const closeGallery = () => {
+        setIsGalleryOpen(false);
+        document.body.style.overflow = 'auto';
     };
 
     return (
-        <section className="py-20 bg-white">
-            <div className="container mx-auto px-4">
-                <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-8">
-                        Event <span className="bg-gradient-to-r from-blue-600 to-blue-400 bg-clip-text text-transparent">Gallery</span>
-                    </h2>
-                    <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 rounded-full"></div>
-                    <p className="text-lg text-gray-700 max-w-2xl mx-auto">
-                        Take a look at some memorable moments from our previous IEEE events and activities.
-                    </p>
-                </div>
+        <section
+            id="venue"
+            className="relative py-16 bg-gray-900  mb-10 "
+            style={{
+                backgroundImage: `url(${backgroundImg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundAttachment: "fixed",
+                backgroundRepeat: "no-repeat"
+            }}
+        >
+            {/* Dark overlay */}
+            <div className="absolute inset-0 bg-black/80"></div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                    {galleryImages.map((image, index) => (
-                        <div
-                            key={index}
-                            className="relative group cursor-pointer overflow-hidden rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
-                            onClick={() => openModal(index)}
-                        >
-                            <div className="aspect-[4/3] bg-gray-100 relative">
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                                <div className="absolute bottom-0 left-0 right-0 p-4 text-white transform translate-y-4 group-hover:translate-y-0 opacity-0 group-hover:opacity-100 transition-all duration-300">
-                                    <h4 className="text-lg font-semibold">{image.caption}</h4>
-                                </div>
-                            </div>
+            <div className="container mx-auto px-4 relative z-10">
+                <div className="flex flex-col md:flex-row items-center">
+                    {/* Gallery Intro - Left Side */}
+                    <div className="w-full md:w-1/2 mb-12 md:mb-0 md:pr-8">
+                        <h2 className="text-3xl font-bold text-white mb-6">Event Gallery</h2>
+                        <div className="mb-6 overflow-hidden rounded-lg shadow-lg">
+                            <img
+                                src="/images/speakers-img3.jpg"
+                                alt="Event highlight"
+                                className="w-full h-auto transition-transform duration-300 hover:scale-105"
+                            />
                         </div>
-                    ))}
-                </div>
-
-                {/* Modal */}
-                {isModalOpen && (
-                    <div className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4">
+                        <p className="text-gray-200 mb-6">
+                            Relive the memorable moments from our event. Browse through our collection of photos capturing the energy and excitement.
+                        </p>
                         <button
-                            onClick={closeModal}
-                            className="absolute top-6 right-6 text-white hover:text-blue-300 transition-colors"
-                            aria-label="Close modal"
+                            onClick={openGallery}
+                            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
                         >
-                            <X className="w-8 h-8" />
+                            View Event Gallery
+                        </button>
+                    </div>
+
+                    {/* Right Side - Optional content or more images */}
+                    <div className="w-full md:w-1/2 grid grid-cols-2 gap-4">
+                        {eventImages.slice(0, 4).map((image) => (
+                            <div key={image.id} className="overflow-hidden rounded-lg shadow-md">
+                                <img
+                                    src={image.src}
+                                    alt={image.alt}
+                                    className="w-full h-48 object-cover hover:scale-110 transition-transform duration-300"
+                                />
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            </div>
+
+            {/* Full Gallery Modal */}
+            {isGalleryOpen && (
+                <div className="fixed inset-0 z-50 bg-black bg-opacity-90 overflow-y-auto">
+                    <div className="container mx-auto px-4 py-16 relative">
+                        <button
+                            onClick={closeGallery}
+                            className="fixed top-4 right-4 text-white hover:text-gray-300 z-50"
+                        >
+                            <svg className="w-10 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
+                            </svg>
                         </button>
 
-                        <div className="relative max-w-4xl w-full">
-                            <button
-                                onClick={() => navigateImage('prev')}
-                                className="absolute left-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full z-10 transition-all"
-                                aria-label="Previous image"
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-                                </svg>
-                            </button>
+                        <h2 className="text-3xl font-bold text-white mb-8 text-center">Event Gallery</h2>
 
-                            <div className="bg-white rounded-lg overflow-hidden shadow-2xl">
-                                <div className="aspect-video bg-gray-800 flex items-center justify-center relative">
-                                    <div className="absolute inset-0 flex items-center justify-center">
-                                        <div className="animate-pulse text-gray-500">Loading image...</div>
+                        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            {eventImages.map((image) => (
+                                <div key={image.id} className="group relative overflow-hidden rounded-lg shadow-xl">
+                                    <img
+                                        src={image.src}
+                                        alt={image.alt}
+                                        className="w-full h-64 object-cover transform group-hover:scale-105 transition-transform duration-300"
+                                    />
+                                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
+                                        <p className="text-white text-sm">{image.alt}</p>
                                     </div>
                                 </div>
-                                <div className="p-4 bg-white">
-                                    <h3 className="text-xl font-bold text-gray-900">
-                                        {galleryImages[currentImageIndex].caption}
-                                    </h3>
-                                    <p className="text-gray-600">
-                                        {currentImageIndex + 1} of {galleryImages.length}
-                                    </p>
-                                </div>
-                            </div>
-
-                            <button
-                                onClick={() => navigateImage('next')}
-                                className="absolute right-4 top-1/2 -translate-y-1/2 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full z-10 transition-all"
-                                aria-label="Next image"
-                            >
-                                <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-                                </svg>
-                            </button>
+                            ))}
                         </div>
                     </div>
-                )}
-            </div>
+                </div>
+            )}
         </section>
-    )
-}
+    );
+};
+
+export default GallerySection;
