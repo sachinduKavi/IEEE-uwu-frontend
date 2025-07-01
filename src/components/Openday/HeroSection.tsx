@@ -119,21 +119,7 @@ export default function HeroSection() {
                             }}
                             className="flex flex-col items-center"
                         >
-                            <span className="text-sm mb-2">Scroll down</span>
-                            <div className="w-5 h-8 border-2 border-blue-300 rounded-full">
-                                <motion.div
-                                    className="w-1 h-2 bg-blue-300 rounded-full mx-auto mt-1"
-                                    animate={{
-                                        y: [0, 4, 0],
-                                        opacity: [0.6, 1, 0.6]
-                                    }}
-                                    transition={{
-                                        repeat: Infinity,
-                                        duration: 2,
-                                        delay: 0.5
-                                    }}
-                                />
-                            </div>
+                           
                         </motion.div>
                     </motion.div>
                 </motion.div>
