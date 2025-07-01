@@ -6,9 +6,11 @@ export default function AboutSection() {
         <section className="py-20 bg-white">
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-8">About IEEE Society</h2>
-                    <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8"></div>
-                    <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
+                    <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
+                        About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">IEEE Society</span>
+                    </h2>
+                    <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 rounded-full"></div>
+                    <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
                         The IEEE Society at University of Technology is a vibrant community of students, faculty, and
                         professionals dedicated to advancing technology for humanity. We foster innovation, provide professional
                         development opportunities, and create a platform for knowledge sharing among our members.
@@ -18,31 +20,31 @@ export default function AboutSection() {
                         and provide networking opportunities for students and industry professionals. Join us to explore the
                         future of technology and connect with like-minded innovators.
                     </p>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                        <Card className="border-blue-200 hover:shadow-lg transition-shadow duration-300">
-                            <CardContent className="p-6 text-center">
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                        <Card className="border border-blue-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 group">
+                            <CardContent className="p-8 text-center">
+                                <div className="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                                     <Users className="w-8 h-8 text-blue-600" />
                                 </div>
-                                <h3 className="text-xl font-semibold text-blue-900 mb-2">500+ Members</h3>
+                                <h3 className="text-xl font-semibold text-blue-900 mb-3">500+ Members</h3>
                                 <p className="text-gray-600">Active student and faculty members</p>
                             </CardContent>
                         </Card>
-                        <Card className="border-blue-200 hover:shadow-lg transition-shadow duration-300">
-                            <CardContent className="p-6 text-center">
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Card className="border border-blue-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 group">
+                            <CardContent className="p-8 text-center">
+                                <div className="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                                     <Award className="w-8 h-8 text-blue-600" />
                                 </div>
-                                <h3 className="text-xl font-semibold text-blue-900 mb-2">50+ Projects</h3>
+                                <h3 className="text-xl font-semibold text-blue-900 mb-3">50+ Projects</h3>
                                 <p className="text-gray-600">Innovative research and development</p>
                             </CardContent>
                         </Card>
-                        <Card className="border-blue-200 hover:shadow-lg transition-shadow duration-300">
-                            <CardContent className="p-6 text-center">
-                                <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <Card className="border border-blue-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 group">
+                            <CardContent className="p-8 text-center">
+                                <div className="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
                                     <Calendar className="w-8 h-8 text-blue-600" />
                                 </div>
-                                <h3 className="text-xl font-semibold text-blue-900 mb-2">25+ Events</h3>
+                                <h3 className="text-xl font-semibold text-blue-900 mb-3">25+ Events</h3>
                                 <p className="text-gray-600">Annual workshops and seminars</p>
                             </CardContent>
                         </Card>
