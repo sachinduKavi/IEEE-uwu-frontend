@@ -43,7 +43,7 @@ const teams: Team[] = [
             {name: "Dahami Tharushika", role: "Member", image: dahami},
             {name: "Ishan Lakshitha", role: "Team Lead", image: ishan},
             {name: "Navod Teshan", role: "Member", image: navod},
-            {name: "Sachinthaka Ravimal", role: "Member", image: navod},
+            {name: "Sachinthaka Ravimal", role: "Member", image: ''},
         ],
     },
     {
@@ -53,7 +53,7 @@ const teams: Team[] = [
             {name: "Ishini Dewamiththa", role: "Member", image: ishini},
             {name: "Ramesha Deshan", role: "Member", image: ramesha},
             {name: "Inuka Kavinda", role: "Member", image: inuka},
-            {name: "Sanjeewa Liyanage", role: "Member", image: inuka},
+            {name: "Sanjeewa Liyanage", role: "Member", image: ''},
         ],
     },
     {
@@ -69,7 +69,7 @@ const teams: Team[] = [
     {
         name: "Design Team",
         members: [
-            {name: "Pubudu Harshana", role: "Team Lead", image: "/placeholder.svg?height=200&width=200"},
+            {name: "Pubudu Harshana", role: "Team Lead", image: ''},
             {name: "Heshani Madhushika", role: "Member", image: heshani},
             {name: "Pamithi Wijekulathilake", role: "Member", image: pamithi},
             {name: "Tharushi Senara ", role: "Member", image: tharushi},
@@ -79,12 +79,12 @@ const teams: Team[] = [
     {
         name: "Logistic Team",
         members: [
-            {name: "Lahiru Gajaweera", role: "Team Lead", image: "/placeholder.svg?height=200&width=200"},
+            {name: "Lahiru Gajaweera", role: "Team Lead", image: ''},
             {name: "Bhanuka Parakrama ", role: "Member", image: banuka},
             {name: "Omindu Sandew", role: "Member", image: ominidu},
             {name: "Nilesh Theekshana", role: "Member", image: nilesh},
-            {name: "Anusara Umadi", role: "Member", image: nilesh},
-            {name: "Pabasara Chandupa ", role: "Member", image: nilesh},
+            {name: "Anusara Umadi", role: "Member", image: ''},
+            {name: "Pabasara Chandupa ", role: "Member", image: ''},
         ],
     },
     {
@@ -92,10 +92,10 @@ const teams: Team[] = [
         members: [
             {name: "Wasana Nilakshi", role: "Team Lead", image: wasana},
             {name: "Sameesha Pasanya ", role: "Member", image: sameesha},
-            {name: "Dehani Siyapathi ", role: "Member", image: ominidu},
+            {name: "Dehani Siyapathi ", role: "Member", image: ''},
             {name: "Nilesh Theekshana", role: "Member", image: nilesh},
             {name: "Chamudi Dewmini", role: "Member", image: chamudi},
-            {name: "Sandaruwi Athukorala", role: "Member", image: chamudi},
+            {name: "Sandaruwi Athukorala", role: "Member", image: ''},
         ],
     },
 ];
