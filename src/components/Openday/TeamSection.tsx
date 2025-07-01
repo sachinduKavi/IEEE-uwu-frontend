@@ -236,11 +236,11 @@ export default function TeamSection() {
                                     />
 
                                     <motion.p
-                                        className="text-gray-600 leading-relaxed text-lg"
-                                        initial={{opacity: 0}}
-                                        whileInView={{opacity: 1}}
-                                        transition={{delay: 0.5}}
-                                        viewport={{once: true}}
+                                        className="text-gray-600 leading-relaxed text-base sm:text-lg"
+                                        initial={{ opacity: 0 }}
+                                        whileInView={{ opacity: 1 }}
+                                        transition={{ delay: 0.5 }}
+                                        viewport={{ once: true }}
                                     >
                                         A motivated leader with a strong passion for technology and education, Gihan Lahiru Bimsara spearheads
                                         the IEEE Open Day initiative, fostering innovation and collaboration. His leadership ensures the smooth
