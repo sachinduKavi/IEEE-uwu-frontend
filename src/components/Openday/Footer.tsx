@@ -32,6 +32,7 @@ export default function Footer() {
                         <div className="flex space-x-4">
                             <a
                                 href="https://www.facebook.com/uwuieee"
+                                target="_blank"
                                 className="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
                                 aria-label="Facebook"
                             >
@@ -39,6 +40,7 @@ export default function Footer() {
                             </a>
                             <a
                                 href="https://www.instagram.com/ieee_uwu/"
+                                target="_blank"
                                 className="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
                                 aria-label="Instagram"
                             >
@@ -46,6 +48,7 @@ export default function Footer() {
                             </a>
                             <a
                                 href="https://www.linkedin.com/company/uwuieee"
+                                target="_blank"
                                 className="w-10 h-10 bg-blue-700 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors duration-200"
                                 aria-label="LinkedIn"
                             >
