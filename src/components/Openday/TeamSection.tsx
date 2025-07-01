@@ -276,7 +276,7 @@ export default function TeamSection() {
                                 transform: `translateX(-${activeIndex * 100}%)`
                             }}>
                                 {departmentTeams.map((team, index) => (
-                                    <div key={index} className="inline-block w-full px-4">
+                                    <div key={index} className="inline-block w-full px-4 max-sm:!-mt-[130px] lg-only:-mt-130px">
                                         <Card
                                             className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
                                             <div className="bg-gradient-to-r from-blue-600 to-blue-700 p-4">
