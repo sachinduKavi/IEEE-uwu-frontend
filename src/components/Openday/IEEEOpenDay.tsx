@@ -1,0 +1,24 @@
+import { useState } from "react"
+import Header from "./Header"
+import HeroSection from "./HeroSection"
+import AboutSection from "./AboutSection"
+import TeamSection from "./TeamSection"
+import GallerySection from "./GallerySection"
+import Footer from "./Footer"
+import Lightbox from "./Lightbox"
+
+export default function IEEEOpenDay() {
+    const [selectedImage, setSelectedImage] = useState<string | null>(null)
+
+    return (
+        <div className="min-h-screen w-screen bg-gradient-to-br from-blue-50 to-blue-100">
+            <Header />
+            <HeroSection />
+            <AboutSection />
+            <TeamSection />
+            <GallerySection setSelectedImage={setSelectedImage} />
+            <Lightbox selectedImage={selectedImage} setSelectedImage={setSelectedImage} />
+            <Footer />
+        </div>
+    )
+}
