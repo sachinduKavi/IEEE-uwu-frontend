@@ -15,7 +15,7 @@ export default function Home() {
       
         <NavBar />
         <Slider />
-        <Events />
+        {/* <Events /> */}
     
 
         <HeroSection/>
