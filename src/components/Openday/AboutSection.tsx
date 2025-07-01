@@ -1,6 +1,6 @@
 import { Card, CardContent } from "../ui/card";
 import { Users, Award, Calendar } from "lucide-react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, easeInOut } from "framer-motion";
 import { useRef } from "react";
 
 export default function AboutSection() {
@@ -14,7 +14,7 @@ export default function AboutSection() {
             y: 0,
             transition: {
                 duration: 0.6,
-                ease: "easeOut"
+                ease: easeInOut,
             }
         }
     };
