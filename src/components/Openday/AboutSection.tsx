@@ -7,7 +7,7 @@ export default function AboutSection() {
             <div className="container mx-auto px-4">
                 <div className="max-w-4xl mx-auto text-center">
                     <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-                        About <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">IEEE Society</span>
+                        WHO<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400"> WE ARE</span>
                     </h2>
                     <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 rounded-full"></div>
                     <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
