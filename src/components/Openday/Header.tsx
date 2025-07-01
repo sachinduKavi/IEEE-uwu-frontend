@@ -36,7 +36,7 @@ export default function Header() {
                                     />
                                 </div>
                                 <div className="ml-2 sm:ml-3 space-y-0.5 sm:space-y-1">
-                                    <h1 className="text-lg sm:text-xl md:text-2xl font-bold text-white leading-tight">
+                                    <h1 className="text-sm sm:text-xl md:text-2xl font-bold text-white leading-tight">
                                         IEEE OPEN DAY 2025
                                     </h1>
                                     <p className="text-blue-100 text-xs sm:text-sm opacity-90">

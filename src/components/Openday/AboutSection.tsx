@@ -1,6 +1,5 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import { Play } from "lucide-react";
 import introVideo from '../../../src/assets/open day/intro-video.mp4'; // Recommended: Rename file without spaces
 
 export default function AboutSection() {
