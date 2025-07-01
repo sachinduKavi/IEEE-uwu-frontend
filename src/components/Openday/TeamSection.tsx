@@ -144,9 +144,9 @@ export default function TeamSection() {
 
     return (
         <section className="py-20 bg-gradient-to-br from-gray-50 to-blue-50">
-            <div className="container mx-auto px-4">
+            <div className="container mx-auto px-4 ">
                 <motion.div
-                    className="text-center mb-16"
+                    className="text-center mb-16 "
                     initial={{y: -20, opacity: 0}}
                     whileInView={{y: 0, opacity: 1}}
                     transition={{duration: 0.5, delay: 0.2}}
@@ -173,7 +173,7 @@ export default function TeamSection() {
                 </motion.div>
                 {/* Leadership Section with Framer Motion */}
                 <motion.section
-                    className="mb-20 bg-white rounded-xl shadow-lg p-8 max-w-6xl mx-auto"
+                    className="mb-10 bg-white rounded-xl shadow-lg p-8 max-w-6xl mx-auto"
                     initial={{opacity: 0, y: 50}}
                     whileInView={{opacity: 1, y: 0}}
                     transition={{duration: 0.6}}
