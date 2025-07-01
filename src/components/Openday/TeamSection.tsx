@@ -242,10 +242,9 @@ export default function TeamSection() {
                                         transition={{delay: 0.5}}
                                         viewport={{once: true}}
                                     >
-                                        Leading the IEEE Open Day initiative with extensive experience in technology and
-                                        education. Dr. Johnson brings over 15 years of academic leadership and a passion
-                                        for
-                                        student development.
+                                        A motivated leader with a strong passion for technology and education, Gihan Lahiru Bimsara spearheads
+                                        the IEEE Open Day initiative, fostering innovation and collaboration. His leadership ensures the smooth
+                                        execution of projects, empowering participants and promoting technological engagement.
                                     </motion.p>
                                 </div>
                             </motion.div>
