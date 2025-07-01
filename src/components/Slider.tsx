@@ -103,35 +103,26 @@ export default function Slider() {
                 <div className="center-line relative">
                     <div className="arrow" onClick={() => updateIndex(false)}><ArrowLeftOutlined style={{fontSize: '24px'}}/></div>
 
-                    <div className="wrapper absolute left-[15%]">
-                        <AnimatePresence>
-                            {state &&
-                                <motion.div
-                                    initial={{opacity: 0, y: 100}}
-                                    exit={{opacity: 0, y: -100}}
-                                    animate={{opacity: 1, y: 0}}
-                                    className="flex flex-col items-start">
-                                    <div className="flex flex-col items-start text-center px-4 py-6 space-y-4 max-w-screen-xl mx-auto">
-                                    <h1 className="!font-extrabold text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl min-[1900px]:text-7xl leading-tight">
-                                        {banner[index].heading}
-                                    </h1>
-                                    
-                                    <h3 className="text-gray-600 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl min-[1900px]:text-2xl max-w-3xl">
-                                        {banner[index].description}
-                                    </h3>
+                    <motion.div
+                        initial={{opacity: 0, y: 100}}
+                        exit={{opacity: 0, y: -100}}
+                        animate={{opacity: 1, y: 0}}
+                        className="flex flex-col items-center justify-center w-full px-4 py-6 space-y-4 max-w-screen-xl mx-auto text-center"
+                    >
+                        <h1 className="!font-extrabold text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl min-[1900px]:text-7xl leading-tight">
+                            {banner[index].heading}
+                        </h1>
 
-                                    <Link to="/shop">
-                                        <button className="bg-slate-800 !font-bold text-white px-6 py-3 rounded-xl shadow-md hover:bg-slate-700 transition-all text-xs sm:text-sm md:text-base min-[1900px]:text-lg">
-                                        Learn More
-                                        </button>
-                                    </Link>
-                                    </div>
+                        <h3 className="text-gray-600 text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl min-[1900px]:text-2xl max-w-3xl">
+                            {banner[index].description}
+                        </h3>
 
-                                </motion.div>}
-                        </AnimatePresence>
-
-
-                    </div>
+                        <Link to="/shop">
+                            <button className="bg-slate-800 !font-bold text-white px-6 py-3 rounded-xl shadow-md hover:bg-slate-700 transition-all text-xs sm:text-sm md:text-base min-[1900px]:text-lg">
+                                Learn More
+                            </button>
+                        </Link>
+                    </motion.div>
 
                     <div className="arrow" onClick={() => updateIndex(true)}><ArrowRightOutlined style={{fontSize: '24px'}}/></div>
 

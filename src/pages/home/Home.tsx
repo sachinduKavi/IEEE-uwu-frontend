@@ -9,22 +9,17 @@ import NavBar from '../../components/NavBar.tsx';
 import OpenDaySection from "../../components/OpenDaySection.tsx";
 
 export default function Home() {
-  return (
-    <div className='screen'>
-      
-        <NavBar />
-        <Slider />
-        <OpenDaySection/>
-    
-
-        <HeroSection/>
-        
-        <AboutSection />
-        <ChaptersSection/>
-        <AboutUs/>
-
-        <UpcomingEventSection/>
-        <Footer/>
-    </div>
-  )
+    return (
+        <div className='screen'>
+            <NavBar />
+            <Slider id="home" />
+            {/*<Events id="events" />*/}
+            <HeroSection id="hero" />
+            <AboutSection id="about" />
+            <ChaptersSection id="chapters" />
+            <AboutUs id="about-us" />
+            <UpcomingEventSection id="upcoming-event" />
+            <Footer />
+        </div>
+    )
 }
