@@ -1,9 +1,10 @@
-import OpenDayHeader from "../../components/Openday/OpenDayHeader.tsx";
+
+import IEEEOpenDay from "../../components/Openday/IEEEOpenDay.tsx";
 
 const OpenDay = () => {
     return (
         <div>
-            <OpenDayHeader/>
+            <IEEEOpenDay/>
         </div>
     );
 };

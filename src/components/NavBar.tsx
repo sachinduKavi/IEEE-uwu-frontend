@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Image from '../assets/logo.png';
 import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
@@ -8,35 +8,74 @@ import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "./ui/nav
 
 export default function NavBar() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [activeLink, setActiveLink] = useState("/");
+  const [activeLink, setActiveLink] = useState("#home");
   const [scrolled, setScrolled] = useState(false);
+  const navigate = useNavigate();
+
+  const navigation = [
+    { name: "Home", to: "#home", isAnchor: true },
+    { name: "About", to: "#about", isAnchor: true },
+    { name: "Chapters", to: "#chapters", isAnchor: true },
+    { name: "Events", to: "#upcomingevent", isAnchor: true },
+    { name: "Open Day", to: "/openDay", isAnchor: false }, // Regular route
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
       setScrolled(window.scrollY > 10);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
 
-  const navigation = [
-    { name: "Home", to: "/" },
-    { name: "About", to: "/about" },
-    { name: "Chapters", to: "/chapters" },
-    { name: "Events", to: "/events" },
-    { name: "Projects", to: "/projects" },
-    { name: "Blog", to: "/blog" },
-    { name: "Contact", to: "/contact" },
-    { name: "Open Day", to: "/openDay" },
-  ];
+      // Only update active link if we're on the home page
+      if (window.location.pathname === '/') {
+        const sections = navigation.filter(item => item.isAnchor).map(item => item.to.substring(1));
+        const scrollPosition = window.scrollY + 100;
+
+        for (const section of sections) {
+          const element = document.getElementById(section);
+          if (element) {
+            const offsetTop = element.offsetTop;
+            const offsetHeight = element.offsetHeight;
+
+            if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
+              setActiveLink(`#${section}`);
+              break;
+            }
+          }
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [navigation]);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
   };
 
-  const handleNavClick = (to: string) => {
-    setActiveLink(to);
-    setIsMobileMenuOpen(false);
+  const handleNavClick = (to: string, isAnchor: boolean) => {
+    if (isAnchor) {
+      setActiveLink(to);
+      setIsMobileMenuOpen(false);
+
+      if (window.location.pathname !== '/') {
+        navigate('/');
+        setTimeout(() => {
+          const element = document.querySelector(to);
+          if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }
+        }, 100);
+      } else {
+        const element = document.querySelector(to);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+    } else {
+      // Regular page navigation
+      setIsMobileMenuOpen(false);
+      navigate(to);
+    }
   };
 
   return (
@@ -50,8 +89,11 @@ export default function NavBar() {
             <div className="flex-shrink-0">
               <Link
                   to="/"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    handleNavClick("#home", true);
+                  }}
                   className="flex"
-                  onClick={() => handleNavClick("/")}
               >
                 <img
                     src={Image}
@@ -80,10 +122,13 @@ export default function NavBar() {
                       <NavigationMenuItem key={item.name}>
                         <Link
                             to={item.to}
-                            onClick={() => handleNavClick(item.to)}
+                            onClick={(e) => {
+                              e.preventDefault();
+                              handleNavClick(item.to, item.isAnchor);
+                            }}
                             className={cn(
                                 "group relative px-4 py-2 text-sm font-medium rounded-lg transition-all",
-                                activeLink === item.to
+                                activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
                                     ? "text-white bg-[#005596] shadow-md"
                                     : "text-[#1e3a8a] hover:bg-[#005596]/10",
                             )}
@@ -92,7 +137,9 @@ export default function NavBar() {
                           <span
                               className={cn(
                                   "absolute bottom-0 left-1/2 h-0.5 bg-[#005596] transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%]",
-                                  activeLink === item.to ? "w-4/5 left-[10%]" : "w-0",
+                                  activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
+                                      ? "w-4/5 left-[10%]"
+                                      : "w-0",
                               )}
                           ></span>
                         </Link>
@@ -117,10 +164,13 @@ export default function NavBar() {
                       <Link
                           key={item.name}
                           to={item.to}
-                          onClick={() => handleNavClick(item.to)}
+                          onClick={(e) => {
+                            e.preventDefault();
+                            handleNavClick(item.to, item.isAnchor);
+                          }}
                           className={cn(
                               "block px-4 py-2 rounded-md text-[15px] font-medium transition-all",
-                              activeLink === item.to
+                              activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
                                   ? "bg-[#005596] text-white"
                                   : "hover:bg-[#005596]/10"
                           )}
