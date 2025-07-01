@@ -4,51 +4,100 @@ import { Badge } from "../ui/badge";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import chathutra from '../../assets/open day/Program Team/Program Team/Chathura Dilshan (IIT)-Program Team.jpg'
+import dahami from '../../assets/open day/Program Team/Program Team/Dahami Tharushika.jpg'
+import ishan from '../../assets/open day/Program Team/Program Team/Ishan(program Team).jpeg'
+import navod from '../../assets/open day/Program Team/Program Team/Navod Teshan (CST)(Program Team).jpg'
+import sajan from '../../assets/open day/WebTeam/WebTeam/Sajan Gunasekara.jpg'
+import ishini from '../../assets/open day/WebTeam/WebTeam/Ishini Dewamiththa.jpeg'
+import ramesha from '../../assets/open day/WebTeam/WebTeam/Ramesha Deshan.jpg'
+import inuka from '../../assets/open day/WebTeam/WebTeam/Inuka.jpg'
+import nisal from '../../assets/open day/Finance Team/Finance Team/Nisal Image.jpg'
+import hirusha from '../../assets/open day/Finance Team/Finance Team/Hirusha suhan.png'
+import lenmini from '../../assets/open day/Finance Team/Finance Team/Lenmini Somaratne.jpg'
+import naveen from '../../assets/open day/Finance Team/Finance Team/Naveen_.jpg'
+import nethmi from '../../assets/open day/Finance Team/Finance Team/Nethmi Bandara (Finance Team) .jpg'
+import duvindu from '../../assets/open day/Finance Team/Finance Team/Duvindu Weerathunga_.jpg'
+import heshani from '../../assets/open day/Design Team/Design Team/M.G.Heshani Samarasinghe -IIT.jpg'
+import pamithi from '../../assets/open day/Design Team/Design Team/Pamithi Wijekulathilake-CST.jpg'
+import tharushi from '../../assets/open day/Design Team/Design Team/U.V.T.Senara.jpg'
+import thimira from '../../assets/open day/Design Team/Design Team/U.K. Thimira Theekshana - CST.jpg'
+import banuka from '../../assets/open day/LogesticTeam/LogesticTeam/Bhanuka Parakrama.jpg'
+import ominidu from '../../assets/open day/LogesticTeam/LogesticTeam/Omindu Sandew.jpg'
+import nilesh from '../../assets/open day/LogesticTeam/LogesticTeam/Nilesh theekshana iit.jpg'
+import wasana from '../../assets/open day/Secretary Team/Secretary Team/Wasana Nilakshi.jpg'
+import sameesha from '../../assets/open day/Secretary Team/Secretary Team/Sameesha Pasanya.jpeg'
+import chamudi from '../../assets/open day/Secretary Team/Secretary Team/D.K. Chamudi Dewmini.jpg'
+import gihan from '../../assets/open day/project chair.jpeg'
 
 const teams: Team[] = [
     {
         name: "Project Chair",
         members: [
-            { name: "Dr. Sarah Johnson", role: "Faculty Advisor", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Gihan Lahiru Bimsara", role: "Project Chair", image: gihan  },
         ],
     },
     {
         name: "Program Team",
         members: [
-            { name: "Chathura Dilshan", role: "Lead Developer", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Michael Kim", role: "Frontend Developer", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Priya Patel", role: "UI/UX Designer", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Chathura Dilshan", role: "Member", image: chathutra },
+            { name: "Dahami Tharushika", role: "Member", image: dahami },
+            { name: "Ishan Lakshitha", role: "Team Lead", image: ishan },
+            { name: "Navod Teshan", role: "Member", image: navod },
+            { name: "Sachinthaka Ravimal", role: "Member", image: navod },
+        ],
+    },
+    {
+        name: "Web Team",
+        members: [
+            { name: "Sajan Gunasekara", role: "Team Lead", image: sajan },
+            { name: "Ishini Dewamiththa", role: "Member", image: ishini },
+            { name: "Ramesha Deshan", role: "Member", image: ramesha },
+            { name: "Inuka Kavinda", role: "Member", image: inuka },
+            { name: "Sanjeewa Liyanage", role: "Member", image: inuka },
         ],
     },
     {
         name: "Finance Team",
         members: [
-            { name: "David Wilson", role: "Finance Head", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Lisa Zhang", role: "Budget Analyst", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Nisal Sawinda", role: "Team Lead", image: nisal },
+            { name: "Hirusha Suhan", role: "Member", image: hirusha },
+            { name: "Lenmini Navodya", role: "Member", image: lenmini },
+            { name: "Naveen Madawa", role: "Member", image: naveen },
+            { name: "Nethmi Mahesika", role: "Member", image: nethmi },
+            { name: "Duvindu Kavithika", role: "Member", image: duvindu},
         ],
     },
     {
         name: "Design Team",
         members: [
-            { name: "Sofia Martinez", role: "Creative Director", image: "/placeholder.svg?height=200&width=200" },
-            { name: "James Thompson", role: "Graphic Designer", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Aisha Kumar", role: "Brand Designer", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Pubudu Harshana", role: "Team Lead", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Heshani Madhushika", role: "Member", image: heshani },
+            { name: "Pamithi Wijekulathilake", role: "Member", image: pamithi },
+            { name: "Tharushi Senara ", role: "Member", image: tharushi },
+            { name: "Thimira Theekshana ", role: "Member", image: thimira },
         ],
     },
     {
-        name: "Logistics Team",
+        name: "Logistic Team",
         members: [
-            { name: "Ryan O'Connor", role: "Logistics Coordinator", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Maya Singh", role: "Venue Manager", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Carlos Mendez", role: "Equipment Manager", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Lahiru Gajaweera", role: "Team Lead", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Bhanuka Parakrama ", role: "Member", image: banuka },
+            { name: "Omindu Sandew", role: "Member", image: ominidu },
+            { name: "Nilesh Theekshana", role: "Member", image: nilesh },
+            { name: "Anusara Umadi", role: "Member", image: nilesh },
+            { name: "Pabasara Chandupa ", role: "Member", image: nilesh },
         ],
     },
     {
-        name: "Program Team",
+        name: "Secretary Team",
         members: [
-            { name: "Jennifer Lee", role: "Program Director", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Ahmed Hassan", role: "Speaker Coordinator", image: "/placeholder.svg?height=200&width=200" },
-            { name: "Rachel Green", role: "Workshop Coordinator", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Wasana Nilakshi", role: "Team Lead", image: wasana },
+            { name: "Sameesha Pasanya ", role: "Member", image: sameesha },
+            { name: "Dehani Siyapathi ", role: "Member", image: ominidu },
+            { name: "Nilesh Theekshana", role: "Member", image: nilesh },
+            { name: "Chamudi Dewmini", role: "Member", image: chamudi },
+            { name: "Sandaruwi Athukorala", role: "Member", image: chamudi },
         ],
     },
 ];
@@ -149,8 +198,7 @@ export default function TeamSection() {
                         viewport={{once: true}}
                     >
                         Our dedicated team of professionals and students working together to deliver an exceptional IEEE
-                        Open Day
-                        experience.
+                        Open Day experience.
                     </motion.p>
                 </motion.div>
 
@@ -321,11 +369,8 @@ export default function TeamSection() {
                                     }}
                                     className="w-full"
                                 >
-                                    <Card
-                                        className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden mx-4">
-                                        <motion.div
-                                            className="bg-gradient-to-r from-blue-600 to-blue-700 p-6"
-                                        >
+                                    <Card className="bg-white border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden mx-4">
+                                        <motion.div className="bg-gradient-to-r from-blue-600 to-blue-700 p-6">
                                             <div className="flex items-center justify-between">
                                                 <h3 className="text-2xl font-bold text-white">{departmentTeams[activeIndex].name}</h3>
                                                 <Badge className="bg-blue-500 hover:bg-blue-400 text-white border-0">
@@ -335,33 +380,62 @@ export default function TeamSection() {
                                         </motion.div>
 
                                         <CardContent className="p-6">
-                                            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                                                {departmentTeams[activeIndex].members.map((member, memberIndex) => (
-                                                    <motion.div
-                                                        key={memberIndex}
-                                                        className="flex flex-col items-center text-center p-4 rounded-lg bg-gray-50 hover:bg-blue-50 transition-colors duration-200"
-                                                        initial={{opacity: 0, y: 20}}
-                                                        animate={{opacity: 1, y: 0}}
-                                                        transition={{delay: memberIndex * 0.1}}
-                                                    >
-                                                        <div
-                                                            className="relative w-24 h-24 overflow-hidden rounded-full border-2 border-blue-200 mb-4">
-                                                            <img
-                                                                src={member.image}
-                                                                alt={member.name}
-                                                                className="w-full h-full object-cover"
-                                                            />
-                                                        </div>
-                                                        <h4 className="text-lg font-semibold text-blue-900">{member.name}</h4>
-                                                        <p className="text-blue-600 font-medium text-sm">{member.role}</p>
-                                                        <div className="mt-3 flex space-x-2">
-                                                            {[1, 2, 3].map((i) => (
-                                                                <div key={i}
-                                                                     className="w-2 h-2 bg-blue-400 rounded-full"/>
+                                            <div className="flex flex-col items-center">
+                                                {/* Team Leads */}
+                                                <div className="mb-8 w-full">
+                                                    <h4 className="text-lg font-semibold text-blue-900 mb-6 text-center">Team Leads</h4>
+                                                    <div className="flex flex-wrap justify-center gap-6">
+                                                        {departmentTeams[activeIndex].members
+                                                            .filter(member => member.role.toLowerCase().includes('lead'))
+                                                            .map((member, memberIndex) => (
+                                                                <motion.div
+                                                                    key={`lead-${memberIndex}`}
+                                                                    className="flex flex-col items-center text-center p-6 rounded-lg bg-gray-50 hover:bg-blue-50 transition-colors duration-200 w-48"
+                                                                    initial={{opacity: 0, y: 20}}
+                                                                    animate={{opacity: 1, y: 0}}
+                                                                    transition={{delay: memberIndex * 0.1}}
+                                                                >
+                                                                    <div className="relative w-32 h-32 overflow-hidden rounded-full border-4 border-blue-200 mb-4">
+                                                                        <img
+                                                                            src={member.image}
+                                                                            alt={member.name}
+                                                                            className="w-full h-full object-cover"
+                                                                        />
+                                                                    </div>
+                                                                    <h4 className="text-lg font-semibold text-blue-900">{member.name}</h4>
+                                                                    <p className="text-blue-600 font-medium text-sm">{member.role}</p>
+                                                                </motion.div>
                                                             ))}
-                                                        </div>
-                                                    </motion.div>
-                                                ))}
+                                                    </div>
+                                                </div>
+
+                                                {/* Members */}
+                                                <div className="w-full">
+                                                    <h4 className="text-lg font-semibold text-blue-900 mb-6 text-center">Members</h4>
+                                                    <div className="flex flex-wrap justify-center gap-4">
+                                                        {departmentTeams[activeIndex].members
+                                                            .filter(member => !member.role.toLowerCase().includes('lead'))
+                                                            .map((member, memberIndex) => (
+                                                                <motion.div
+                                                                    key={`member-${memberIndex}`}
+                                                                    className="flex flex-col items-center text-center p-4 rounded-lg bg-gray-50 hover:bg-blue-50 transition-colors duration-200 w-40"
+                                                                    initial={{opacity: 0, y: 20}}
+                                                                    animate={{opacity: 1, y: 0}}
+                                                                    transition={{delay: memberIndex * 0.1}}
+                                                                >
+                                                                    <div className="relative w-24 h-24 overflow-hidden rounded-full border-2 border-blue-200 mb-3">
+                                                                        <img
+                                                                            src={member.image}
+                                                                            alt={member.name}
+                                                                            className="w-full h-full object-cover"
+                                                                        />
+                                                                    </div>
+                                                                    <h4 className="font-semibold text-blue-900">{member.name}</h4>
+                                                                    <p className="text-blue-600 font-medium text-xs">{member.role}</p>
+                                                                </motion.div>
+                                                            ))}
+                                                    </div>
+                                                </div>
                                             </div>
                                         </CardContent>
                                     </Card>
