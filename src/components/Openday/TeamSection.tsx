@@ -317,8 +317,8 @@ export default function TeamSection() {
                                                                             />
                                                                         </div>
                                                                         <div className="text-center w-full">
-                                                                            <h4 className="mx-auto text-lg font-semibold text-blue-900">{member.name}</h4>
-                                                                            <p className="mx-auto text-blue-600 font-medium text-sm">{member.role}</p>
+                                                                            <h4 className="mx-auto font-semibold text-blue-900 text-sm ">{member.name}</h4>
+                                                                            <p className="mx-auto text-blue-600 font-medium text-xs">{member.role}</p>
                                                                         </div>
                                                                     </div>
                                                                 ))}
@@ -350,7 +350,7 @@ export default function TeamSection() {
                                                                                 }}
                                                                             />
                                                                         </div>
-                                                                        <h4 className="font-semibold text-blue-900 text-sm sm:text-base">
+                                                                        <h4 className="font-semibold text-blue-900 text-xs ">
                                                                             {member.name}
                                                                         </h4>
                                                                         <p className="text-blue-600 font-medium text-xs">{member.role}</p>
