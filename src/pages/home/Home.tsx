@@ -13,12 +13,12 @@ export default function Home() {
         <div className='screen'>
             <NavBar />
             <Slider id="home" />
-            <Events id="events" />
+            {/*<Events id="events" />*/}
             <HeroSection id="hero" />
             <AboutSection id="about" />
             <ChaptersSection id="chapters" />
             <AboutUs id="about-us" />
-            <UpcomingEventSection id="upcomingevent" />
+            <UpcomingEventSection id="upcoming-event" />
             <Footer />
         </div>
     )

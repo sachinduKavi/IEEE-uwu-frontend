@@ -16,8 +16,8 @@ export default function NavBar() {
     { name: "Home", to: "#home", isAnchor: true },
     { name: "About", to: "#about", isAnchor: true },
     { name: "Chapters", to: "#chapters", isAnchor: true },
-    { name: "Events", to: "#upcomingevent", isAnchor: true },
-    { name: "Open Day", to: "/openDay", isAnchor: false }, // Regular route
+    { name: "Events", to: "#upcoming-event", isAnchor: true },
+    { name: "Open Day", to: "/openDay", isAnchor: false },
   ];
 
   useEffect(() => {
