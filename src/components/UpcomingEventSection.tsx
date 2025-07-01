@@ -1,4 +1,3 @@
-import React from 'react'
 import HorizontalScrollSection from './HorizontalScrollSection'
 import EventCard from './EventCard'
 import '../css/upcomingEventSection.css'

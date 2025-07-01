@@ -1,4 +1,3 @@
-import React from 'react'
 import Slider from '../../components/Slider'
 import UpcomingEventSection from '../../components/UpcomingEventSection'
 import AboutUs from "../../components/AboutUs.tsx";
@@ -7,7 +6,6 @@ import AboutSection from '../../components/AboutSection.tsx';
 import Footer from '../../components/Footer.tsx';
 import ChaptersSection from '../../components/Chapters.tsx';
 import NavBar from '../../components/NavBar.tsx';
-import Events from '../../components/Events.tsx';
 import OpenDaySection from "../../components/OpenDaySection.tsx";
 
 export default function Home() {
@@ -16,7 +14,7 @@ export default function Home() {
       
         <NavBar />
         <Slider />
-        <Events />
+        <OpenDaySection/>
     
 
         <HeroSection/>
@@ -24,9 +22,8 @@ export default function Home() {
         <AboutSection />
         <ChaptersSection/>
         <AboutUs/>
-        
+
         <UpcomingEventSection/>
-        <OpenDaySection/>
         <Footer/>
     </div>
   )
