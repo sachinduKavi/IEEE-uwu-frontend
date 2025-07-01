@@ -119,7 +119,7 @@ export default function HeroSection() {
                             }}
                             className="flex flex-col items-center"
                         >
-                           
+
                         </motion.div>
                     </motion.div>
                 </motion.div>
