@@ -1,12 +1,21 @@
-
-import { Card, CardContent } from "../ui/card";
-import { Users, Award, Calendar } from "lucide-react";
-import { motion, useInView, easeInOut } from "framer-motion";
-import { useRef } from "react";
+import { motion, useInView } from "framer-motion";
+import { useRef, useState } from "react";
+import { Play } from "lucide-react";
+import introVideo from '../../../src/assets/open day/intro-video.mp4'; // Recommended: Rename file without spaces
 
 export default function AboutSection() {
     const ref = useRef(null);
+    const videoRef = useRef(null);
+    const [isPlaying, setIsPlaying] = useState(false);
     const isInView = useInView(ref, { once: false, amount: 0.1 });
+
+    const handlePlayVideo = () => {
+        setIsPlaying(true);
+        videoRef.current.play().catch(error => {
+            console.error("Video play failed:", error);
+            setIsPlaying(false);
+        });
+    };
 
     const cardVariants = {
         hidden: { opacity: 0, y: 20 },
@@ -15,7 +24,7 @@ export default function AboutSection() {
             y: 0,
             transition: {
                 duration: 0.6,
-                ease: easeInOut,
+                ease: "easeInOut",
             }
         }
     };
@@ -70,30 +79,46 @@ export default function AboutSection() {
                         activities and emerging tech trends!
                     </motion.p>
 
+                    {/* Video Section */}
                     <motion.div
-                        className="grid grid-cols-1 md:grid-cols-3 gap-6"
-                        variants={containerVariants}
+                        className="mt-16"
+                        variants={cardVariants}
                     >
-                        {[
-                            { icon: <Users className="w-8 h-8 text-blue-600" />, title: "500+ Members", desc: "Active student and faculty members" },
-                            { icon: <Award className="w-8 h-8 text-blue-600" />, title: "50+ Projects", desc: "Innovative research and development" },
-                            { icon: <Calendar className="w-8 h-8 text-blue-600" />, title: "25+ Events", desc: "Annual workshops and seminars" }
-                        ].map((item, index) => (
-                            <motion.div key={index} variants={cardVariants}>
-                                <Card className="border border-blue-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 group">
-                                    <CardContent className="p-8 text-center">
-                                        <motion.div
-                                            className="w-16 h-16 bg-gradient-to-br from-blue-50 to-blue-100 rounded-full flex items-center justify-center mx-auto mb-6 group-hover:scale-110 transition-transform duration-300"
-                                            whileHover={{ rotate: 5, scale: 1.1 }}
+                        <div className="relative group">
+                            {/* Video Container with Gradient Border */}
+                            <div className="relative rounded-xl overflow-hidden shadow-2xl">
+                                {/* Gradient Border Effect */}
+                                <div className="absolute inset-0 bg-gradient-to-r from-blue-500 to-blue-300 rounded-xl opacity-75 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-md group-hover:blur-lg"></div>
+
+                                {/* Video Player */}
+                                <div className="relative rounded-xl overflow-hidden aspect-video bg-gray-900">
+                                    {/* Play Button Overlay (shown when not playing) */}
+                                    {!isPlaying && (
+                                        <div
+                                            className="absolute inset-0 flex items-center justify-center cursor-pointer z-10"
+                                            onClick={handlePlayVideo}
                                         >
-                                            {item.icon}
-                                        </motion.div>
-                                        <h3 className="text-xl font-semibold text-blue-900 mb-3">{item.title}</h3>
-                                        <p className="text-gray-600">{item.desc}</p>
-                                    </CardContent>
-                                </Card>
-                            </motion.div>
-                        ))}
+                                        </div>
+                                    )}
+
+                                    {/* Actual Video Element */}
+                                    <video
+                                        ref={videoRef}
+                                        className="w-full h-full object-cover"
+                                        autoPlay  // Add this for autoplay
+                                        muted     // Required for autoplay in most browsers
+                                        playsInline
+                                        loop
+                                        controls={isPlaying}
+
+                                    >
+                                        <source src={introVideo} type="video/mp4" />
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+
+                        </div>
                     </motion.div>
                 </motion.div>
             </div>

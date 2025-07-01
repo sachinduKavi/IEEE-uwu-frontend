@@ -1,6 +1,19 @@
 import {useRef, useState} from 'react';
 import { motion, AnimatePresence, useInView } from 'framer-motion';
 import backgroundImg from '../../assets/images/gallerySection.jpg';
+import img1 from '../../assets/open day/gallery/gallery8.jpg';
+import img2 from '../../assets/open day/gallery/gallery4.jpg';
+import img3 from '../../assets/open day/gallery/gallery10.jpg';
+import img4 from '../../assets/open day/gallery/gallery1.jpg';
+import img5 from '../../assets/open day/gallery/gallery17.jpg';
+import img6 from '../../assets/open day/gallery/gallery11.jpg';
+import img7 from '../../assets/open day/gallery/gallery20.jpg';
+import img8 from '../../assets/open day/gallery/gallery9.jpg';
+import img9 from '../../assets/open day/gallery/gallery12.jpg';
+import img10 from '../../assets/open day/gallery/gallery13.jpg';
+import img11 from '../../assets/open day/gallery/gallery14.jpg';
+import img12 from '../../assets/open day/gallery/gallery15.jpg';
+import img13 from '../../assets/open day/gallery/gallery1.jpg';
 
 const GallerySection = () => {
     const [isGalleryOpen, setIsGalleryOpen] = useState(false);
@@ -10,12 +23,19 @@ const GallerySection = () => {
 
     // Sample gallery data for the event
     const eventImages = [
-        { id: 1, src: '/images/event1.jpg', alt: 'Event moment 1' },
-        { id: 2, src: '/images/event2.jpg', alt: 'Event moment 2' },
-        { id: 3, src: '/images/event3.jpg', alt: 'Event moment 3' },
-        { id: 4, src: '/images/event4.jpg', alt: 'Event moment 4' },
-        { id: 5, src: '/images/event5.jpg', alt: 'Event moment 5' },
-        { id: 6, src: '/images/event6.jpg', alt: 'Event moment 6' },
+        { id: 1, src: img1, alt: 'Event moment 1' },
+        { id: 2, src: img2, alt: 'Event moment 2' },
+        { id: 3, src: img3, alt: 'Event moment 3' },
+        { id: 4, src: img4, alt: 'Event moment 4' },
+        { id: 5, src: img5, alt: 'Event moment 5' },
+        { id: 6, src: img6, alt: 'Event moment 6' },
+        { id: 7, src: img7, alt: 'Event moment 6' },
+        { id: 8, src: img8, alt: 'Event moment 6' },
+        { id: 9 , src: img9, alt: 'Event moment 6' },
+        { id: 10 , src: img10, alt: 'Event moment 6' },
+        { id: 11 , src: img11, alt: 'Event moment 6' },
+        { id: 12 , src: img12, alt: 'Event moment 6' },
+        { id: 13 , src: img13, alt: 'Event moment 6' },
     ];
 
     const openGallery = () => {
@@ -91,7 +111,7 @@ const GallerySection = () => {
                             transition={{ type: "spring", stiffness: 300 }}
                         >
                             <img
-                                src="/images/speakers-img3.jpg"
+                                src= {img6}
                                 alt="Event highlight"
                                 className="w-full h-auto transition-transform duration-300 hover:scale-105"
                             />
