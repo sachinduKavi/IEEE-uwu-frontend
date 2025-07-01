@@ -46,7 +46,7 @@ const OpenDaySection = () => {
                                 </p>
 
                                 <motion.a
-                                    href="/register-openday" // Link to your registration page
+                                    href="/openDay" // Link to your registration page
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.98 }}
                                     className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all shadow-lg"
@@ -57,15 +57,6 @@ const OpenDaySection = () => {
                         </div>
                     </div>
 
-                    <div className="mt-12 text-center">
-                        <h4 className="text-xl font-semibold text-gray-800 mb-4">Can't make it? Explore our programs online</h4>
-                        <a
-                            href="/programs"
-                            className="text-blue-600 hover:text-blue-800 font-medium underline transition-colors"
-                        >
-                            View All Academic Programs →
-                        </a>
-                    </div>
                 </div>
             </div>
         </section>

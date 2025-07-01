@@ -105,7 +105,7 @@ const TechGameSection = () => {
         }, 1500);
     };
 
-    const getAnswerClass = (index) => {
+    const getAnswerClass = (index:number) => {
         if (selectedAnswer === null) return '';
         if (index === questions[currentQuestion].correct) return 'bg-green-500 text-white';
         if (index === selectedAnswer && !isCorrect) return 'bg-red-500 text-white';
