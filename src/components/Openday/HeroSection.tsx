@@ -2,6 +2,7 @@ import { Calendar, MapPin, Users } from "lucide-react";
 import headerBg from '../../assets/images/HeadSectionOpenDay.jpg';
 import { motion, useScroll, useTransform } from "framer-motion";
 import { useRef } from "react";
+import { Button } from "../ui/button"; // Make sure to import your Button component
 
 export default function HeroSection() {
     const ref = useRef(null);
@@ -14,6 +15,10 @@ export default function HeroSection() {
     const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "50%"]);
     const yText = useTransform(scrollYProgress, [0, 1], ["0%", "200%"]);
     const opacityBg = useTransform(scrollYProgress, [0, 0.5], [1, 0.3]);
+
+    const handleRegisterClick = () => {
+        window.open("https://lu.ma/nk0m4r6x", "_blank");
+    };
 
     return (
         <section
@@ -98,6 +103,28 @@ export default function HeroSection() {
                                 <span>{item.text}</span>
                             </motion.div>
                         ))}
+                    </motion.div>
+
+                    {/* Register Now Button */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 1.2, type: "spring" }}
+                        className="mt-6"
+                    >
+                        <Button
+                            size="lg"
+                            className="mt-10 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500
+                                       text-white font-semibold px-8 py-6 text-lg rounded-b-md  shadow-lg
+                                       transform hover:scale-105 transition-all duration-200 border border-blue-400
+                                       focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 hover:shadow-blue-500/30
+                                       relative overflow-hidden group"
+                            onClick={handleRegisterClick}
+                        >
+                            <span className="relative z-10">Register Now</span>
+                            <span className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-500 opacity-0
+                                          group-hover:opacity-100 transition-opacity duration-300 rounded-full"></span>
+                        </Button>
                     </motion.div>
 
                     {/* Scroll indicator - only shown on larger screens */}
