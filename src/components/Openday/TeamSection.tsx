@@ -12,9 +12,9 @@ const teams: Team[] = [
         ],
     },
     {
-        name: "Web Team",
+        name: "Program Team",
         members: [
-            { name: "Emma Rodriguez", role: "Lead Developer", image: "/placeholder.svg?height=200&width=200" },
+            { name: "Chathura Dilshan", role: "Lead Developer", image: "/placeholder.svg?height=200&width=200" },
             { name: "Michael Kim", role: "Frontend Developer", image: "/placeholder.svg?height=200&width=200" },
             { name: "Priya Patel", role: "UI/UX Designer", image: "/placeholder.svg?height=200&width=200" },
         ],

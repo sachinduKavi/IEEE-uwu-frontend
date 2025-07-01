@@ -11,14 +11,14 @@ export default function AboutSection() {
                     </h2>
                     <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 rounded-full"></div>
                     <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
-                        The IEEE Society at University of Technology is a vibrant community of students, faculty, and
-                        professionals dedicated to advancing technology for humanity. We foster innovation, provide professional
-                        development opportunities, and create a platform for knowledge sharing among our members.
+                        The IEEE Uva Wellassa University Student Branch is a passionate group of students dedicated to promoting
+                        technology and engineering. Affiliated with IEEE, the world's largest technical organization, we strive
+                        to advance innovation for the benefit of humanity.
                     </p>
                     <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-12">
-                        Our Open Day is an annual celebration where we showcase cutting-edge projects, host inspiring speakers,
-                        and provide networking opportunities for students and industry professionals. Join us to explore the
-                        future of technology and connect with like-minded innovators.
+                        Join us for an exciting event featuring technical talks, live demonstrations, and the latest advancements
+                        in technology. Open to students, professionals, and the public, this is your chance to explore IEEE’s
+                        activities and emerging tech trends!
                     </p>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         <Card className="border border-blue-100 hover:border-blue-200 hover:shadow-xl transition-all duration-300 group">
