@@ -8,6 +8,7 @@ import Footer from '../../components/Footer.tsx';
 import ChaptersSection from '../../components/Chapters.tsx';
 import NavBar from '../../components/NavBar.tsx';
 import Events from '../../components/Events.tsx';
+import OpenDaySection from "../../components/OpenDaySection.tsx";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         <AboutUs/>
         
         <UpcomingEventSection/>
+        <OpenDaySection/>
         <Footer/>
     </div>
   )
