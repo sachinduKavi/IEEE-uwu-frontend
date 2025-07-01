@@ -1,5 +1,6 @@
 import { FaCalendarAlt, FaMapMarkerAlt, FaArrowRight } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router';
 
 const OpenDaySection = () => {
     // Animation variants
@@ -26,6 +27,8 @@ const OpenDaySection = () => {
             }
         }
     };
+
+    const MotionLink = motion(Link);
 
 
     return (
@@ -139,21 +142,21 @@ const OpenDaySection = () => {
                                     campus tours, and program presentations.
                                 </motion.p>
 
-                                <motion.a
-                                    href="/openDay"
-                                    whileHover={{
-                                        scale: 1.05,
-                                        boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)"
-                                    }}
-                                    whileTap={{ scale: 0.98 }}
-                                    initial={{ opacity: 0, y: 20 }}
-                                    whileInView={{ opacity: 1, y: 0 }}
-                                    transition={{ delay: 0.7 }}
-                                    viewport={{ once: true }}
-                                    className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all shadow-lg"
-                                >
-                                    Register Now <FaArrowRight className="ml-2" />
-                                </motion.a>
+                               <MotionLink
+  to="/openDay"
+  whileHover={{
+    scale: 1.05,
+    boxShadow: "0 5px 15px rgba(0, 0, 0, 0.1)"
+  }}
+  whileTap={{ scale: 0.98 }}
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ delay: 0.7 }}
+  viewport={{ once: true }}
+  className="inline-flex items-center justify-center bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-all shadow-lg"
+>
+  Register Now <FaArrowRight className="ml-2" />
+</MotionLink>
                             </motion.div>
                         </div>
                     </motion.div>
