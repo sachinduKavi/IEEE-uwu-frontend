@@ -1,3 +1,4 @@
+
 import { Card, CardContent } from "../ui/card";
 import { Users, Award, Calendar } from "lucide-react";
 import { motion, useInView, easeInOut } from "framer-motion";
@@ -33,12 +34,28 @@ export default function AboutSection() {
     return (
         <section className="py-20 bg-white" ref={ref}>
             <div className="container mx-auto px-4">
-                <div className="max-w-4xl mx-auto text-center">
-                    <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
-                        WHO<span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400"> WE ARE</span>
-                    </h2>
-                    <div className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 rounded-full"></div>
-                    <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6">
+                <motion.div
+                    className="max-w-4xl mx-auto text-center"
+                    initial="hidden"
+                    animate={isInView ? "visible" : "hidden"}
+                    variants={containerVariants}
+                >
+                    <motion.h2
+                        className="text-4xl md:text-5xl font-bold text-blue-900 mb-6"
+                        variants={cardVariants}
+                    >
+                        WHO <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-blue-400">WE ARE</span>
+                    </motion.h2>
+
+                    <motion.div
+                        className="w-24 h-1.5 bg-gradient-to-r from-blue-600 to-blue-400 mx-auto mb-8 rounded-full"
+                        variants={cardVariants}
+                    />
+
+                    <motion.p
+                        className="text-lg md:text-xl text-gray-700 leading-relaxed mb-6"
+                        variants={cardVariants}
+                    >
                         The IEEE Uva Wellassa University Student Branch is a passionate group of students dedicated to promoting
                         technology and engineering. Affiliated with IEEE, the world's largest technical organization, we strive
                         to advance innovation for the benefit of humanity.

@@ -79,9 +79,9 @@ export default function HeroSection() {
                         transition={{ delay: 0.8 }}
                     >
                         {[
-                            { icon: <Calendar className="w-5 h-5" />, text: "March 15, 2025" },
-                            { icon: <MapPin className="w-5 h-5" />, text: "Main Auditorium" },
-                            { icon: <Users className="w-5 h-5" />, text: "500+ Attendees" }
+                            { icon: <Calendar className="w-5 h-5" />, text: "July 6, 2025" },
+                            { icon: <MapPin className="w-5 h-5" />, text: "Uva Wellassa University" },
+                            { icon: <Users className="w-5 h-5" />, text: "200+ Attendees" }
                         ].map((item, index) => (
                             <motion.div
                                 key={index}
