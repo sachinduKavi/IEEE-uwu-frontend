@@ -1,5 +1,5 @@
-import {useRef, useState} from 'react';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { useRef, useState } from 'react';
+import { motion, AnimatePresence, useInView,easeOut } from 'framer-motion';
 import backgroundImg from '../../assets/images/gallerySection.jpg';
 import img1 from '../../assets/open day/gallery/gallery8.jpg';
 import img2 from '../../assets/open day/gallery/gallery4.jpg';
@@ -15,41 +15,47 @@ import img11 from '../../assets/open day/gallery/gallery14.jpg';
 import img12 from '../../assets/open day/gallery/gallery15.jpg';
 import img13 from '../../assets/open day/gallery/gallery1.jpg';
 
+interface GalleryImage {
+    id: number;
+    src: string;
+    alt: string;
+}
+
 const GallerySection = () => {
-    const [isGalleryOpen, setIsGalleryOpen] = useState(false);
-    const [selectedImage, setSelectedImage] = useState(null);
-    const ref = useRef(null);
+    const [isGalleryOpen, setIsGalleryOpen] = useState<boolean>(false);
+    const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
+    const ref = useRef<HTMLElement>(null);
     const isInView = useInView(ref, { once: true, amount: 0.1 });
 
     // Sample gallery data for the event
-    const eventImages = [
+    const eventImages: GalleryImage[] = [
         { id: 1, src: img1, alt: 'Event moment 1' },
         { id: 2, src: img2, alt: 'Event moment 2' },
         { id: 3, src: img3, alt: 'Event moment 3' },
         { id: 4, src: img4, alt: 'Event moment 4' },
         { id: 5, src: img5, alt: 'Event moment 5' },
         { id: 6, src: img6, alt: 'Event moment 6' },
-        { id: 7, src: img7, alt: 'Event moment 6' },
-        { id: 8, src: img8, alt: 'Event moment 6' },
-        { id: 9 , src: img9, alt: 'Event moment 6' },
-        { id: 10 , src: img10, alt: 'Event moment 6' },
-        { id: 11 , src: img11, alt: 'Event moment 6' },
-        { id: 12 , src: img12, alt: 'Event moment 6' },
-        { id: 13 , src: img13, alt: 'Event moment 6' },
+        { id: 7, src: img7, alt: 'Event moment 7' },
+        { id: 8, src: img8, alt: 'Event moment 8' },
+        { id: 9, src: img9, alt: 'Event moment 9' },
+        { id: 10, src: img10, alt: 'Event moment 10' },
+        { id: 11, src: img11, alt: 'Event moment 11' },
+        { id: 12, src: img12, alt: 'Event moment 12' },
+        { id: 13, src: img13, alt: 'Event moment 13' },
     ];
 
-    const openGallery = () => {
+    const openGallery = (): void => {
         setIsGalleryOpen(true);
         document.body.style.overflow = 'hidden';
     };
 
-    const closeGallery = () => {
+    const closeGallery = (): void => {
         setIsGalleryOpen(false);
         setSelectedImage(null);
         document.body.style.overflow = 'auto';
     };
 
-    const openImage = (image) => {
+    const openImage = (image: GalleryImage): void => {
         setSelectedImage(image);
     };
 
@@ -71,7 +77,7 @@ const GallerySection = () => {
             y: 0,
             transition: {
                 duration: 0.5,
-                ease: "easeOut"
+                ease: easeOut
             }
         }
     };
@@ -111,7 +117,7 @@ const GallerySection = () => {
                             transition={{ type: "spring", stiffness: 300 }}
                         >
                             <img
-                                src= {img6}
+                                src={img6}
                                 alt="Event highlight"
                                 className="w-full h-auto transition-transform duration-300 hover:scale-105"
                             />
@@ -121,7 +127,7 @@ const GallerySection = () => {
                         </p>
                         <motion.button
                             onClick={openGallery}
-                            className="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
+                            className="cursor-pointer px-6 py-3 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 transition-colors"
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                         >
