@@ -117,8 +117,8 @@ export default function Slider() {
                             {banner[index].description}
                         </h3>
 
-                        <Link to="/shop">
-                            <button className="bg-slate-800 !font-bold text-white px-6 py-3 rounded-xl shadow-md hover:bg-slate-700 transition-all text-xs sm:text-sm md:text-base min-[1900px]:text-lg">
+                        <Link to="#about-us">
+                            <button className="cursor-pointer bg-slate-800 !font-bold text-white px-6 py-3 rounded-xl shadow-md hover:bg-slate-700 transition-all text-xs sm:text-sm md:text-base min-[1900px]:text-lg">
                                 Learn More
                             </button>
                         </Link>

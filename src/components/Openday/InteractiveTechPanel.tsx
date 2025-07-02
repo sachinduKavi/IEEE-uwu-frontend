@@ -1,7 +1,18 @@
-import { useState, useRef, useEffect } from 'react';
-import { FaLink, FaCopy, FaCheck, FaArrowRight, FaGamepad, FaTrophy, FaRedo, FaFacebook, FaInstagram, FaLinkedin } from 'react-icons/fa';
-import { Link } from "react-router-dom";
-import { motion, useInView, AnimatePresence, easeOut } from "framer-motion";
+import {useState, useRef, useEffect} from 'react';
+import {
+    FaLink,
+    FaCopy,
+    FaCheck,
+    FaArrowRight,
+    FaGamepad,
+    FaTrophy,
+    FaRedo,
+    FaFacebook,
+    FaInstagram,
+    FaLinkedin, FaBan
+} from 'react-icons/fa';
+import {Link} from "react-router-dom";
+import {motion, useInView, AnimatePresence, easeOut} from "framer-motion";
 
 type GameState = 'menu' | 'playing' | 'finished';
 type Question = {
@@ -24,7 +35,7 @@ const InteractiveTechPanel = () => {
     const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
 
     const ref = useRef(null);
-    const isInView = useInView(ref, { once: true, margin: "-100px" });
+    const isInView = useInView(ref, {once: true, margin: "-100px"});
 
     const questions: Question[] = [
         {
@@ -142,7 +153,7 @@ const InteractiveTechPanel = () => {
 
     // Animation variants
     const containerVariants = {
-        hidden: { opacity: 0, y: 40 },
+        hidden: {opacity: 0, y: 40},
         visible: {
             opacity: 1,
             y: 0,
@@ -156,7 +167,7 @@ const InteractiveTechPanel = () => {
     };
 
     const itemVariants = {
-        hidden: { opacity: 0, y: 20 },
+        hidden: {opacity: 0, y: 20},
         visible: {
             opacity: 1,
             y: 0,
@@ -167,6 +178,7 @@ const InteractiveTechPanel = () => {
         }
     };
 
+    const isDisabled = true;
     return (
         <div className="bg-gradient-to-br from-blue-50 to-indigo-100 pb-10">
             {/* Header Section */}
@@ -180,13 +192,13 @@ const InteractiveTechPanel = () => {
                     <motion.div variants={itemVariants}>
                         <motion.h2
                             className="text-3xl md:text-4xl font-bold text-blue-900 mb-3"
-                            whileHover={{ scale: 1.02 }}
+                            whileHover={{scale: 1.02}}
                         >
                             IEEE Tech Challenge 2023
                         </motion.h2>
                         <motion.p
                             className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto"
-                            whileHover={{ scale: 1.01 }}
+                            whileHover={{scale: 1.01}}
                         >
                             Join the ultimate test of your IEEE knowledge and technical expertise!
                         </motion.p>
@@ -211,9 +223,9 @@ const InteractiveTechPanel = () => {
                             <motion.div
                                 className="w-16 h-16 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-4"
                                 variants={itemVariants}
-                                whileHover={{ rotate: 5 }}
+                                whileHover={{rotate: 5}}
                             >
-                                <FaLink className="text-blue-600 text-2xl" />
+                                <FaLink className="text-blue-600 text-2xl"/>
                             </motion.div>
 
                             <motion.h2
@@ -245,18 +257,18 @@ const InteractiveTechPanel = () => {
                                         onClick={copyToClipboard}
                                         className="absolute right-2 top-1/2 transform -translate-y-1/2 p-1 text-gray-500 hover:text-blue-600 transition"
                                         title="Copy to clipboard"
-                                        whileHover={{ scale: 1.1 }}
-                                        whileTap={{ scale: 0.9 }}
+                                        whileHover={{scale: 1.1}}
+                                        whileTap={{scale: 0.9}}
                                     >
-                                        {isCopied ? <FaCheck className="text-green-500" /> : <FaCopy />}
+                                        {isCopied ? <FaCheck className="text-green-500"/> : <FaCopy/>}
                                     </motion.button>
                                 </div>
                                 {isCopied && (
                                     <motion.p
                                         className="text-green-500 text-xs mt-1"
-                                        initial={{ opacity: 0, y: -10 }}
-                                        animate={{ opacity: 1, y: 0 }}
-                                        exit={{ opacity: 0, y: -10 }}
+                                        initial={{opacity: 0, y: -10}}
+                                        animate={{opacity: 1, y: 0}}
+                                        exit={{opacity: 0, y: -10}}
                                     >
                                         Copied to clipboard!
                                     </motion.p>
@@ -268,15 +280,21 @@ const InteractiveTechPanel = () => {
                                 variants={itemVariants}
                             >
                                 <motion.div
-                                    whileHover={{ scale: 1.03 }}
-                                    whileTap={{ scale: 0.97 }}
+                                    whileHover={{scale: 1.03}}
+                                    whileTap={{scale: 0.97}}
                                 >
                                     <Link
-                                        to={'/quiz'}
-                                        className="flex items-center justify-center space-x-2 font-medium py-2 px-4 rounded-lg transition-all bg-blue-600 hover:bg-blue-700 text-white"
+                                        to={isDisabled ? '#' : '/quiz'}
+                                        className={`flex items-center justify-center space-x-2 font-medium py-2 px-4 rounded-lg transition-all
+                                         ${isDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 text-white cursor-pointer'}`}
+                                        title={isDisabled ? "Quiz will be available soon" : ""}
                                     >
                                         <span>Access Your Quiz</span>
-                                        <FaArrowRight />
+                                        {isDisabled ? (
+                                            <FaBan className="text-gray-600" />  // Using FaBan for "not allowed" icon
+                                        ) : (
+                                            <FaArrowRight />
+                                        )}
                                     </Link>
                                 </motion.div>
                             </motion.div>
@@ -303,23 +321,23 @@ const InteractiveTechPanel = () => {
                             {gameState === 'menu' && (
                                 <motion.div
                                     key="menu"
-                                    initial={{ opacity: 0, scale: 0.9 }}
-                                    animate={{ opacity: 1, scale: 1 }}
-                                    exit={{ opacity: 0, scale: 0.9 }}
-                                    transition={{ duration: 0.3 }}
+                                    initial={{opacity: 0, scale: 0.9}}
+                                    animate={{opacity: 1, scale: 1}}
+                                    exit={{opacity: 0, scale: 0.9}}
+                                    transition={{duration: 0.3}}
                                     className="p-6 md:p-8 text-center h-full flex flex-col justify-center"
                                 >
                                     <motion.div
                                         className="mb-6"
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ delay: 0.2 }}
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{delay: 0.2}}
                                     >
                                         <motion.div
                                             className="w-16 h-16 mx-auto bg-indigo-100 rounded-full flex items-center justify-center mb-4"
-                                            whileHover={{ rotate: 5 }}
+                                            whileHover={{rotate: 5}}
                                         >
-                                            <FaGamepad className="text-indigo-600 text-2xl" />
+                                            <FaGamepad className="text-indigo-600 text-2xl"/>
                                         </motion.div>
                                         <h3 className="text-xl font-bold text-gray-800 mb-2">Try Our Demo Quiz</h3>
                                         <p className="text-gray-600 mb-4">
@@ -328,9 +346,9 @@ const InteractiveTechPanel = () => {
                                     </motion.div>
                                     <motion.button
                                         onClick={startGame}
-                                        className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-lg shadow-md mx-auto"
-                                        whileHover={{ scale: 1.03 }}
-                                        whileTap={{ scale: 0.97 }}
+                                        className="cursor-pointer bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-6 rounded-lg shadow-md mx-auto"
+                                        whileHover={{scale: 1.03}}
+                                        whileTap={{scale: 0.97}}
                                     >
                                         Start Demo
                                     </motion.button>
@@ -340,10 +358,10 @@ const InteractiveTechPanel = () => {
                             {gameState === 'playing' && (
                                 <motion.div
                                     key="playing"
-                                    initial={{ opacity: 0 }}
-                                    animate={{ opacity: 1 }}
-                                    exit={{ opacity: 0 }}
-                                    transition={{ duration: 0.3 }}
+                                    initial={{opacity: 0}}
+                                    animate={{opacity: 1}}
+                                    exit={{opacity: 0}}
+                                    transition={{duration: 0.3}}
                                     className="p-4 md:p-6 h-full flex flex-col"
                                 >
                                     <div className="flex justify-between items-center mb-3">
@@ -353,8 +371,8 @@ const InteractiveTechPanel = () => {
                                         <div className="flex items-center space-x-2">
                                             <motion.div
                                                 className="bg-indigo-100 px-2 py-1 rounded-full text-indigo-800 font-bold text-xs"
-                                                animate={{ scale: [1, 1.05, 1] }}
-                                                transition={{ repeat: Infinity, duration: 2 }}
+                                                animate={{scale: [1, 1.05, 1]}}
+                                                transition={{repeat: Infinity, duration: 2}}
                                             >
                                                 Score: {score}
                                             </motion.div>
@@ -364,7 +382,7 @@ const InteractiveTechPanel = () => {
                                                     scale: timeLeft <= 10 ? [1, 1.1, 1] : 1,
                                                     backgroundColor: timeLeft <= 10 ? "#fee2e2" : "#fecaca"
                                                 }}
-                                                transition={{ repeat: timeLeft <= 10 ? Infinity : 0, duration: 0.5 }}
+                                                transition={{repeat: timeLeft <= 10 ? Infinity : 0, duration: 0.5}}
                                             >
                                                 Time: {timeLeft}s
                                             </motion.div>
@@ -375,10 +393,10 @@ const InteractiveTechPanel = () => {
                                         <div className="h-1.5 bg-gray-200 rounded-full overflow-hidden">
                                             <motion.div
                                                 className="h-full bg-indigo-600"
-                                                initial={{ width: 0 }}
+                                                initial={{width: 0}}
                                                 animate={{
                                                     width: `${((currentQuestion) / questions.length) * 100}%`,
-                                                    transition: { duration: 0.5 }
+                                                    transition: {duration: 0.5}
                                                 }}
                                             ></motion.div>
                                         </div>
@@ -387,9 +405,9 @@ const InteractiveTechPanel = () => {
                                     <div className="flex-grow flex flex-col justify-center">
                                         <motion.h3
                                             className="text-md font-bold text-gray-800 mb-3 text-center"
-                                            initial={{ opacity: 0 }}
-                                            animate={{ opacity: 1 }}
-                                            transition={{ delay: 0.1 }}
+                                            initial={{opacity: 0}}
+                                            animate={{opacity: 1}}
+                                            transition={{delay: 0.1}}
                                         >
                                             {questions[currentQuestion].question}
                                         </motion.h3>
@@ -397,14 +415,14 @@ const InteractiveTechPanel = () => {
                                             {questions[currentQuestion].answers.map((answer, index) => (
                                                 <motion.button
                                                     key={index}
-                                                    initial={{ opacity: 0, y: 10 }}
+                                                    initial={{opacity: 0, y: 10}}
                                                     animate={{
                                                         opacity: 1,
                                                         y: 0,
-                                                        transition: { delay: 0.2 + index * 0.1 }
+                                                        transition: {delay: 0.2 + index * 0.1}
                                                     }}
-                                                    whileHover={{ scale: selectedAnswer === null ? 1.02 : 1 }}
-                                                    whileTap={{ scale: selectedAnswer === null ? 0.98 : 1 }}
+                                                    whileHover={{scale: selectedAnswer === null ? 1.02 : 1}}
+                                                    whileTap={{scale: selectedAnswer === null ? 0.98 : 1}}
                                                     onClick={() => handleAnswer(index)}
                                                     className={`p-2 text-sm rounded-lg text-left transition-all ${getAnswerClass(index)} ${
                                                         selectedAnswer === null ? 'hover:bg-indigo-100 cursor-pointer' : 'cursor-default'
@@ -419,9 +437,9 @@ const InteractiveTechPanel = () => {
 
                                     {isCorrect !== null && (
                                         <motion.div
-                                            initial={{ opacity: 0, y: 10 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            exit={{ opacity: 0 }}
+                                            initial={{opacity: 0, y: 10}}
+                                            animate={{opacity: 1, y: 0}}
+                                            exit={{opacity: 0}}
                                             className={`text-center font-bold text-sm mt-3 ${
                                                 isCorrect ? 'text-green-600' : 'text-red-600'
                                             }`}
@@ -435,70 +453,71 @@ const InteractiveTechPanel = () => {
                             {gameState === 'finished' && (
                                 <motion.div
                                     key="finished"
-                                    initial={{ opacity: 0, y: 20 }}
-                                    animate={{ opacity: 1, y: 0 }}
-                                    exit={{ opacity: 0, y: -20 }}
-                                    transition={{ duration: 0.4 }}
+                                    initial={{opacity: 0, y: 20}}
+                                    animate={{opacity: 1, y: 0}}
+                                    exit={{opacity: 0, y: -20}}
+                                    transition={{duration: 0.4}}
                                     className="p-6 md:p-8 text-center h-full flex flex-col justify-center"
                                 >
                                     <motion.div
                                         className="mb-4"
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ staggerChildren: 0.1 }}
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{staggerChildren: 0.1}}
                                     >
                                         <motion.div
                                             className="w-16 h-16 mx-auto bg-yellow-100 rounded-full flex items-center justify-center mb-3"
-                                            initial={{ scale: 0 }}
-                                            animate={{ scale: 1 }}
-                                            transition={{ type: "spring", stiffness: 300 }}
+                                            initial={{scale: 0}}
+                                            animate={{scale: 1}}
+                                            transition={{type: "spring", stiffness: 300}}
                                         >
-                                            <FaTrophy className="text-yellow-600 text-2xl" />
+                                            <FaTrophy className="text-yellow-600 text-2xl"/>
                                         </motion.div>
                                         <motion.h3
                                             className="text-lg font-bold text-gray-800 mb-1"
-                                            initial={{ opacity: 0, y: 5 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            transition={{ delay: 0.2 }}
+                                            initial={{opacity: 0, y: 5}}
+                                            animate={{opacity: 1, y: 0}}
+                                            transition={{delay: 0.2}}
                                         >
                                             Demo Completed!
                                         </motion.h3>
                                         <motion.p
                                             className="text-gray-600"
-                                            initial={{ opacity: 0, y: 5 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            transition={{ delay: 0.3 }}
+                                            initial={{opacity: 0, y: 5}}
+                                            animate={{opacity: 1, y: 0}}
+                                            transition={{delay: 0.3}}
                                         >
-                                            Your score: <span className="text-indigo-600 font-bold text-lg">{score}</span>
+                                            Your score: <span
+                                            className="text-indigo-600 font-bold text-lg">{score}</span>
                                         </motion.p>
                                         <motion.p
                                             className="text-gray-500 mb-3 text-xs"
-                                            initial={{ opacity: 0, y: 5 }}
-                                            animate={{ opacity: 1, y: 0 }}
-                                            transition={{ delay: 0.4 }}
+                                            initial={{opacity: 0, y: 5}}
+                                            animate={{opacity: 1, y: 0}}
+                                            transition={{delay: 0.4}}
                                         >
                                             You answered {score / 10} of {questions.length} correctly
                                         </motion.p>
                                     </motion.div>
                                     <motion.div
                                         className="flex flex-col space-y-2"
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ delay: 0.5 }}
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{delay: 0.5}}
                                     >
                                         <motion.button
                                             onClick={restartGame}
                                             className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded-lg flex items-center justify-center space-x-2 shadow-sm"
-                                            whileHover={{ scale: 1.03 }}
-                                            whileTap={{ scale: 0.97 }}
+                                            whileHover={{scale: 1.03}}
+                                            whileTap={{scale: 0.97}}
                                         >
-                                            <FaRedo /> <span>Try Again</span>
+                                            <FaRedo/> <span>Try Again</span>
                                         </motion.button>
                                         <motion.a
                                             href="#"
                                             className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-medium py-2 px-4 rounded-lg shadow-sm"
-                                            whileHover={{ scale: 1.03 }}
-                                            whileTap={{ scale: 0.97 }}
+                                            whileHover={{scale: 1.03}}
+                                            whileTap={{scale: 0.97}}
                                         >
                                             Join Full Challenge
                                         </motion.a>
@@ -506,23 +525,32 @@ const InteractiveTechPanel = () => {
 
                                     <motion.div
                                         className="mt-4"
-                                        initial={{ opacity: 0 }}
-                                        animate={{ opacity: 1 }}
-                                        transition={{ delay: 0.6 }}
+                                        initial={{opacity: 0}}
+                                        animate={{opacity: 1}}
+                                        transition={{delay: 0.6}}
                                     >
                                         <h4 className="text-xs font-semibold text-gray-700 mb-1">Share your score!</h4>
                                         <div className="flex justify-center space-x-3">
                                             {[
-                                                { icon: <FaFacebook size={16} />, color: "text-blue-600 hover:text-blue-800" },
-                                                { icon: <FaInstagram size={16} />, color: "text-pink-600 hover:text-pink-800" },
-                                                { icon: <FaLinkedin size={16} />, color: "text-blue-700 hover:text-blue-900" }
+                                                {
+                                                    icon: <FaFacebook size={16}/>,
+                                                    color: "text-blue-600 hover:text-blue-800"
+                                                },
+                                                {
+                                                    icon: <FaInstagram size={16}/>,
+                                                    color: "text-pink-600 hover:text-pink-800"
+                                                },
+                                                {
+                                                    icon: <FaLinkedin size={16}/>,
+                                                    color: "text-blue-700 hover:text-blue-900"
+                                                }
                                             ].map((social, index) => (
                                                 <motion.a
                                                     key={index}
                                                     href="#"
                                                     className={`${social.color} transition-colors`}
-                                                    whileHover={{ y: -2 }}
-                                                    whileTap={{ scale: 0.9 }}
+                                                    whileHover={{y: -2}}
+                                                    whileTap={{scale: 0.9}}
                                                 >
                                                     {social.icon}
                                                 </motion.a>
