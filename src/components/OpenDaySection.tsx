@@ -50,7 +50,7 @@ const OpenDaySection = () => {
                             transition={{ type: "spring", stiffness: 100 }}
                             viewport={{ once: true }}
                         >
-                            IEEE University Open Day
+                            IEEE Open Day 2025
                         </motion.h2>
                         <motion.p
                             className="text-xl text-gray-700 max-w-2xl mx-auto"
@@ -59,7 +59,7 @@ const OpenDaySection = () => {
                             transition={{ delay: 0.3 }}
                             viewport={{ once: true }}
                         >
-                            Discover our programs, meet faculty, and explore campus facilities!
+                            Step into a world of innovation, tech brilliance, and meaningful connections!
                         </motion.p>
                     </motion.div>
 
@@ -91,7 +91,7 @@ const OpenDaySection = () => {
                                     </motion.div>
                                     <div>
                                         <h3 className="font-bold text-lg text-gray-800">Date & Time</h3>
-                                        <p className="text-gray-600">June 15, 2024<br />9:00 AM - 4:00 PM</p>
+                                        <p className="text-gray-600">July 6, 2025<br />10:00 AM - 1:00 PM</p>
                                     </div>
                                 </motion.div>
                                 <motion.div
@@ -107,7 +107,7 @@ const OpenDaySection = () => {
                                     </motion.div>
                                     <div>
                                         <h3 className="font-bold text-lg text-gray-800">Location</h3>
-                                        <p className="text-gray-600">Main Campus<br />Engineering Building, Room 101</p>
+                                        <p className="text-gray-600">Uva Wellassa University<br />Passara Road , Badulla</p>
                                     </div>
                                 </motion.div>
                             </motion.div>
