@@ -91,7 +91,7 @@ const OpenDaySection = () => {
                                     </motion.div>
                                     <div>
                                         <h3 className="font-bold text-lg text-gray-800">Date & Time</h3>
-                                        <p className="text-gray-600">July 6, 2025<br />10:00 AM - 1:00 PM</p>
+                                        <p className="text-gray-600">July 6, 2025<br />9:30 AM - 1:00 PM</p>
                                     </div>
                                 </motion.div>
                                 <motion.div
