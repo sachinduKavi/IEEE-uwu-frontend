@@ -18,7 +18,7 @@ export default function Slider() {
         {
             imageLink: 'images/banner02.jpg',
             heading: 'Empowering Future Innovators',
-            description: 'Join largest tech community at Uva Wellassa University.'
+            description: 'Join the largest tech community at Uva Wellassa University.'
         },
         {
             imageLink: 'images/banner01.jpg',

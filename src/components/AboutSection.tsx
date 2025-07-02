@@ -15,7 +15,7 @@ export default function AboutSection() {
       name: "Asiri Weerasinghe",
       role: "Student Branch Chair",
       image: ChairImage,
-      description: "Computer Science senior passionate about AI and machine learning.",
+      description: "Leads and manages all branch activities, ensuring smooth operations and collaboration with members and external IEEE bodies.",
       social: {
         linkedin: "#",
         twitter: "#"
@@ -25,7 +25,7 @@ export default function AboutSection() {
       name: "Chandima Jayawardhana",
       role: "Secretary",
       image: SecImage,
-      description: "Electrical Engineering student focused on renewable energy systems.",
+      description: "Maintains records, correspondence, and coordination; supports compliance with constitution and ensures smooth transitions.\n",
       social: {
         linkedin: "#",
         twitter: "#"
@@ -35,7 +35,7 @@ export default function AboutSection() {
       name: "Raees ahamed",
       role: "Treasurer",
       image: TreasurerImage,
-      description: "Software Engineering student with expertise in web development.",
+      description: "Manages finances, prepares budgets and reports, oversees fundraising, and ensures financial transparency and accuracy.",
       social: {
         linkedin: "#",
         twitter: "#"
@@ -45,7 +45,7 @@ export default function AboutSection() {
       name: "Sachindu Kavishka",
       role: "Webmaster",
       image: WebmasterImage,
-      description: "Mechanical Engineering student interested in robotics and automation.",
+      description: "Maintains website and social media, leads web teams, and promotes events online.",
       social: {
         linkedin: "#",
         twitter: "#"
