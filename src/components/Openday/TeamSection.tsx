@@ -28,6 +28,11 @@ import wasana from '../../assets/open day/Secretary Team/Secretary Team/Wasana N
 import sameesha from '../../assets/open day/Secretary Team/Secretary Team/Sameesha Pasanya.jpeg'
 import chamudi from '../../assets/open day/Secretary Team/Secretary Team/D.K. Chamudi Dewmini.jpg'
 import gihan from '../../assets/open day/project chair.jpeg'
+import dummy from '../../assets/open day/dummy.png'
+import pubudu from '../../assets/open day/Design Team/Design Team/Pubudu Harshana.JPG'
+import ravimal from '../../assets/open day/Program Team/Program Team/Ravimal.jpg'
+import sanjeewa from '../../assets/open day/WebTeam/WebTeam/Sanjeewa Liyanage.jpg'
+import anusara from '../../assets/open day/LogesticTeam/LogesticTeam/Anusara Umadi.jpg'
 
 const teams: Team[] = [
     {
@@ -43,7 +48,7 @@ const teams: Team[] = [
             {name: "Dahami Tharushika", role: "Member", image: dahami},
             {name: "Ishan Lakshitha", role: "Team Lead", image: ishan},
             {name: "Navod Teshan", role: "Member", image: navod},
-            {name: "Sachinthaka Ravimal", role: "Member", image: ''},
+            {name: "Sachinthaka Ravimal", role: "Member", image: ravimal},
         ],
     },
     {
@@ -53,7 +58,7 @@ const teams: Team[] = [
             {name: "Ishini Dewamiththa", role: "Member", image: ishini},
             {name: "Ramesha Deshan", role: "Member", image: ramesha},
             {name: "Inuka Kavinda", role: "Member", image: inuka},
-            {name: "Sanjeewa Liyanage", role: "Member", image: ''},
+            {name: "Sanjeewa Liyanage", role: "Member", image: sanjeewa},
         ],
     },
     {
@@ -69,7 +74,7 @@ const teams: Team[] = [
     {
         name: "Design Team",
         members: [
-            {name: "Pubudu Harshana", role: "Team Lead", image: ''},
+            {name: "Pubudu Harshana", role: "Team Lead", image: pubudu},
             {name: "Heshani Madhushika", role: "Member", image: heshani},
             {name: "Pamithi Wijekulathilake", role: "Member", image: pamithi},
             {name: "Tharushi Senara ", role: "Member", image: tharushi},
@@ -79,12 +84,12 @@ const teams: Team[] = [
     {
         name: "Logistic Team",
         members: [
-            {name: "Lahiru Gajaweera", role: "Team Lead", image: ''},
+            {name: "Lahiru Gajaweera", role: "Team Lead", image: dummy},
             {name: "Bhanuka Parakrama ", role: "Member", image: banuka},
             {name: "Omindu Sandew", role: "Member", image: ominidu},
             {name: "Nilesh Theekshana", role: "Member", image: nilesh},
-            {name: "Anusara Umadi", role: "Member", image: ''},
-            {name: "Pabasara Chandupa ", role: "Member", image: ''},
+            {name: "Anusara Umadi", role: "Member", image: anusara},
+            {name: "Pabasara Chandupa ", role: "Member", image: dummy},
         ],
     },
     {
@@ -92,10 +97,10 @@ const teams: Team[] = [
         members: [
             {name: "Wasana Nilakshi", role: "Team Lead", image: wasana},
             {name: "Sameesha Pasanya ", role: "Member", image: sameesha},
-            {name: "Dehani Siyapathi ", role: "Member", image: ''},
+            {name: "Dehani Siyapathi ", role: "Member", image: dummy},
             {name: "Nilesh Theekshana", role: "Member", image: nilesh},
             {name: "Chamudi Dewmini", role: "Member", image: chamudi},
-            {name: "Sandaruwi Athukorala", role: "Member", image: ''},
+            {name: "Sandaruwi Athukorala", role: "Member", image: dummy},
         ],
     },
 ];
