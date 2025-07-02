@@ -7,8 +7,6 @@ import SecImage from '../assets/images/chandi.jpg'
 import TreasurerImage from '../assets/images/raeese.jpg'
 import WebmasterImage from '../assets/images/sachindu.jpg'
 
-
-
 export default function AboutSection() {
   const teamMembers = [
     {
@@ -22,10 +20,10 @@ export default function AboutSection() {
       }
     },
     {
-      name: "Chandima Jayawardhana",
+      name: "Chandima Jayawardana",
       role: "Secretary",
       image: SecImage,
-      description: "Maintains records, correspondence, and coordination; supports compliance with constitution and ensures smooth transitions.\n",
+      description: "Maintains records, correspondence, and coordination; supports compliance with constitution and ensures smooth transitions.",
       social: {
         linkedin: "#",
         twitter: "#"
@@ -94,13 +92,13 @@ export default function AboutSection() {
               className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16"
           >
             <motion.div variants={fadeIn('right', 'spring', 0.2, 1)}>
-              <Card className="text-center h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100">
-                <CardContent className="p-8">
+              <Card className="text-center h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100 flex flex-col">
+                <CardContent className="p-8 flex-1 flex flex-col">
                   <div className="w-20 h-20 bg-gradient-to-r from-[#005596] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                     <Target className="h-10 w-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Mission</h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 flex-1">
                     To foster technological innovation and professional development among students while advancing IEEE's
                     core mission of advancing technology for humanity.
                   </p>
@@ -109,13 +107,13 @@ export default function AboutSection() {
             </motion.div>
 
             <motion.div variants={fadeIn('up', 'spring', 0.4, 1)}>
-              <Card className="text-center h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100">
-                <CardContent className="p-8">
+              <Card className="text-center h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100 flex flex-col">
+                <CardContent className="p-8 flex-1 flex flex-col">
                   <div className="w-20 h-20 bg-gradient-to-r from-[#005596] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                     <Eye className="h-10 w-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Vision</h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 flex-1">
                     To be the leading student organization that bridges the gap between academic learning and industry
                     practice, preparing students for successful careers in technology.
                   </p>
@@ -124,13 +122,13 @@ export default function AboutSection() {
             </motion.div>
 
             <motion.div variants={fadeIn('left', 'spring', 0.6, 1)}>
-              <Card className="text-center h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100">
-                <CardContent className="p-8">
+              <Card className="text-center h-full hover:shadow-xl transition-all duration-300 hover:-translate-y-2 border border-blue-100 flex flex-col">
+                <CardContent className="p-8 flex-1 flex flex-col">
                   <div className="w-20 h-20 bg-gradient-to-r from-[#005596] to-blue-400 rounded-full flex items-center justify-center mx-auto mb-6 shadow-lg">
                     <Award className="h-10 w-10 text-white" />
                   </div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-4">Our Values</h3>
-                  <p className="text-gray-600">
+                  <p className="text-gray-600 flex-1">
                     Excellence, integrity, innovation, and collaboration guide everything we do. We believe in the power of
                     technology to solve global challenges.
                   </p>
@@ -165,9 +163,10 @@ export default function AboutSection() {
                       key={index}
                       variants={fadeIn('up', 'spring', index * 0.2, 0.8)}
                       whileHover={{ scale: 1.03 }}
+                      className="h-full"
                   >
-                    <Card className="text-center group hover:shadow-xl transition-all duration-300 border border-blue-100">
-                      <CardContent className="p-6">
+                    <Card className="text-center group hover:shadow-xl transition-all duration-300 border border-blue-100 h-full flex flex-col">
+                      <CardContent className="p-6 flex-1 flex flex-col">
                         <div className="relative mx-auto mb-4 w-32 h-32">
                           <div className="absolute inset-0 bg-gradient-to-r from-[#005596] to-blue-400 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-md"></div>
                           <img
@@ -178,7 +177,7 @@ export default function AboutSection() {
                         </div>
                         <h4 className="text-xl font-bold text-gray-900 mb-1">{member.name}</h4>
                         <p className="text-[#005596] font-medium mb-3">{member.role}</p>
-                        <p className="text-gray-600 text-sm mb-4">{member.description}</p>
+                        <p className="text-gray-600 text-sm mb-4 flex-1">{member.description}</p>
                         <div className="flex justify-center space-x-3">
                           <a href={member.social.linkedin} className="text-blue-500 hover:text-blue-700 transition-colors">
                             <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
