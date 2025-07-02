@@ -9,11 +9,11 @@ import IASGroupImage from '../assets/images/ias.jpg'
 export default function ChaptersSection() {
   const chapters = [
     {
-      name: "Industrial Applications Society",
-      acronym: "IAS",
-      description: "Focuses on advancing the theory and practice of electrical and electronic engineering in the development and application of industrial systems.",
-      image: IASGroupImage,
-      alt: "Industrial automation and manufacturing systems",
+      name: "Women in Engineering",
+      acronym: "WIE",
+      description: "Empowers women in engineering and fosters diversity and inclusion through events, mentorship, and advocacy.",
+      image: WIEGroupImage,
+      alt: "Women in engineering collaboration and mentorship",
     },
     {
       name: "Robotics and Automation Society",
@@ -23,19 +23,21 @@ export default function ChaptersSection() {
       alt: "Robotics and automation technology",
     },
     {
+      name: "Industrial Applications Society",
+      acronym: "IAS",
+      description: "Focuses on advancing the theory and practice of electrical and electronic engineering in the development and application of industrial systems.",
+      image: IASGroupImage,
+      alt: "Industrial automation and manufacturing systems",
+    },
+
+    {
       name: "Computer Society",
       acronym: "CS",
       description: "Engages students in computing technologies, software engineering, and emerging digital fields.",
       image: CSGroupImage,
       alt: "Computer science and software engineering",
     },
-    {
-      name: "Women in Engineering",
-      acronym: "WiE",
-      description: "Empowers women in engineering and fosters diversity and inclusion through events, mentorship, and advocacy.",
-      image: WIEGroupImage,
-      alt: "Women in engineering collaboration and mentorship",
-    },
+
   ]
 
   // Enhanced color palette
@@ -54,7 +56,7 @@ export default function ChaptersSection() {
         <div className="w-[90%] max-w-7xl px-4 mx-auto">
           {/* Header with improved spacing */}
           <div className="text-center mb-12 md:mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: colors.text }}>Our Chapters</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-4" style={{ color: colors.text }}>Our Chapters & Affinity Groups</h2>
             <div className="w-20 h-1.5 mx-auto mb-6 rounded-full" style={{
               backgroundColor: colors.primary,
               backgroundImage: "linear-gradient(to right, #005596, #0085ca)"

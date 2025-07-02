@@ -65,7 +65,7 @@ export default function AboutSection() {
                         className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed mb-4 sm:mb-6"
                         variants={cardVariants}
                     >
-                        The IEEE Uva Wellassa University Student Branch is a passionate group of students dedicated to promoting
+                        IEEE Uva Wellassa University Student Branch is a passionate group of students dedicated to promoting
                         technology and engineering. Affiliated with IEEE, the world's largest technical organization, we strive
                         to advance innovation for the benefit of humanity.
                     </motion.p>
@@ -74,9 +74,11 @@ export default function AboutSection() {
                         className="text-base sm:text-lg md:text-xl text-gray-700 leading-relaxed mb-8 sm:mb-12"
                         variants={cardVariants}
                     >
-                        Join us for an exciting event featuring technical talks, live demonstrations, and the latest advancements
-                        in technology. Open to students, professionals, and the public, this is your chance to explore IEEE's
-                        activities and emerging tech trends!
+                        Join us for the official welcome and induction of new members into the Student Branch, which is
+                        designed to offer participants a comprehensive introduction to the Institute of Electrical and
+                        Electronics Engineers (IEEE), including its global structure, available opportunities, insights
+                        into the professional and personal development avenues offered, and the transformative impact of
+                        volunteerism.
                     </motion.p>
 
                     {/* Video Section */}

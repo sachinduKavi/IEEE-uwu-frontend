@@ -98,7 +98,7 @@ export default function NavBar() {
                 <img
                     src={Image}
                     alt="IEEE Logo"
-                    className="h-12 w-auto md:h-14"
+                    className="h-8 w-auto md:h-14"
                     loading="eager"
                 />
               </Link>
