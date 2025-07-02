@@ -114,7 +114,7 @@ export default function HeroSection() {
                     >
                         <Button
                             size="lg"
-                            className="mt-10 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500
+                            className="cursor-pointer mt-10 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500
                                        text-white font-semibold px-8 py-6 text-lg rounded-b-md  shadow-lg
                                        transform hover:scale-105 transition-all duration-200 border border-blue-400
                                        focus:ring-2 focus:ring-blue-300 focus:ring-opacity-50 hover:shadow-blue-500/30
