@@ -4,7 +4,7 @@ import '../css/upcomingEventSection.css'
 
 const UpcomingEventSection = () => {
   return (
-    <div >
+    <div id="upcoming-event">
     <h1 className="upcoming-event-title">Upcoming Events</h1>
       <HorizontalScrollSection>
         <EventCard

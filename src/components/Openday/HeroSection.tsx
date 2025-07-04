@@ -84,7 +84,7 @@ export default function HeroSection() {
                     >
                         {[
                             { icon: <Calendar className="w-4 h-4 sm:w-5 sm:h-5" />, text: "July 6, 2025" },
-                            { icon: <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />, text: "Uva Wellassa University" },
+                            { icon: <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />, text: "Technology Lecture Hall - 1" },
                             { icon: <Users className="w-4 h-4 sm:w-5 sm:h-5" />, text: "200+ Attendees" }
                         ].map((item, index) => (
                             <motion.div
