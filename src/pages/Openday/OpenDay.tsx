@@ -1,4 +1,5 @@
 import IEEEOpenDay from "../../components/Openday/IEEEOpenDay.tsx";
+import { Helmet } from 'react-helmet';
 
 const OpenDay = () => {
     return (

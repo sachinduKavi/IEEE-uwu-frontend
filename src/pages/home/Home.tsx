@@ -7,6 +7,7 @@ import Footer from '../../components/Footer.tsx';
 import ChaptersSection from '../../components/Chapters.tsx';
 import NavBar from '../../components/NavBar.tsx';
 import OpenDaySection from "../../components/OpenDaySection.tsx";
+import {Helmet} from 'react-helmet'
 
 export default function Home() {
     return (
