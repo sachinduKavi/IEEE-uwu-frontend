@@ -1,17 +1,13 @@
 import {useState, useRef, useEffect} from 'react';
 import {
     FaLink,
-    FaCopy,
-    FaCheck,
-    FaArrowRight,
     FaGamepad,
     FaTrophy,
     FaRedo,
     FaFacebook,
     FaInstagram,
-    FaLinkedin, FaBan
+    FaLinkedin, FaBan, FaUpload, FaExternalLinkAlt
 } from 'react-icons/fa';
-import {Link} from "react-router-dom";
 import {motion, useInView, AnimatePresence, easeOut} from "framer-motion";
 
 type GameState = 'menu' | 'playing' | 'finished';
@@ -22,11 +18,7 @@ type Question = {
 };
 
 const InteractiveTechPanel = () => {
-    // Quiz panel states
-    const [isCopied, setIsCopied] = useState(false);
-    const quizUrl = `https://ieee-quiz.com/tech-challenge-2023`;
 
-    // Game states
     const [gameState, setGameState] = useState<GameState>('menu');
     const [score, setScore] = useState<number>(0);
     const [timeLeft, setTimeLeft] = useState<number>(30);
@@ -101,13 +93,6 @@ const InteractiveTechPanel = () => {
         return () => clearTimeout(timer);
     }, [timeLeft, gameState]);
 
-    // Quiz panel functions
-    const copyToClipboard = () => {
-        navigator.clipboard.writeText(quizUrl);
-        setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000);
-    };
-
     // Game functions
     const startGame = () => {
         setGameState('playing');
@@ -178,7 +163,7 @@ const InteractiveTechPanel = () => {
         }
     };
 
-    const isDisabled = true;
+    const isDisabled = false;
     return (
         <div className="bg-gradient-to-br from-blue-50 to-indigo-100 pb-10">
             {/* Header Section */}
@@ -236,66 +221,58 @@ const InteractiveTechPanel = () => {
                             </motion.h2>
 
                             <motion.p
-                                className="text-gray-600 mb-4"
+                                className="text-gray-600 mb-6"
                                 variants={itemVariants}
                             >
                                 Join our exclusive gaming competition.
                             </motion.p>
 
                             <motion.div
-                                className="mb-4"
+                                className="flex flex-col space-y-3"
                                 variants={itemVariants}
                             >
-                                <div className="relative">
-                                    <input
-                                        type="text"
-                                        value={quizUrl}
-                                        readOnly
-                                        className="w-full p-2 pr-10 border border-gray-300 rounded-lg bg-gray-50 text-sm text-gray-700 truncate"
-                                    />
-                                    <motion.button
-                                        onClick={copyToClipboard}
-                                        className="absolute right-2 top-1/2 transform -translate-y-1/2 p-1 text-gray-500 hover:text-blue-600 transition"
-                                        title="Copy to clipboard"
-                                        whileHover={{scale: 1.1}}
-                                        whileTap={{scale: 0.9}}
-                                    >
-                                        {isCopied ? <FaCheck className="text-green-500"/> : <FaCopy/>}
-                                    </motion.button>
-                                </div>
-                                {isCopied && (
-                                    <motion.p
-                                        className="text-green-500 text-xs mt-1"
-                                        initial={{opacity: 0, y: -10}}
-                                        animate={{opacity: 1, y: 0}}
-                                        exit={{opacity: 0, y: -10}}
-                                    >
-                                        Copied to clipboard!
-                                    </motion.p>
-                                )}
-                            </motion.div>
-
-                            <motion.div
-                                className="flex flex-col space-y-2"
-                                variants={itemVariants}
-                            >
+                                {/* Access Game Button */}
                                 <motion.div
                                     whileHover={{scale: 1.03}}
                                     whileTap={{scale: 0.97}}
                                 >
-                                    <Link
-                                        to={isDisabled ? '#' : '/quiz'}
+                                    <a
+                                        href="https://game-website.com"  // Replace with actual game URL
+                                        target="_blank"
+                                        rel="noopener noreferrer"
                                         className={`flex items-center justify-center space-x-2 font-medium py-2 px-4 rounded-lg transition-all
-                                         ${isDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 text-white cursor-pointer'}`}
-                                        title={isDisabled ? "Quiz will be available soon" : ""}
+                     ${isDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 text-white cursor-pointer'}`}
+                                        title={isDisabled ? "Game access will be available soon" : ""}
                                     >
-                                        <span>Access Your Quiz</span>
+                                        <span>Access The Game</span>
                                         {isDisabled ? (
-                                            <FaBan className="text-gray-600" />  // Using FaBan for "not allowed" icon
+                                            <FaBan className="text-gray-600"/>
                                         ) : (
-                                            <FaArrowRight />
+                                            <FaExternalLinkAlt/>  // Using external link icon for website
                                         )}
-                                    </Link>
+                                    </a>
+                                </motion.div>
+
+                                {/* Upload Game Works Button */}
+                                <motion.div
+                                    whileHover={{scale: 1.03}}
+                                    whileTap={{scale: 0.97}}
+                                >
+                                    <a
+                                        href="https://drive.google.com/drive/folders/13JjbHm_tWQYHrSWjvSRb8SEQ82rt0Qy8?usp=sharing"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={`flex items-center justify-center space-x-2 font-medium py-2 px-4 rounded-lg transition-all
+                     ${isDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-green-600 hover:bg-green-700 text-white cursor-pointer'}`}
+                                        title={isDisabled ? "Upload will be available soon" : ""}
+                                    >
+                                        <span>Upload Your Works</span>
+                                        {isDisabled ? (
+                                            <FaBan className="text-gray-600"/>
+                                        ) : (
+                                            <FaUpload/>  // Using upload icon
+                                        )}
+                                    </a>
                                 </motion.div>
                             </motion.div>
                         </div>
