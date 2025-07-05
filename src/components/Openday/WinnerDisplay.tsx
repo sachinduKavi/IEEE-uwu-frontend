@@ -94,7 +94,7 @@ const WinnersDisplay = () => {
                 >
                     <div className="inline-flex items-center justify-center bg-gray-700/80 px-6 py-2 rounded-full mb-4 border border-gray-600">
                         <IoSparkles className="text-gray-300 mr-2" />
-                        <span className="text-gray-300 font-medium tracking-wider">IEEE GAMING CREATORS CHALLENGE 2023</span>
+                        <span className="text-gray-300 font-medium tracking-wider">IEEE GAMING CREATORS CHALLENGE 2025</span>
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold text-white mb-4 font-mono tracking-tight">
                         <span className="text-gray-300">WINNERS </span>

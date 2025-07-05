@@ -194,7 +194,7 @@ const InteractiveTechPanel = () => {
                             className="text-3xl md:text-4xl font-bold text-blue-900 mb-3"
                             whileHover={{scale: 1.02}}
                         >
-                            IEEE Tech Challenge 2023
+                            IEEE TECH CHALLENGE 2025
                         </motion.h2>
                         <motion.p
                             className="text-lg md:text-xl text-gray-700 max-w-2xl mx-auto"
@@ -232,14 +232,14 @@ const InteractiveTechPanel = () => {
                                 className="text-xl font-bold text-gray-800 mb-2"
                                 variants={itemVariants}
                             >
-                                IEEE Tech Challenge
+                                IEEE GAMING CREATORS CHALLENGE
                             </motion.h2>
 
                             <motion.p
                                 className="text-gray-600 mb-4"
                                 variants={itemVariants}
                             >
-                                Join our exclusive tech quiz competition.
+                                Join our exclusive gaming competition.
                             </motion.p>
 
                             <motion.div
