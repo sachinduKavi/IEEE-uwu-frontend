@@ -17,7 +17,7 @@ const InteractiveTechPanel = () => {
     const [passwordError, setPasswordError] = useState("");
     const [isCopied, setIsCopied] = useState(false);
     const quizUrl = "https://your-quiz-url.com"; // Replace with your actual URL
-    const correctPassword = "ieee2025"; // Set your password here
+    const correctPassword = "ieeeopenday"; // Set your password here
 
     const handlePasswordSubmit = () => {
         if (password === correctPassword) {

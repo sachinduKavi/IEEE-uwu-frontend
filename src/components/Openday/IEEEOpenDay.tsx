@@ -21,7 +21,7 @@ export default function IEEEOpenDay() {
             <TeamSection />
             <GallerySection />
             <Lightbox selectedImage={selectedImage} setSelectedImage={setSelectedImage} />
-            <WinnerDisplay/>
+            {/*<WinnerDisplay/>*/}
             <InteractiveTechPanel/>
             <Footer />
         </div>
