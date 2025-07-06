@@ -1,9 +1,9 @@
 import {useState, useRef} from 'react';
 import {
-    FaUpload, FaCheck, FaCopy, FaLock, FaGamepad
+    FaUpload, FaExternalLinkAlt, FaCheck, FaCopy, FaLock, FaGamepad
 } from 'react-icons/fa';
 import {motion, useInView, easeOut} from "framer-motion";
-import QRCode from "react-qr-code";
+import qr from '../../assets/images/ieeeQr.jpg'
 
 const InteractiveTechPanel = () => {
     const ref = useRef(null);
@@ -217,12 +217,13 @@ const InteractiveTechPanel = () => {
                                     transition={{duration: 0.3}}
                                 >
                                     <div className="p-4 bg-white rounded-lg border border-gray-200">
-                                        <QRCode
-                                            value={quizUrl}
-                                            size={180}
-                                            level="H"
+                                        <img
+                                            src={qr}
+                                            alt="Quiz QR Code"
+                                            className="w-48 h-48 object-contain"
                                         />
                                     </div>
+                                    
                                     {isCopied && (
                                         <motion.p
                                             className="text-green-500 text-xs"
