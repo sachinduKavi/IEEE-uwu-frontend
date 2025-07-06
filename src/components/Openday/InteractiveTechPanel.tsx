@@ -1,6 +1,6 @@
 import {useState, useRef} from 'react';
 import {
-    FaUpload, FaExternalLinkAlt, FaCheck, FaCopy, FaLock, FaGamepad, FaTimes
+    FaUpload,  FaLock, FaGamepad, FaTimes
 } from 'react-icons/fa';
 import {motion, useInView, easeOut} from "framer-motion";
 import qr from '../../assets/images/ieeeQr.jpg'
@@ -13,7 +13,6 @@ const InteractiveTechPanel = () => {
     const [passwordError, setPasswordError] = useState("");
     const [isCopied, setIsCopied] = useState(false);
     const [showQrModal, setShowQrModal] = useState(false);
-    const quizUrl = "https://create.kahoot.it/";
     const gameUrl = "https://drive.google.com/drive/folders/13JjbHm_tWQYHrSWjvSRb8SEQ82rt0Qy8?usp=sharing";
     const correctPassword = "ieeeopenday";
 
@@ -24,12 +23,6 @@ const InteractiveTechPanel = () => {
         } else {
             setPasswordError("Incorrect password");
         }
-    };
-
-    const copyToClipboard = (url: string) => {
-        navigator.clipboard.writeText(url);
-        setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000);
     };
 
     const toggleQrModal = () => {
