@@ -8,6 +8,7 @@ import Footer from "./Footer"
 import Lightbox from "./Lightbox"
 
 import InteractiveTechPanel from "./InteractiveTechPanel.tsx";
+import WinnerDisplay from "./WinnerDisplay.tsx";
 
 export default function IEEEOpenDay() {
     const [selectedImage, setSelectedImage] = useState<string | null>(null)
@@ -20,6 +21,7 @@ export default function IEEEOpenDay() {
             <TeamSection />
             <GallerySection />
             <Lightbox selectedImage={selectedImage} setSelectedImage={setSelectedImage} />
+            {/*<WinnerDisplay/>*/}
             <InteractiveTechPanel/>
             <Footer />
         </div>
