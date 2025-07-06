@@ -1,6 +1,6 @@
 import {useState, useRef} from 'react';
 import {
-    FaUpload, FaExternalLinkAlt, FaCheck, FaCopy, FaLock, FaGamepad
+    FaUpload, FaExternalLinkAlt, FaCheck, FaCopy, FaLock, FaGamepad, FaTimes
 } from 'react-icons/fa';
 import {motion, useInView, easeOut} from "framer-motion";
 import qr from '../../assets/images/ieeeQr.jpg'
@@ -12,6 +12,7 @@ const InteractiveTechPanel = () => {
     const [showQuizUrl, setShowQuizUrl] = useState(false);
     const [passwordError, setPasswordError] = useState("");
     const [isCopied, setIsCopied] = useState(false);
+    const [showQrModal, setShowQrModal] = useState(false);
     const quizUrl = "https://create.kahoot.it/";
     const gameUrl = "https://drive.google.com/drive/folders/13JjbHm_tWQYHrSWjvSRb8SEQ82rt0Qy8?usp=sharing";
     const correctPassword = "ieeeopenday";
@@ -29,6 +30,10 @@ const InteractiveTechPanel = () => {
         navigator.clipboard.writeText(url);
         setIsCopied(true);
         setTimeout(() => setIsCopied(false), 2000);
+    };
+
+    const toggleQrModal = () => {
+        setShowQrModal(!showQrModal);
     };
 
     // Animation variants
@@ -58,8 +63,55 @@ const InteractiveTechPanel = () => {
         }
     };
 
+    const modalVariants = {
+        hidden: { opacity: 0, scale: 0.8 },
+        visible: { 
+            opacity: 1, 
+            scale: 1,
+            transition: {
+                duration: 0.3,
+                ease: easeOut
+            }
+        }
+    };
+
     return (
-        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 pb-10 min-h-screen">
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 pb-10 ">
+            {/* QR Code Modal */}
+            {showQrModal && (
+                <motion.div 
+                    className="fixed inset-0 bg-black/70 flex items-center justify-center z-50 p-4"
+                    initial={{opacity: 0}}
+                    animate={{opacity: 1}}
+                    exit={{opacity: 0}}
+                    onClick={toggleQrModal}
+                >
+                    <motion.div 
+                        className="bg-white rounded-xl max-w-md w-full p-6 relative"
+                        variants={modalVariants}
+                        initial="hidden"
+                        animate="visible"
+                        onClick={(e) => e.stopPropagation()}
+                    >
+                        <button 
+                            onClick={toggleQrModal}
+                            className="absolute top-4 right-4 text-gray-500 hover:text-gray-700"
+                        >
+                            <FaTimes className="text-xl" />
+                        </button>
+                        <h3 className="text-xl font-bold text-center mb-4">Scan QR Code</h3>
+                        <div className="flex justify-center">
+                            <img 
+                                src={qr} 
+                                alt="Enlarged QR Code" 
+                                className="w-full max-w-full h-auto object-contain" 
+                            />
+                        </div>
+                        
+                    </motion.div>
+                </motion.div>
+            )}
+
             {/* Header Section */}
             <div className="container mx-auto px-4 py-8">
                 <motion.div
@@ -216,13 +268,18 @@ const InteractiveTechPanel = () => {
                                     animate={{opacity: 1}}
                                     transition={{duration: 0.3}}
                                 >
-                                    <div className="p-4 bg-white rounded-lg border border-gray-200">
+                                    <motion.div 
+                                        className="p-4 bg-white rounded-lg border border-gray-200 cursor-pointer hover:shadow-md transition-shadow"
+                                        whileHover={{ scale: 1.02 }}
+                                        whileTap={{ scale: 0.98 }}
+                                        onClick={toggleQrModal}
+                                    >
                                         <img
                                             src={qr}
                                             alt="Quiz QR Code"
                                             className="w-48 h-48 object-contain"
                                         />
-                                    </div>
+                                    </motion.div>
                                     
                                     {isCopied && (
                                         <motion.p
@@ -233,8 +290,9 @@ const InteractiveTechPanel = () => {
                                             Copied to clipboard!
                                         </motion.p>
                                     )}
+                                    
                                     <motion.p className="text-sm text-gray-500">
-                                        Scan the QR code or copy the link to access the quiz
+                                        Scan the QR code or use the buttons above
                                     </motion.p>
                                 </motion.div>
                             )}
