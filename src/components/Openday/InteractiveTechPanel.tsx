@@ -1,43 +1,35 @@
-import {useState, useRef, useEffect} from 'react';
+import {useState, useRef} from 'react';
 import {
-    FaLink,FaBan, FaUpload, FaExternalLinkAlt, FaCheck, FaCopy, FaLock
+    FaUpload, FaCheck, FaCopy, FaLock, FaGamepad
 } from 'react-icons/fa';
-import {motion, useInView,easeOut} from "framer-motion";
-
-type GameState = 'menu' | 'playing' | 'finished';
+import {motion, useInView, easeOut} from "framer-motion";
+import QRCode from "react-qr-code";
 
 const InteractiveTechPanel = () => {
-
-    const [gameState, setGameState] = useState<GameState>('menu');
-    const [timeLeft, setTimeLeft] = useState<number>(30);
     const ref = useRef(null);
     const isInView = useInView(ref, {once: true, margin: "-100px"});
     const [password, setPassword] = useState("");
-    const [showUrl, setShowUrl] = useState(false);
+    const [showQuizUrl, setShowQuizUrl] = useState(false);
     const [passwordError, setPasswordError] = useState("");
     const [isCopied, setIsCopied] = useState(false);
-    const quizUrl = "https://your-quiz-url.com"; // Replace with your actual URL
-    const correctPassword = "ieeeopenday"; // Set your password here
+    const quizUrl = "https://create.kahoot.it/";
+    const gameUrl = "https://drive.google.com/drive/folders/13JjbHm_tWQYHrSWjvSRb8SEQ82rt0Qy8?usp=sharing";
+    const correctPassword = "ieeeopenday";
 
     const handlePasswordSubmit = () => {
         if (password === correctPassword) {
-            setShowUrl(true);
+            setShowQuizUrl(true);
             setPasswordError("");
         } else {
             setPasswordError("Incorrect password");
         }
     };
 
-    // Game timer effect
-    useEffect(() => {
-        let timer: NodeJS.Timeout;
-        if (gameState === 'playing' && timeLeft > 0) {
-            timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000);
-        } else if (gameState === 'playing' && timeLeft === 0) {
-            setGameState('finished');
-        }
-        return () => clearTimeout(timer);
-    }, [timeLeft, gameState]);
+    const copyToClipboard = (url: string) => {
+        navigator.clipboard.writeText(url);
+        setIsCopied(true);
+        setTimeout(() => setIsCopied(false), 2000);
+    };
 
     // Animation variants
     const containerVariants = {
@@ -66,14 +58,8 @@ const InteractiveTechPanel = () => {
         }
     };
 
-    const isDisabled = false;
-    const copyToClipboard = () => {
-        navigator.clipboard.writeText(quizUrl);
-        setIsCopied(true);
-        setTimeout(() => setIsCopied(false), 2000);
-    };
     return (
-        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 pb-10">
+        <div className="bg-gradient-to-br from-blue-50 to-indigo-100 pb-10 min-h-screen">
             {/* Header Section */}
             <div className="container mx-auto px-4 py-8">
                 <motion.div
@@ -105,83 +91,48 @@ const InteractiveTechPanel = () => {
                 className="container mx-auto px-4 mt-5"
             >
                 <div className="w-full max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
-                    {/* Left Panel - Quiz Access */}
+                    {/* Left Panel - Game Upload (Simple Button) */}
                     <motion.div
-                        className="bg-white rounded-xl shadow-xl overflow-hidden"
+                        className="bg-white rounded-xl shadow-xl overflow-hidden h-full"
                         initial="hidden"
                         animate={isInView ? "visible" : "hidden"}
                         variants={containerVariants}
                     >
-                        <div className="p-6 md:p-8 text-center">
+                        <div className="p-6 md:p-8 text-center h-full flex flex-col">
                             <motion.div
                                 className="w-16 h-16 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-4"
                                 variants={itemVariants}
                                 whileHover={{rotate: 5}}
                             >
-                                <FaLink className="text-blue-600 text-2xl"/>
+                                <FaGamepad className="text-blue-600 text-2xl"/>
                             </motion.div>
 
                             <motion.h2
                                 className="text-xl font-bold text-gray-800 mb-2"
                                 variants={itemVariants}
                             >
-                                IEEE GAMING CREATORS CHALLENGE
+                                GAME CREATORS CHALLENGE
                             </motion.h2>
 
                             <motion.p
-                                className="text-gray-600 mb-6"
+                                className="text-gray-600 mb-6 flex-grow"
                                 variants={itemVariants}
                             >
-                                Join our exclusive gaming competition.
+                                Upload your game creations to compete with other participants.
                             </motion.p>
 
-                            <motion.div
-                                className="flex flex-col space-y-3"
-                                variants={itemVariants}
-                            >
-                                {/* Access Game Button */}
-                                <motion.div
+                            <motion.div variants={itemVariants}>
+                                <motion.a
+                                    href={gameUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="bg-blue-600 hover:bg-blue-700 text-white font-medium py-3 px-8 rounded-lg shadow-md flex items-center justify-center space-x-2 mx-auto"
                                     whileHover={{scale: 1.03}}
                                     whileTap={{scale: 0.97}}
                                 >
-                                    <a
-                                        href="https://game-website.com"  // Replace with actual game URL
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className={`flex items-center justify-center space-x-2 font-medium py-2 px-4 rounded-lg transition-all
-                     ${isDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-blue-600 hover:bg-blue-700 text-white cursor-pointer'}`}
-                                        title={isDisabled ? "Game access will be available soon" : ""}
-                                    >
-                                        <span>Access The Game</span>
-                                        {isDisabled ? (
-                                            <FaBan className="text-gray-600"/>
-                                        ) : (
-                                            <FaExternalLinkAlt/>  // Using external link icon for website
-                                        )}
-                                    </a>
-                                </motion.div>
-
-                                {/* Upload Game Works Button */}
-                                <motion.div
-                                    whileHover={{scale: 1.03}}
-                                    whileTap={{scale: 0.97}}
-                                >
-                                    <a
-                                        href="https://drive.google.com/drive/folders/13JjbHm_tWQYHrSWjvSRb8SEQ82rt0Qy8?usp=sharing"
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className={`flex items-center justify-center space-x-2 font-medium py-2 px-4 rounded-lg transition-all
-                     ${isDisabled ? 'bg-gray-400 text-gray-600 cursor-not-allowed' : 'bg-green-600 hover:bg-green-700 text-white cursor-pointer'}`}
-                                        title={isDisabled ? "Upload will be available soon" : ""}
-                                    >
-                                        <span>Upload Your Works</span>
-                                        {isDisabled ? (
-                                            <FaBan className="text-gray-600"/>
-                                        ) : (
-                                            <FaUpload/>  // Using upload icon
-                                        )}
-                                    </a>
-                                </motion.div>
+                                    <FaUpload />
+                                    <span>Upload Your Game</span>
+                                </motion.a>
                             </motion.div>
                         </div>
 
@@ -190,19 +141,19 @@ const InteractiveTechPanel = () => {
                             variants={itemVariants}
                         >
                             <p className="text-xs text-gray-500 text-center">
-                                By participating, you agree to the IEEE Tech Challenge terms
+                                Submissions will be judged by our panel of experts
                             </p>
                         </motion.div>
                     </motion.div>
 
-                    {/* Right Panel - Interactive Game */}
+                    {/* Right Panel - Quiz Access (With Password) */}
                     <motion.div
-                        className="bg-white rounded-xl shadow-xl overflow-hidden"
+                        className="bg-white rounded-xl shadow-xl overflow-hidden h-full"
                         initial="hidden"
                         animate={isInView ? "visible" : "hidden"}
                         variants={containerVariants}
                     >
-                        <div className="p-6 md:p-8 text-center">
+                        <div className="p-6 md:p-8 text-center h-full flex flex-col">
                             <motion.div
                                 className="w-16 h-16 mx-auto bg-indigo-100 rounded-full flex items-center justify-center mb-4"
                                 variants={itemVariants}
@@ -215,17 +166,17 @@ const InteractiveTechPanel = () => {
                                 className="text-xl font-bold text-gray-800 mb-2"
                                 variants={itemVariants}
                             >
-                                IEEE GAMING CREATORS CHALLENGE
+                                KNOWLEDGE CHALLENGE
                             </motion.h2>
 
                             <motion.p
-                                className="text-gray-600 mb-6"
+                                className="text-gray-600 mb-6 flex-grow"
                                 variants={itemVariants}
                             >
-                                Enter pass code to access the quiz
+                                Test your IEEE knowledge with our exclusive quiz
                             </motion.p>
 
-                            {!showUrl ? (
+                            {!showQuizUrl ? (
                                 <motion.div
                                     className="flex flex-col space-y-4"
                                     variants={itemVariants}
@@ -255,31 +206,22 @@ const InteractiveTechPanel = () => {
                                         whileHover={{scale: 1.03}}
                                         whileTap={{scale: 0.97}}
                                     >
-                                        Submit
+                                        Unlock Quiz
                                     </motion.button>
                                 </motion.div>
                             ) : (
                                 <motion.div
-                                    className="flex flex-col space-y-4"
+                                    className="flex flex-col items-center space-y-4"
                                     initial={{opacity: 0}}
                                     animate={{opacity: 1}}
                                     transition={{duration: 0.3}}
                                 >
-                                    <div className="relative">
-                                        <input
-                                            type="text"
+                                    <div className="p-4 bg-white rounded-lg border border-gray-200">
+                                        <QRCode
                                             value={quizUrl}
-                                            readOnly
-                                            className="w-full p-2 pr-10 border border-gray-300 rounded-lg bg-gray-50 text-gray-700"
+                                            size={180}
+                                            level="H"
                                         />
-                                        <motion.button
-                                            onClick={copyToClipboard}
-                                            className="absolute right-2 top-1/2 transform -translate-y-1/2 p-1 text-gray-500 hover:text-blue-600"
-                                            whileHover={{scale: 1.1}}
-                                            whileTap={{scale: 0.9}}
-                                        >
-                                            {isCopied ? <FaCheck className="text-green-500"/> : <FaCopy/>}
-                                        </motion.button>
                                     </div>
                                     {isCopied && (
                                         <motion.p
@@ -290,17 +232,9 @@ const InteractiveTechPanel = () => {
                                             Copied to clipboard!
                                         </motion.p>
                                     )}
-                                    <motion.a
-                                        href={quizUrl}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="bg-green-600 hover:bg-green-700 text-white font-medium py-2 px-6 rounded-lg shadow-md flex items-center justify-center space-x-2"
-                                        whileHover={{scale: 1.03}}
-                                        whileTap={{scale: 0.97}}
-                                    >
-                                        <FaExternalLinkAlt />
-                                        <span>Open Quiz</span>
-                                    </motion.a>
+                                    <motion.p className="text-sm text-gray-500">
+                                        Scan the QR code or copy the link to access the quiz
+                                    </motion.p>
                                 </motion.div>
                             )}
                         </div>
@@ -310,7 +244,7 @@ const InteractiveTechPanel = () => {
                             variants={itemVariants}
                         >
                             <p className="text-xs text-gray-500 text-center">
-                                By participating, you agree to the IEEE Tech Challenge terms
+                                Top scorers will be featured on our leaderboard
                             </p>
                         </motion.div>
                     </motion.div>
