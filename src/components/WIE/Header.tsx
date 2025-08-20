@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import logo from '../../assets/WIE/logo.png';
-import { Button } from "../ui/button";
-import { Menu, X, Home } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { cn } from "../../lib/utils";
 import { NavigationMenu, NavigationMenuItem, NavigationMenuList } from "../ui/navigation-menu";
 
@@ -18,10 +17,6 @@ export default function WIEHeader() {
         { name: "Chapters", to: "#chapters", isAnchor: true },
         { name: "Events", to: "#upcoming-event", isAnchor: true },
     ];
-
-    const handleRegisterClick = () => {
-        window.open("https://lu.ma/nk0m4r6x", "_blank");
-    };
 
     useEffect(() => {
         const handleScroll = () => {
@@ -135,7 +130,7 @@ export default function WIEHeader() {
                                 ))}
                             </NavigationMenuList>
                         </NavigationMenu>
-                        
+
                     </div>
 
                     {/* Mobile menu button */}
