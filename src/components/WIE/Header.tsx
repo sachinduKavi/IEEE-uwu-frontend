@@ -88,7 +88,7 @@ export default function WIEHeader() {
         )}>
             <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
                 <nav className="flex items-center justify-between h-16 md:h-20">
-                    {/* Logo */}
+                    {/* Logo - Made much larger with enhanced visibility */}
                     <div className="flex-shrink-0">
                         <Link
                             to="/"
@@ -101,10 +101,10 @@ export default function WIEHeader() {
                             <img
                                 src={logo}
                                 alt="IEEE WIE Logo"
-                                className="h-40 w-auto md:h-20 transition-all duration-300 hover:scale-105"
+                                className="h-24 w-auto md:h-32 lg:h-40 transition-all duration-300 hover:opacity-90"
                                 loading="eager"
                                 style={{
-                                    filter: "brightness(1.2) contrast(1.1) drop-shadow(0 0 6px rgba(255,255,255,0.4))"
+                                    filter: "brightness(1.4) contrast(1.3) drop-shadow(0 0 10px rgba(255,255,255,0.7))"
                                 }}
                             />
                         </Link>
@@ -126,16 +126,16 @@ export default function WIEHeader() {
                                                 "group relative px-4 py-2 text-sm font-medium rounded-lg transition-all",
                                                 activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
                                                     ? "text-white bg-[#8a3fa9] shadow-md"
-                                                    : "text-white/90 hover:bg-white/10",
+                                                    : "text-white/90 hover:bg-white/10 hover:text-white",
                                             )}
                                         >
                                             {item.name}
                                             <span
                                                 className={cn(
-                                                    "absolute bottom-0 left-1/2 h-0.5 bg-white transition-all duration-300 group-hover:w-4/5 group-hover:left-[10%]",
+                                                    "absolute bottom-0 left-1/2 h-0.5 bg-white transition-all duration-300",
                                                     activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
                                                         ? "w-4/5 left-[10%]"
-                                                        : "w-0",
+                                                        : "w-0 left-1/2",
                                                 )}
                                             ></span>
                                         </Link>
@@ -145,7 +145,7 @@ export default function WIEHeader() {
                         </NavigationMenu>
 
                         <Button
-                            className="ml-2 bg-[#8a3fa9] hover:bg-[#a258c0] text-white shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-0.5 border border-white/30"
+                            className="ml-2 bg-[#8a3fa9] hover:bg-[#a258c0] text-white shadow-lg transition-all duration-200 border border-white/30"
                             size="sm"
                             onClick={handleRegisterClick}
                         >
@@ -155,8 +155,7 @@ export default function WIEHeader() {
                         <Button
                             variant="ghost"
                             size="sm"
-                            className="hover:cursor-pointer bg-white/10 hover:bg-white/20 text-white rounded-full px-3 py-2
-                         border border-white/30 shadow-lg flex items-center gap-2 hover:scale-105 transition-all"
+                            className="bg-white/10 hover:bg-white/20 text-white rounded-full px-3 py-2 border border-white/30 shadow-lg flex items-center gap-2 transition-colors"
                             onClick={() => navigate("/")}
                             aria-label="Back to home"
                         >
@@ -188,7 +187,7 @@ export default function WIEHeader() {
                                         handleNavClick(item.to, item.isAnchor);
                                     }}
                                     className={cn(
-                                        "block px-4 py-2 rounded-md text-[15px] font-medium transition-all",
+                                        "block px-4 py-2 rounded-md text-[15px] font-medium transition-colors",
                                         activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
                                             ? "bg-[#8a3fa9] text-white"
                                             : "hover:bg-white/10"
@@ -207,8 +206,7 @@ export default function WIEHeader() {
                             <Button
                                 variant="ghost"
                                 size="default"
-                                className="w-full hover:cursor-pointer bg-white/10 hover:bg-white/20 text-white rounded-full py-2
-                           border border-white/30 shadow-lg flex justify-center items-center gap-2"
+                                className="w-full bg-white/10 hover:bg-white/20 text-white rounded-full py-2 border border-white/30 shadow-lg flex justify-center items-center gap-2 transition-colors"
                                 onClick={() => navigate("/")}
                             >
                                 <Home className="h-5 w-5" />
