@@ -123,21 +123,13 @@ export default function WIEHeader() {
                                                 handleNavClick(item.to, item.isAnchor);
                                             }}
                                             className={cn(
-                                                "group relative px-4 py-2 text-sm font-medium rounded-lg transition-all",
+                                                "group relative px-4 py-2 text-sm font-medium transition-all",
                                                 activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
-                                                    ? "text-white bg-[#8a3fa9] shadow-md"
-                                                    : "text-white/90 hover:bg-white/10 hover:text-white",
+                                                    ? "text-white border-b-2 border-white font-semibold"
+                                                    : "text-white/90 hover:text-white",
                                             )}
                                         >
                                             {item.name}
-                                            <span
-                                                className={cn(
-                                                    "absolute bottom-0 left-1/2 h-0.5 bg-white transition-all duration-300",
-                                                    activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
-                                                        ? "w-4/5 left-[10%]"
-                                                        : "w-0 left-1/2",
-                                                )}
-                                            ></span>
                                         </Link>
                                     </NavigationMenuItem>
                                 ))}
@@ -187,10 +179,10 @@ export default function WIEHeader() {
                                         handleNavClick(item.to, item.isAnchor);
                                     }}
                                     className={cn(
-                                        "block px-4 py-2 rounded-md text-[15px] font-medium transition-colors",
+                                        "block px-4 py-2 text-[15px] font-medium transition-colors border-l-4 pl-3",
                                         activeLink === item.to || (!item.isAnchor && window.location.pathname === item.to)
-                                            ? "bg-[#8a3fa9] text-white"
-                                            : "hover:bg-white/10"
+                                            ? "text-white border-l-white font-semibold"
+                                            : "border-l-transparent hover:border-l-white/30"
                                     )}
                                 >
                                     {item.name}
