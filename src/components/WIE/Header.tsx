@@ -135,24 +135,7 @@ export default function WIEHeader() {
                                 ))}
                             </NavigationMenuList>
                         </NavigationMenu>
-
-                        <Button
-                            className="ml-2 bg-[#8a3fa9] hover:bg-[#a258c0] text-white shadow-lg transition-all duration-200 border border-white/30"
-                            size="sm"
-                            onClick={handleRegisterClick}
-                        >
-                            Register Now
-                        </Button>
-
-                        <Button
-                            variant="ghost"
-                            size="sm"
-                            className="bg-white/10 hover:bg-white/20 text-white rounded-full px-3 py-2 border border-white/30 shadow-lg flex items-center gap-2 transition-colors"
-                            onClick={() => navigate("/")}
-                            aria-label="Back to home"
-                        >
-                            <Home className="h-4 w-4" />
-                        </Button>
+                        
                     </div>
 
                     {/* Mobile menu button */}
@@ -188,22 +171,7 @@ export default function WIEHeader() {
                                     {item.name}
                                 </Link>
                             ))}
-                            <Button
-                                className="w-full mt-2 bg-[#8a3fa9] hover:bg-[#a258c0] text-white border border-white/30"
-                                size="default"
-                                onClick={handleRegisterClick}
-                            >
-                                Register Now
-                            </Button>
-                            <Button
-                                variant="ghost"
-                                size="default"
-                                className="w-full bg-white/10 hover:bg-white/20 text-white rounded-full py-2 border border-white/30 shadow-lg flex justify-center items-center gap-2 transition-colors"
-                                onClick={() => navigate("/")}
-                            >
-                                <Home className="h-5 w-5" />
-                                <span>Home</span>
-                            </Button>
+
                         </div>
                     </div>
                 )}
