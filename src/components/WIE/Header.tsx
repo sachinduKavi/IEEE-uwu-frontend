@@ -1,5 +1,5 @@
 import { Button } from "../ui/button";
-import logo from '../../assets/open day/logo.png';
+import logo from '../../assets/WIE/logo.png';
 import { Home, Menu, X } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
