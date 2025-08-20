@@ -6,9 +6,8 @@ import TeamSection from "./TeamSection"
 import GallerySection from "./GallerySection"
 import Footer from "./Footer"
 import Lightbox from "./Lightbox"
-
 import InteractiveTechPanel from "./InteractiveTechPanel.tsx";
-import WinnerDisplay from "./WinnerDisplay.tsx";
+
 
 export default function IEEEOpenDay() {
     const [selectedImage, setSelectedImage] = useState<string | null>(null)
