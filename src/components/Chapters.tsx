@@ -1,12 +1,15 @@
 import { Card, CardFooter, CardContent } from "./ui/card"
 import { Button } from "./ui/button"
 import { ArrowRight } from "lucide-react"
+import { useNavigate } from "react-router-dom"
 import CSGroupImage from '../assets/images/cs.jpg'
 import WIEGroupImage from '../assets/images/wie.jpg'
 import RASGroupImage from '../assets/images/ras.jpg'
 import IASGroupImage from '../assets/images/ias.jpg'
 
 export default function ChaptersSection() {
+  const navigate = useNavigate();
+
   const chapters = [
     {
       name: "Women in Engineering",
@@ -14,6 +17,7 @@ export default function ChaptersSection() {
       description: "Empowers women in engineering and fosters diversity and inclusion through events, mentorship, and advocacy.",
       image: WIEGroupImage,
       alt: "Women in engineering collaboration and mentorship",
+      path: "/wie", // Path for navigation
     },
     {
       name: "Robotics and Automation Society",
@@ -21,6 +25,7 @@ export default function ChaptersSection() {
       description: "Dedicated to promoting innovation, education, and collaboration in robotics and automation technologies.",
       image: RASGroupImage,
       alt: "Robotics and automation technology",
+      path: "/ras", // Path for navigation
     },
     {
       name: "Industrial Applications Society",
@@ -28,17 +33,22 @@ export default function ChaptersSection() {
       description: "Focuses on advancing the theory and practice of electrical and electronic engineering in the development and application of industrial systems.",
       image: IASGroupImage,
       alt: "Industrial automation and manufacturing systems",
+      path: "/ias", // Path for navigation
     },
-
     {
       name: "Computer Society",
       acronym: "CS",
       description: "Engages students in computing technologies, software engineering, and emerging digital fields.",
       image: CSGroupImage,
       alt: "Computer science and software engineering",
+      path: "/cs", // Path for navigation
     },
-
   ]
+
+  // Function to handle navigation to chapter page
+  const navigateToChapter = (path) => {
+    navigate(path);
+  };
 
   // Enhanced color palette
   const colors = {
@@ -111,6 +121,7 @@ export default function ChaptersSection() {
 
                   <CardFooter className="px-6 pb-6 pt-0">
                     <Button
+                        onClick={() => navigateToChapter(chapter.path)}
                         className="w-full transition-all duration-300 hover:scale-[1.02] group-hover:shadow-md"
                         style={{
                           backgroundColor: colors.primary,
