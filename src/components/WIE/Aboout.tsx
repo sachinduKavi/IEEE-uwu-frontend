@@ -31,7 +31,7 @@ export default function WIEAbout() {
                 {/* Section Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                        About <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">IEEE WIE</span>
+                        About <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">UWU IEEE WIE</span>
                     </h2>
                     <div className="w-20 h-1 bg-gradient-to-r from-purple-500 to-pink-500 mx-auto"></div>
                 </div>
