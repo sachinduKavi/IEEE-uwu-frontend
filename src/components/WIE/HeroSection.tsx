@@ -25,41 +25,41 @@ export default function WIEHero() {
     }, [heroTexts.length]);
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden">
-            {/* Background with gradient matching header */}
-            <div className="absolute inset-0 bg-gradient-to-br from-[#2c1b5f] via-[#3a176d] to-[#44154b] z-0"></div>
+        <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden bg-white">
+            {/* Decorative elements */}
+            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-purple-50 to-white z-0"></div>
 
-            {/* Animated background elements */}
-            <div className="absolute inset-0 z-0 opacity-20">
-                {[...Array(15)].map((_, i) => (
-                    <div
-                        key={i}
-                        className="absolute rounded-full bg-white"
-                        style={{
-                            top: `${Math.random() * 100}%`,
-                            left: `${Math.random() * 100}%`,
-                            width: `${Math.random() * 100 + 20}px`,
-                            height: `${Math.random() * 100 + 20}px`,
-                            opacity: Math.random() * 0.2 + 0.1,
-                            animation: `pulse ${Math.random() * 10 + 5}s infinite alternate`
-                        }}
-                    ></div>
-                ))}
+            {/* Floating shapes with purple theme */}
+            <div className="absolute inset-0 z-0 opacity-40">
+                {/* Large circle */}
+                <div className="absolute top-1/4 -left-24 w-72 h-72 rounded-full bg-purple-100"></div>
+                {/* Medium circle */}
+                <div className="absolute top-1/2 -right-16 w-48 h-48 rounded-full bg-purple-200"></div>
+                {/* Small circle */}
+                <div className="absolute bottom-1/4 left-1/4 w-32 h-32 rounded-full bg-purple-300"></div>
+                {/* Triangle */}
+                <div className="absolute bottom-1/3 right-1/4 w-40 h-40 bg-purple-100 transform rotate-45"></div>
             </div>
 
             {/* Content */}
             <div className="relative z-10 container mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center text-center">
                 <div className="max-w-4xl mx-auto">
-                    {/* Main heading with animated text */}
-                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-                        IEEE <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-300 to-pink-300">Women in Engineering</span>
+                    {/* Main heading with purple accent */}
+                    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 mb-6 leading-tight">
+                        IEEE <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-800">Women in Engineering</span>
                     </h1>
 
+                    {/* Animated subtitle */}
                     <div className="h-20 md:h-24 mb-8 flex items-center justify-center">
-                        <h2 className={`text-xl md:text-2xl lg:text-3xl text-white/90 transition-opacity duration-500 ${fade ? 'opacity-100' : 'opacity-0'}`}>
+                        <h2 className={`text-xl md:text-2xl lg:text-3xl text-gray-700 transition-opacity duration-500 ${fade ? 'opacity-100' : 'opacity-0'}`}>
                             {heroTexts[currentTextIndex]}
                         </h2>
                     </div>
+
+                    {/* Description */}
+                    <p className="text-lg text-gray-600 max-w-2xl mx-auto mb-10">
+                        Dedicated to promoting women engineers and scientists, and inspiring girls around the world to follow their academic interests in a career in engineering and science.
+                    </p>
 
                     {/* Call to action buttons */}
                     <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
@@ -69,7 +69,7 @@ export default function WIEHero() {
                                 e.preventDefault();
                                 document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
                             }}
-                            className="px-8 py-3 bg-white text-[#2c1b5f] font-semibold rounded-full hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg"
+                            className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-semibold rounded-full hover:from-purple-700 hover:to-purple-900 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-200"
                         >
                             Learn More
                         </Link>
@@ -79,48 +79,21 @@ export default function WIEHero() {
                                 e.preventDefault();
                                 document.querySelector('#upcoming-event')?.scrollIntoView({ behavior: 'smooth' });
                             }}
-                            className="px-8 py-3 border-2 border-white text-white font-semibold rounded-full hover:bg-white/10 transition-all duration-300 transform hover:scale-105"
+                            className="px-8 py-3 border-2 border-purple-600 text-purple-700 font-semibold rounded-full hover:bg-purple-50 transition-all duration-300 transform hover:scale-105"
                         >
                             Upcoming Events
                         </Link>
                     </div>
                 </div>
+                
 
-                {/* Stats section */}
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-10 mt-20 md:mt-28 text-white">
-                    <div className="text-center">
-                        <div className="text-3xl md:text-4xl font-bold mb-2">20K+</div>
-                        <div className="text-sm md:text-base opacity-80">Members Worldwide</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-3xl md:text-4xl font-bold mb-2">500+</div>
-                        <div className="text-sm md:text-base opacity-80">Affinity Groups</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-3xl md:text-4xl font-bold mb-2">100+</div>
-                        <div className="text-sm md:text-base opacity-80">Countries</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-3xl md:text-4xl font-bold mb-2">30+</div>
-                        <div className="text-sm md:text-base opacity-80">Years of Impact</div>
-                    </div>
-                </div>
-
-                {/* Scroll indicator */}
+                {/* Scroll indicator with purple accent */}
                 <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-                    <div className="w-6 h-10 border-2 border-white rounded-full flex justify-center">
-                        <div className="w-1 h-3 bg-white rounded-full mt-2"></div>
+                    <div className="w-6 h-10 border-2 border-purple-600 rounded-full flex justify-center">
+                        <div className="w-1 h-3 bg-purple-600 rounded-full mt-2"></div>
                     </div>
                 </div>
             </div>
-
-            {/* Add styles for the pulse animation */}
-      {/*      <style jsx>{`*/}
-      {/*  @keyframes pulse {*/}
-      {/*    0% { transform: scale(1); opacity: 0.1; }*/}
-      {/*    100% { transform: scale(1.5); opacity: 0.3; }*/}
-      {/*  }*/}
-      {/*`}</style>*/}
         </section>
     );
 }
