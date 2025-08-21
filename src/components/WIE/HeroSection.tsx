@@ -115,12 +115,12 @@ export default function WIEHero() {
             </div>
 
             {/* Add styles for the pulse animation */}
-            <style jsx>{`
-        @keyframes pulse {
-          0% { transform: scale(1); opacity: 0.1; }
-          100% { transform: scale(1.5); opacity: 0.3; }
-        }
-      `}</style>
+      {/*      <style jsx>{`*/}
+      {/*  @keyframes pulse {*/}
+      {/*    0% { transform: scale(1); opacity: 0.1; }*/}
+      {/*    100% { transform: scale(1.5); opacity: 0.3; }*/}
+      {/*  }*/}
+      {/*`}</style>*/}
         </section>
     );
 }
