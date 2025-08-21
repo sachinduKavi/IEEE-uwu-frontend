@@ -85,7 +85,7 @@ export default function WIEHero() {
                         </Link>
                     </div>
                 </div>
-                
+
             </div>
         </section>
     );
