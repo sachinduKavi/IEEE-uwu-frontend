@@ -45,24 +45,27 @@ export default function WIEAbout() {
                                 Who We Are
                             </h3>
                             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                                IEEE Women in Engineering (WIE) is one of the largest international professional organizations dedicated to promoting women engineers and scientists and inspiring girls around the world to follow their academic interests in a career in engineering.
+                                IEEE Women in Engineering (WIE) is a global organization dedicated to promoting women in engineering and science.
+                            </p>
+                            <p className="text-lg text-gray-300 leading-relaxed mb-6">
+                                Established in 2016 at UWU Student Branch, our WIE Affinity Group has been actively empowering female undergraduates in IT and engineering through various initiatives under the guidance of Dr. L.K. Narangammana.
                             </p>
                             <p className="text-lg text-gray-300 leading-relaxed">
-                                Our mission is to facilitate the recruitment and retention of women in technical disciplines globally. We envision a vibrant community of IEEE women and men collectively using their diverse talents to innovate for the benefit of humanity.
+                                We've launched pioneering programs like Sri Lanka's first ladies-only hackathon "SHECODERess," along with career guidance workshops and design hackathons that inspire and support young women in technology fields.
                             </p>
                         </div>
 
                         {/* Stats */}
-                        <div className="grid grid-cols-2 gap-6 mt-10">
-                            <div className="text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm border border-white/10">
-                                <div className="text-3xl font-bold text-purple-400">200+</div>
-                                <div className="text-sm text-gray-300">Affinity Groups</div>
-                            </div>
-                            <div className="text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm border border-white/10">
-                                <div className="text-3xl font-bold text-purple-400">20K+</div>
-                                <div className="text-sm text-gray-300">Members Worldwide</div>
-                            </div>
-                        </div>
+                        {/*<div className="grid grid-cols-2 gap-6 mt-10">*/}
+                        {/*    <div className="text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm border border-white/10">*/}
+                        {/*        <div className="text-3xl font-bold text-purple-400">200+</div>*/}
+                        {/*        <div className="text-sm text-gray-300">Affinity Groups</div>*/}
+                        {/*    </div>*/}
+                        {/*    <div className="text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm border border-white/10">*/}
+                        {/*        <div className="text-3xl font-bold text-purple-400">20K+</div>*/}
+                        {/*        <div className="text-sm text-gray-300">Members Worldwide</div>*/}
+                        {/*    </div>*/}
+                        {/*</div>*/}
                     </div>
 
                     {/* Image/Graphic */}
