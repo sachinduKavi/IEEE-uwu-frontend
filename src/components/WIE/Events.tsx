@@ -1,9 +1,20 @@
 import { useState, useRef, useEffect } from "react";
 
+// Define the Event type
+interface Event {
+    title: string;
+    tagline: string;
+    description: string;
+    icon: string;
+    color: string;
+    participants: string;
+    date: string;
+}
+
 export default function WIEEventsTimeline() {
-    const [activeEvent, setActiveEvent] = useState(0);
-    const [isVisible, setIsVisible] = useState(false);
-    const sectionRef = useRef(null);
+    const [activeEvent, setActiveEvent] = useState<number>(0);
+    const [isVisible, setIsVisible] = useState<boolean>(false);
+    const sectionRef = useRef<HTMLElement>(null);
 
     useEffect(() => {
         const observer = new IntersectionObserver(
@@ -26,7 +37,7 @@ export default function WIEEventsTimeline() {
         };
     }, []);
 
-    const events = [
+    const events: Event[] = [
         {
             title: "WIE Nexus",
             tagline: "Introduction to Women in Engineering",
@@ -66,7 +77,7 @@ export default function WIEEventsTimeline() {
         {
             title: "WomenWrit Competition",
             tagline: "Empowering Women's Creativity and Innovation",
-            description: "The WomenWrit Competition, organized by the WIE Affinity Group, is an annual article writing contest celebrating women's contributions in engineering and beyond. Focused on this year’s theme, \"Women Shaping a Bold Future in 2050,\" the competition encouraged students to explore topics like technological leadership, economic empowerment, and healthcare advancements. It provided a platform for intellectual discourse, with winners receiving cash prizes and certificates for their outstanding contributions.",
+            description: "The WomenWrit Competition, organized by the WIE Affinity Group, is an annual article writing contest celebrating women's contributions in engineering and beyond. Focused on this year's theme, \"Women Shaping a Bold Future in 2050,\" the competition encouraged students to explore topics like technological leadership, economic empowerment, and healthcare advancements. It provided a platform for intellectual discourse, with winners receiving cash prizes and certificates for their outstanding contributions.",
             icon: "✍️",
             color: "bg-amber-500",
             participants: "",
@@ -111,7 +122,7 @@ export default function WIEEventsTimeline() {
         {
             title: "Rode To Role",
             tagline: "Career Guidance Session",
-            description: "The \"Rode to Role\" career guidance session is tailored to provide in-depth insights into the role of a Business Analyst (BA) in the tech industry. This session is designed to give students a comprehensive understanding of the key responsibilities, required skills, industry trends, and growth opportunities for aspiring Business Analysts. Led by Ms. Thashini Kamalka, a Business Analyst at SimCentric Technologies, the session offers real-world knowledge and guidance, helping students understand what it takes to succeed in this field. Focused on passionate students aiming to pursue a career as a BA, this session equips them with valuable insights into the industry’s expectations and skill requirements",
+            description: "The \"Rode to Role\" career guidance session is tailored to provide in-depth insights into the role of a Business Analyst (BA) in the tech industry. This session is designed to give students a comprehensive understanding of the key responsibilities, required skills, industry trends, and growth opportunities for aspiring Business Analysts. Led by Ms. Thashini Kamalka, a Business Analyst at SimCentric Technologies, the session offers real-world knowledge and guidance, helping students understand what it takes to succeed in this field. Focused on passionate students aiming to pursue a career as a BA, this session equips them with valuable insights into the industry's expectations and skill requirements",
             icon: "🧭",
             color: "bg-orange-500",
             participants: "",
@@ -138,7 +149,7 @@ export default function WIEEventsTimeline() {
         {
             title: "CIRCUSTYLE",
             tagline: "Where Circuits Meet Couture",
-            description: "CircuStyle is a groundbreaking inter-university competition that merges fashion design and technology. It challenges undergraduates from engineering, tech, and fashion backgrounds to form gender-inclusive teams and create wearable garments enhanced with electronics. Whether it’s a glowing dress, sound-reactive fabric, or accessories with sensors, CircuStyle is all about designing garments that do something, using tools like Arduino, sensors, and circuits.",
+            description: "CircuStyle is a groundbreaking inter-university competition that merges fashion design and technology. It challenges undergraduates from engineering, tech, and fashion backgrounds to form gender-inclusive teams and create wearable garments enhanced with electronics. Whether it's a glowing dress, sound-reactive fabric, or accessories with sensors, CircuStyle is all about designing garments that do something, using tools like Arduino, sensors, and circuits.",
             icon: "👗",
             color: "bg-fuchsia-500",
             participants: "",
@@ -161,14 +172,35 @@ export default function WIEEventsTimeline() {
                 </div>
 
                 <div className="flex flex-col lg:flex-row gap-12">
-                    {/* Event Selector - Circular Navigation */}
-                    <div className="lg:w-1/3 relative">
+                    {/* Event Selector - Tech-Inspired Circular Navigation */}
+                    <div className="lg:w-2/5 relative">
                         <div className="sticky top-28">
-                            <div className="relative h-80 w-80 mx-auto">
+                            <div className="relative mx-auto" style={{ width: '380px', height: '380px' }}>
+                                {/* Outer tech ring */}
+                                <div className="absolute inset-0 rounded-full border-2 border-purple-500/30 flex items-center justify-center">
+                                    <div className="absolute inset-0 rounded-full border border-purple-400/20 animate-pulse" style={{ animationDuration: '3s' }}></div>
+                                </div>
+
+                                {/* Inner tech ring */}
+                                <div className="absolute inset-10 rounded-full border border-purple-400/40 flex items-center justify-center">
+                                    <div className="absolute inset-0 rounded-full border border-purple-300/10"></div>
+                                </div>
+
+                                {/* Connection lines */}
+                                <div className="absolute inset-0">
+                                    {Array.from({ length: 12 }).map((_, i) => (
+                                        <div
+                                            key={i}
+                                            className="absolute top-1/2 left-1/2 w-1/2 h-px bg-purple-400/30 origin-left"
+                                            style={{ transform: `rotate(${i * 30}deg)` }}
+                                        ></div>
+                                    ))}
+                                </div>
+
                                 {events.map((event, index) => {
                                     const angle = (index * 360) / events.length;
                                     const radian = (angle * Math.PI) / 180;
-                                    const radius = 120;
+                                    const radius = 150;
                                     const x = radius * Math.cos(radian);
                                     const y = radius * Math.sin(radian);
 
@@ -176,89 +208,119 @@ export default function WIEEventsTimeline() {
                                         <button
                                             key={index}
                                             onClick={() => setActiveEvent(index)}
-                                            className={`absolute w-16 h-16 rounded-full flex items-center justify-center text-2xl transition-all duration-500 transform ${
+                                            className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 transform ${
                                                 activeEvent === index
-                                                    ? 'scale-125 border-2 border-white shadow-lg z-10'
-                                                    : 'scale-100 opacity-80 hover:opacity-100'
+                                                    ? 'scale-110 border-2 border-white shadow-lg z-10 bg-gray-900'
+                                                    : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800'
                                             } ${event.color}`}
                                             style={{
-                                                left: `calc(50% + ${x}px - 2rem)`,
-                                                top: `calc(50% + ${y}px - 2rem)`,
-                                                transform: `translate(-50%, -50%) ${activeEvent === index ? 'scale(1.25)' : 'scale(1)'}`,
-                                                transitionDelay: `${index * 30}ms`
+                                                left: `calc(50% + ${x}px - 1.75rem)`,
+                                                top: `calc(50% + ${y}px - 1.75rem)`,
                                             }}
                                         >
                                             {event.icon}
+                                            {/* Active indicator */}
+                                            {activeEvent === index && (
+                                                <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-green-400 animate-ping"></div>
+                                            )}
                                         </button>
                                     );
                                 })}
 
-                                {/* Center display */}
+                                {/* Center display - Tech element */}
                                 <div className="absolute inset-0 flex items-center justify-center">
-                                    <div className="w-32 h-32 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 flex flex-col items-center justify-center text-center p-4 shadow-xl">
-                                        <span className="text-white text-sm font-bold">{events[activeEvent].date}</span>
-                                        <span className="text-white text-3xl mt-1">{events[activeEvent].icon}</span>
+                                    <div className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-600 to-pink-600 flex flex-col items-center justify-center text-center p-4 shadow-xl border border-purple-300/30">
+                                        <div className="text-xs text-purple-200 font-mono">EVENT</div>
+                                        <span className="text-white text-lg font-bold mt-1">{events[activeEvent].date}</span>
+                                        <div className="text-white text-xl mt-1">{events[activeEvent].icon}</div>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="text-center mt-8">
-                                <h3 className="text-2xl font-bold text-purple-300">{events[activeEvent].title}</h3>
-                                <p className="text-gray-300">{events[activeEvent].tagline}</p>
+                                <h3 className="text-2xl font-bold text-purple-300 mb-2">{events[activeEvent].title}</h3>
+                                <p className="text-gray-300 text-sm">{events[activeEvent].tagline}</p>
+                                <div className="mt-4 flex justify-center space-x-2">
+                                    <button
+                                        onClick={() => setActiveEvent(activeEvent === 0 ? events.length - 1 : activeEvent - 1)}
+                                        className="w-8 h-8 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors text-xs"
+                                    >
+                                        ←
+                                    </button>
+                                    <span className="text-xs text-gray-400 flex items-center">
+                    {activeEvent + 1} / {events.length}
+                  </span>
+                                    <button
+                                        onClick={() => setActiveEvent(activeEvent === events.length - 1 ? 0 : activeEvent + 1)}
+                                        className="w-8 h-8 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors text-xs"
+                                    >
+                                        →
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     {/* Event Details */}
-                    <div className="lg:w-2/3">
-                        <div className="bg-gradient-to-br from-purple-900/30 to-pink-900/20 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/30 h-full">
+                    <div className="lg:w-3/5">
+                        <div className="bg-gradient-to-br from-purple-900/30 to-pink-900/20 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/30 h-full min-h-[500px] flex flex-col">
                             <div className="flex items-start mb-6">
-                                <div className={`w-14 h-14 rounded-full flex items-center justify-center text-2xl mr-4 ${events[activeEvent].color}`}>
+                                <div className={`w-12 h-12 rounded-lg flex items-center justify-center text-xl mr-4 ${events[activeEvent].color} shadow-md`}>
                                     {events[activeEvent].icon}
                                 </div>
                                 <div>
                                     <h3 className="text-2xl font-bold">{events[activeEvent].title}</h3>
-                                    <p className="text-purple-300">{events[activeEvent].tagline}</p>
+                                    <p className="text-purple-300 text-sm">{events[activeEvent].tagline}</p>
                                     {events[activeEvent].participants && (
-                                        <div className="mt-2 inline-flex items-center bg-white/10 px-3 py-1 rounded-full text-sm">
+                                        <div className="mt-2 inline-flex items-center bg-white/10 px-3 py-1 rounded-full text-xs">
                                             👥 {events[activeEvent].participants}
                                         </div>
                                     )}
                                 </div>
                             </div>
 
-                            <p className="text-gray-200 text-lg leading-relaxed mb-6">
-                                {events[activeEvent].description}
-                            </p>
+                            <div className="flex-grow overflow-y-auto pr-2 custom-scrollbar">
+                                <p className="text-gray-200 leading-relaxed">
+                                    {events[activeEvent].description}
+                                </p>
+                            </div>
 
-                            <div className="flex space-x-4">
-                                <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-full text-sm transition-colors">
+                            <div className="flex space-x-4 mt-6 pt-4 border-t border-purple-500/20">
+                                <button className="px-4 py-2 bg-purple-600 hover:bg-purple-700 rounded-lg text-sm transition-colors flex items-center">
+                                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                    </svg>
                                     Learn More
                                 </button>
-                                <button className="px-4 py-2 border border-purple-500 text-purple-300 hover:bg-purple-500/10 rounded-full text-sm transition-colors">
+                                <button className="px-4 py-2 border border-purple-500 text-purple-300 hover:bg-purple-500/10 rounded-lg text-sm transition-colors flex items-center">
+                                    <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+                                    </svg>
                                     View Gallery
                                 </button>
                             </div>
                         </div>
-
-                        {/* Navigation Controls */}
-                        <div className="flex justify-center mt-8 space-x-4">
-                            <button
-                                onClick={() => setActiveEvent(activeEvent === 0 ? events.length - 1 : activeEvent - 1)}
-                                className="w-12 h-12 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors"
-                            >
-                                ←
-                            </button>
-                            <button
-                                onClick={() => setActiveEvent(activeEvent === events.length - 1 ? 0 : activeEvent + 1)}
-                                className="w-12 h-12 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors"
-                            >
-                                →
-                            </button>
-                        </div>
                     </div>
                 </div>
             </div>
+
+            {/* Add custom scrollbar styles to your global CSS file */}
+            <style>{`
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: rgba(192, 132, 252, 0.5);
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+          background: rgba(192, 132, 252, 0.7);
+        }
+      `}</style>
         </section>
     );
 }
