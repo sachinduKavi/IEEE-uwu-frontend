@@ -30,7 +30,7 @@ export default function WIEEventsTimeline() {
         {
             title: "WIE Nexus",
             tagline: "Introduction to Women in Engineering",
-            description: "An educational initiative introducing students to the role of WIE within IEEE, covering IEEE's mission, WIE's contributions, and benefits of joining.",
+            description: "“Women in Engineering (WIE) Nexus” is an educational initiative introducing students to the role of WIE within IEEE. The session covered IEEE’s mission, WIE’s contributions, and the benefits of joining WIE, such as access to exclusive events, volunteering opportunities, and a supportive network. The session concluded with an interactive quiz, reinforcing key points and encouraging future involvement.",
             icon: "🚀",
             color: "bg-purple-500",
             participants: "",
@@ -39,7 +39,7 @@ export default function WIEEventsTimeline() {
         {
             title: "ZeroCyBull Webinar",
             tagline: "Tackling Cyberbullying Through Industry Collaboration",
-            description: "Hosted with DirectFN, this webinar attracted 120 participants and offered insights into cyberbullying's psychological impact, prevention techniques, and support resources.",
+            description: "The WIE Affinity Group, in partnership with DirectFN, hosted the \"ZeroCyBull\" webinar on tackling cyberbullying, attracting 120 participants from various universities. The event offered insights into the psychological impact of cyberbullying, prevention techniques, and support resources. This collaboration highlighted the value of industry-academic partnerships in addressing modern challenges, raising awareness about digital safety, and equipping participants with tools for responsible online behavior.",
             icon: "🛡️",
             color: "bg-blue-500",
             participants: "120 participants",
@@ -48,7 +48,7 @@ export default function WIEEventsTimeline() {
         {
             title: "WIE Ruwathi Yuwathiya",
             tagline: "Empowering Female Designers in the Age of AI",
-            description: "A design competition focusing on AI-generated nature and landscapes with 25 participants, judged through public voting and expert evaluation.",
+            description: "The \"WIE Ruwathi Yuwathiya\" Design Competition empowers female designers by addressing gender disparities in the creative arts. This year's theme focused on AI-generated nature and landscapes. The competition featured 25 participants and was judged through public voting and expert evaluation.Two winners were selected by a distinguished panel and awarded cash prizes, highlighting their exceptional talent and the transformative potential of AI in design.",
             icon: "🎨",
             color: "bg-pink-500",
             participants: "25 participants",
@@ -57,7 +57,7 @@ export default function WIEEventsTimeline() {
         {
             title: "Pixel Perfect",
             tagline: "A UI/UX Webinar Shaping Future Designers",
-            description: "An in-depth exploration of UI/UX design covering foundational concepts, prototyping techniques, and career opportunities with over 170 participants.",
+            description: "\"Pixel Perfect,\" a UI/UX webinar organized by the IEEE WIE Affinity Group on June 28, 2024, offered an in-depth exploration of UI/UX design, covering foundational concepts, prototyping techniques, and career opportunities. Supported by Exe.lk, the event featured expert speakers and attracted over 170 undergraduate students from across Sri Lanka.Participants were challenged to develop a prototype for a Travel Booking App, with the winning design recognized for its innovation, underscoring the value of hands-on learning in shaping future designers.",
             icon: "✨",
             color: "bg-teal-500",
             participants: "170+ participants",
@@ -66,7 +66,7 @@ export default function WIEEventsTimeline() {
         {
             title: "WomenWrit Competition",
             tagline: "Empowering Women's Creativity and Innovation",
-            description: "An annual article writing contest celebrating women's contributions with the theme 'Women Shaping a Bold Future in 2050'.",
+            description: "The WomenWrit Competition, organized by the WIE Affinity Group, is an annual article writing contest celebrating women's contributions in engineering and beyond. Focused on this year’s theme, \"Women Shaping a Bold Future in 2050,\" the competition encouraged students to explore topics like technological leadership, economic empowerment, and healthcare advancements. It provided a platform for intellectual discourse, with winners receiving cash prizes and certificates for their outstanding contributions.",
             icon: "✍️",
             color: "bg-amber-500",
             participants: "",
@@ -75,7 +75,7 @@ export default function WIEEventsTimeline() {
         {
             title: "SheShine",
             tagline: "Celebrating Women's Voices and Visions",
-            description: "An inspiring event featuring industry experts sharing insights on career development, leadership, and overcoming challenges in tech.",
+            description: "SheShine is an inspiring event organized to empower and celebrate women in technology and engineering. Hosted by the IEEE Women in Engineering (WIE) affinity group at Uva Wellassa University, the event provides a platform for aspiring female professionals to connect, learn, and grow.  This session featured industry experts, including Ms. Thrividya Liyanarachchi, a past secretary of the IEEE UWU Student Branch, who shared valuable insights on career development, leadership, and overcoming challenges in the tech industry. With 45 attendees, SheShine fostered meaningful discussions, networking opportunities, and motivation for young women to excel in their respective fields.",
             icon: "🌟",
             color: "bg-rose-500",
             participants: "45 attendees",
@@ -84,7 +84,7 @@ export default function WIEEventsTimeline() {
         {
             title: "Bug Hunt",
             tagline: "Mastering Software Testing",
-            description: "A webinar focused on software testing essentials, methodologies, and industry best practices led by Mr. Kapila Senevirathna.",
+            description: "The \"Bug Hunt\" webinar, held in collaboration with Exactpro and led by Mr. Kapila Senevirathna, focused on software testing essentials. Participants gained a comprehensive understanding of testing methodologies, industry best practices, and emerging trends.The session emphasized the critical role of testing in the development lifecycle, equipping students with valuable skills and insights to excel in this field. The event was highly engaging, with active participant interaction.",
             icon: "🐞",
             color: "bg-green-500",
             participants: "",
@@ -93,7 +93,7 @@ export default function WIEEventsTimeline() {
         {
             title: "IEEE Open Day 2024",
             tagline: "Showcasing IEEE Membership Benefits",
-            description: "A day of activities including workshops, networking, and training emphasizing IEEE's impact on personal and professional development.",
+            description: "IEEE Open Day 2024, held on August 3 by the IEEE Uva Wellassa University Student Branch in collaboration with WIE, showcased the benefits of IEEE membership through a day of activities, including workshops, networking, and training.  The event emphasized the impact of IEEE on personal and professional development, motivating students to excel and contribute to the community by highlighting the career paths using a career guidance map.  Students were informed about various career opportunities and engaged in interactive sessions where they asked questions about IEEE and WIE. Gifts were also distributed to participants, making the experience both informative and rewarding.",
             icon: "🎪",
             color: "bg-indigo-500",
             participants: "",
@@ -102,7 +102,7 @@ export default function WIEEventsTimeline() {
         {
             title: "Industry Visit",
             tagline: "Exploring Tech Innovations and Career Paths",
-            description: "A visit to WSO2 providing firsthand experience with industry trends and interaction with professionals.",
+            description: "The industry Visit provides a unique opportunity for undergraduate students of Uva Wellassa University to gain firsthand experience and exposure to the latest industry trends and practices. Hosted at WSO2, a leading technology company. the visit allows participants to Interact directly with industry professionals, learning about the innovative technologies and strategies driving the sector. Students will gain a deeper understanding of the various roles within the industry, discover potential career paths, and gain valuable insights into the practical applications of their academic knowledge. This visit aims to bridge the gap between classroom tearning and real-world industry experience.",
             icon: "🏢",
             color: "bg-cyan-500",
             participants: "",
@@ -111,7 +111,7 @@ export default function WIEEventsTimeline() {
         {
             title: "Rode To Role",
             tagline: "Career Guidance Session",
-            description: "Focused on the role of a Business Analyst, led by Ms. Thashini Kamalka from SimCentric Technologies.",
+            description: "The \"Rode to Role\" career guidance session is tailored to provide in-depth insights into the role of a Business Analyst (BA) in the tech industry. This session is designed to give students a comprehensive understanding of the key responsibilities, required skills, industry trends, and growth opportunities for aspiring Business Analysts. Led by Ms. Thashini Kamalka, a Business Analyst at SimCentric Technologies, the session offers real-world knowledge and guidance, helping students understand what it takes to succeed in this field. Focused on passionate students aiming to pursue a career as a BA, this session equips them with valuable insights into the industry’s expectations and skill requirements",
             icon: "🧭",
             color: "bg-orange-500",
             participants: "",
@@ -120,7 +120,7 @@ export default function WIEEventsTimeline() {
         {
             title: "WiSTEM",
             tagline: "Awareness Session on STEM Careers & Gender Equality",
-            description: "Inspiring Advanced Level students to explore STEM careers while promoting gender equality at Viharamahadevi Girls' High School.",
+            description: "The WiSTEM Awareness Session at Viharamahadevi Girls' High School, Badulla, in collaboration with the IEEE WIE Affinity Group of Sri Lanka Section and the IEEE WIE Student Branch Affinity Group of Uva Wellassa University, aimed to inspire Advanced Level students to explore STEM careers while promoting gender equality. The session featured engaging presentations, success stories of women in STEM, and interactive activities that fostered creativity and teamwork. A discussion and Q&A session provided valuable insights into STEM education and careers. The event successfully sparked enthusiasm among students, thanks to the efforts of IEEE WIE groups, volunteers, and school administration.",
             icon: "🔬",
             color: "bg-red-500",
             participants: "",
@@ -129,7 +129,7 @@ export default function WIEEventsTimeline() {
         {
             title: "SHECODERess",
             tagline: "Empowering Women in Tech Through Coding & Design",
-            description: "A 06-hour hackathon featuring algorithmic challenges for females and design challenges for all undergraduates.",
+            description: "SHECODERess The Hack & Design Showdown V6.0 is an exciting 06-hour hackathon designed to empower and inspire undergraduate students through coding and design, featuring a 06-hour algorithmic hackathon exclusively for female undergraduates and a design hackathon open to all. Participants benefit from hands-on problem-solving, mentorship, and networking opportunities. The 1st round is done, and the 2nd round is upcoming.",
             icon: "💻",
             color: "bg-violet-500",
             participants: "",
@@ -138,7 +138,7 @@ export default function WIEEventsTimeline() {
         {
             title: "CIRCUSTYLE",
             tagline: "Where Circuits Meet Couture",
-            description: "An inter-university competition merging fashion design and technology to create wearable garments enhanced with electronics.",
+            description: "CircuStyle is a groundbreaking inter-university competition that merges fashion design and technology. It challenges undergraduates from engineering, tech, and fashion backgrounds to form gender-inclusive teams and create wearable garments enhanced with electronics. Whether it’s a glowing dress, sound-reactive fabric, or accessories with sensors, CircuStyle is all about designing garments that do something, using tools like Arduino, sensors, and circuits.",
             icon: "👗",
             color: "bg-fuchsia-500",
             participants: "",
