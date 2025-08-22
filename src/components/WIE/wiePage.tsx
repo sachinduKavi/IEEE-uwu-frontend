@@ -3,6 +3,7 @@ import WIEHero from "./HeroSection.tsx";
 import WIEAbout from "./Aboout.tsx";
 import WIEMembershipBenefits from "./MembershipBenifits.tsx";
 import WIEAwards from "./Awards.tsx";
+import WIEEventsTimeline from "./Events.tsx";
 
 const WiePage = () => {
     return (
@@ -12,6 +13,7 @@ const WiePage = () => {
             <WIEAbout/>
             <WIEMembershipBenefits/>
             <WIEAwards/>
+            <WIEEventsTimeline/>
         </div>
     );
 };
