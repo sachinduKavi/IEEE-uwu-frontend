@@ -55,17 +55,6 @@ export default function WIEAbout() {
                             </p>
                         </div>
 
-                        {/* Stats */}
-                        {/*<div className="grid grid-cols-2 gap-6 mt-10">*/}
-                        {/*    <div className="text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm border border-white/10">*/}
-                        {/*        <div className="text-3xl font-bold text-purple-400">200+</div>*/}
-                        {/*        <div className="text-sm text-gray-300">Affinity Groups</div>*/}
-                        {/*    </div>*/}
-                        {/*    <div className="text-center p-4 bg-white/5 rounded-lg backdrop-blur-sm border border-white/10">*/}
-                        {/*        <div className="text-3xl font-bold text-purple-400">20K+</div>*/}
-                        {/*        <div className="text-sm text-gray-300">Members Worldwide</div>*/}
-                        {/*    </div>*/}
-                        {/*</div>*/}
                     </div>
 
                     {/* Image/Graphic */}
@@ -120,23 +109,6 @@ export default function WIEAbout() {
                     </div>
                 </div>
 
-                {/* Values */}
-                <div className="mt-20">
-                    <h3 className="text-2xl md:text-3xl font-bold text-center mb-12">Our Core Values</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                        {[
-                            { title: "Inclusivity", icon: "👥", desc: "Fostering diverse and welcoming environments in engineering" },
-                            { title: "Innovation", icon: "💡", desc: "Encouraging creative solutions to complex global challenges" },
-                            { title: "Empowerment", icon: "🚀", desc: "Providing tools and opportunities for professional growth" }
-                        ].map((value, index) => (
-                            <div key={index} className="bg-white/5 p-6 rounded-xl border border-white/10 backdrop-blur-sm text-center">
-                                <div className="text-4xl mb-4">{value.icon}</div>
-                                <h4 className="text-xl font-semibold mb-2 text-purple-300">{value.title}</h4>
-                                <p className="text-gray-300">{value.desc}</p>
-                            </div>
-                        ))}
-                    </div>
-                </div>
             </div>
         </section>
     );
