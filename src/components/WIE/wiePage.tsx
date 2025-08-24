@@ -6,6 +6,7 @@ import WIEAwards from "./Awards.tsx";
 import WIEEventsTimeline from "./Events.tsx";
 import CommitteeDisplay from "./CommitteMembers.tsx";
 import WIEFooter from "./Footer.tsx";
+import AdvisorDisplay from "./Advisor.tsx";
 
 const WiePage = () => {
     return (
@@ -13,6 +14,7 @@ const WiePage = () => {
             <NewChapterHeader/>
             <WIEHero/>
             <WIEAbout/>
+            <AdvisorDisplay/>
             <CommitteeDisplay/>
             <WIEAwards/>
             <WIEEventsTimeline/>
