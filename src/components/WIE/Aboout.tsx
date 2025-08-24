@@ -89,7 +89,7 @@ export default function WIEAbout() {
                             <h3 className="text-2xl font-bold text-white">Our Vision</h3>
                         </div>
                         <p className="text-lg text-gray-300 leading-relaxed">
-                            We envision a world where women are represented proportionally in engineering and technology fields, contributing their perspectives and innovations to drive progress and solve global challenges.
+                            Our goal is to facilitate the recruitment and retention of women in technical disciplines globally. We envision a vibrant community of IEEE women and men collectively using their diverse talents to innovate for the benefit of humanity.
                         </p>
                     </div>
 
@@ -104,7 +104,7 @@ export default function WIEAbout() {
                             <h3 className="text-2xl font-bold text-white">Our Mission</h3>
                         </div>
                         <p className="text-lg text-gray-300 leading-relaxed">
-                            To inspire, engage, and advance women in technical professions around the world by providing networking opportunities, professional development programs, and advocacy for gender equality in STEM fields.
+                            To connect, support, and inspire women and girls worldwide, and facilitate their recruitment and retention in STEM fields, fostering technological innovation and excellence for the benefit of humanity.
                         </p>
                     </div>
                 </div>
