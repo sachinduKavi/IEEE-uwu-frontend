@@ -148,7 +148,7 @@ export default function AdvisorDisplay() {
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
