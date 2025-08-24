@@ -7,11 +7,13 @@ import WIEEventsTimeline from "./Events.tsx";
 import CommitteeDisplay from "./CommitteMembers.tsx";
 import WIEFooter from "./Footer.tsx";
 import AdvisorDisplay from "./Advisor.tsx";
+import RecentEventHighlight from "./UpcommingEvent.tsx";
 
 const WiePage = () => {
     return (
         <div>
             <NewChapterHeader/>
+            <RecentEventHighlight/>
             <WIEHero/>
             <WIEAbout/>
             <AdvisorDisplay/>
