@@ -99,7 +99,9 @@ export default function WIEAwards() {
                                 </div>
 
                                 {/* Gradient overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-[#1a103c] via-transparent to-transparent opacity-80"></div>
+                                <div className="absolute inset-0 opacity-10">
+                                    <div className="absolute top-0 left-0 w-full h-full pattern-hexagon pattern-purple-500 pattern-opacity-20 pattern-size-8"></div>
+                                </div>
                             </div>
 
                             {/* Award content */}
@@ -143,11 +145,16 @@ export default function WIEAwards() {
 
             {/* Add circuit board pattern CSS */}
             <style jsx>{`
-                .pattern-circuit-board {
-                    background-image: 
-                        linear-gradient(to right, currentColor 1px, transparent 1px),
-                        linear-gradient(to bottom, currentColor 1px, transparent 1px);
-                    background-size: 16px 16px;
+                .pattern-hexagon {
+                    background-image:
+                            linear-gradient(30deg, currentColor 12%, transparent 12.5%, transparent 87%, currentColor 87.5%, currentColor),
+                            linear-gradient(150deg, currentColor 12%, transparent 12.5%, transparent 87%, currentColor 87.5%, currentColor),
+                            linear-gradient(30deg, currentColor 12%, transparent 12.5%, transparent 87%, currentColor 87.5%, currentColor),
+                            linear-gradient(150deg, currentColor 12%, transparent 12.5%, transparent 87%, currentColor 87.5%, currentColor),
+                            linear-gradient(60deg, currentColor 25%, transparent 25.5%, transparent 75%, currentColor 75%, currentColor),
+                            linear-gradient(60deg, currentColor 25%, transparent 25.5%, transparent 75%, currentColor 75%, currentColor);
+                    background-size: 20px 35px;
+                    background-position: 0 0, 0 0, 10px 18px, 10px 18px, 0 0, 10px 18px;
                 }
             `}</style>
         </section>
