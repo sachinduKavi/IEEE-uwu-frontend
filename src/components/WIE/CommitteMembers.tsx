@@ -182,7 +182,7 @@ export default function CommitteeDisplay() {
                 {/* Section Header */}
                 <div className="text-center mb-16">
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                        Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-800">Committee</span>
+                        Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-purple-800">Executive Committee</span>
                     </h2>
                     <p className="text-lg text-gray-600 max-w-2xl mx-auto">
                         Meet the dedicated team driving innovation and empowerment in our community
@@ -201,7 +201,7 @@ export default function CommitteeDisplay() {
                                     : "text-gray-600 hover:text-purple-700"
                             }`}
                         >
-                            Executive Committee
+                            Top Committee
                         </button>
                         <button
                             onClick={() => setActiveCommittee("junior")}
@@ -284,7 +284,7 @@ export default function CommitteeDisplay() {
                     </div>
                     <div className="bg-white p-6 rounded-2xl shadow-md">
                         <div className="text-3xl font-bold text-purple-700">6</div>
-                        <div className="text-sm text-gray-600 mt-2">Executive Team</div>
+                        <div className="text-sm text-gray-600 mt-2">Top Team</div>
                     </div>
                     <div className="bg-white p-6 rounded-2xl shadow-md">
                         <div className="text-3xl font-bold text-purple-700">9</div>
