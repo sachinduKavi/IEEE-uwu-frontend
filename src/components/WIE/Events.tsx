@@ -157,6 +157,15 @@ export default function WIEEventsTimeline() {
         }
     ];
 
+    // Function to handle event navigation from the details section
+    const navigateEvent = (direction: 'prev' | 'next') => {
+        if (direction === 'prev') {
+            setActiveEvent(activeEvent === 0 ? events.length - 1 : activeEvent - 1);
+        } else {
+            setActiveEvent(activeEvent === events.length - 1 ? 0 : activeEvent + 1);
+        }
+    };
+
     return (
         <section ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
@@ -264,6 +273,27 @@ export default function WIEEventsTimeline() {
                     {/* Event Details */}
                     <div className="lg:w-3/5">
                         <div className="bg-gradient-to-br from-purple-900/30 to-pink-900/20 backdrop-blur-sm rounded-2xl p-8 border border-purple-500/30 h-full min-h-[500px] flex flex-col">
+                            {/* Navigation Controls in Details Section */}
+                            <div className="flex justify-between items-center mb-6">
+                                <h3 className="text-2xl font-bold">Event Details</h3>
+                                <div className="flex space-x-2">
+                                    <button
+                                        onClick={() => navigateEvent('prev')}
+                                        className="w-8 h-8 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors text-xs"
+                                        aria-label="Previous event"
+                                    >
+                                        ←
+                                    </button>
+                                    <button
+                                        onClick={() => navigateEvent('next')}
+                                        className="w-8 h-8 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors text-xs"
+                                        aria-label="Next event"
+                                    >
+                                        →
+                                    </button>
+                                </div>
+                            </div>
+
                             <div className="flex items-start mb-6">
                                 <div className={`w-12 h-12 rounded-lg flex items-center justify-center text-xl mr-4 ${events[activeEvent].color} shadow-md`}>
                                     {events[activeEvent].icon}
@@ -283,6 +313,28 @@ export default function WIEEventsTimeline() {
                                 <p className="text-gray-200 leading-relaxed">
                                     {events[activeEvent].description}
                                 </p>
+                            </div>
+
+                            {/* Event Selection Grid */}
+                            <div className="mt-6">
+                                <h4 className="text-lg font-semibold mb-3 text-purple-300">Browse Events</h4>
+                                <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
+                                    {events.map((event, index) => (
+                                        <button
+                                            key={index}
+                                            onClick={() => setActiveEvent(index)}
+                                            className={`p-2 rounded-lg text-center transition-all duration-300 transform hover:scale-105 ${
+                                                activeEvent === index
+                                                    ? 'bg-purple-600 text-white shadow-lg'
+                                                    : 'bg-white/10 text-gray-300 hover:bg-white/20'
+                                            }`}
+                                            aria-label={`Select ${event.title}`}
+                                        >
+                                            <div className="text-lg mb-1">{event.icon}</div>
+                                            <div className="text-xs truncate">{event.title.split(' ')[0]}</div>
+                                        </button>
+                                    ))}
+                                </div>
                             </div>
 
                             <div className="flex space-x-4 mt-6 pt-4 border-t border-purple-500/20">
