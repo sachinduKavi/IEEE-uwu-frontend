@@ -31,29 +31,38 @@ export default function WIEAwards() {
             subtitle: "Student Branch Category",
             icon: "🏆",
             description: "Recognized for excellence in activities and member engagement",
-            gradient: "from-yellow-400 to-yellow-600"
+            image: "/award1.jpg", // Replace with actual image paths
+            gradient: "from-yellow-500 to-amber-600",
+            techIcon: "💻"
         },
         {
             title: "Best Industry Collaborative Project",
             subtitle: "Award Winner",
             icon: "🤝",
             description: "Celebrating exceptional industry-academia partnership",
-            gradient: "from-purple-500 to-purple-700"
+            image: "/award2.jpg", // Replace with actual image paths
+            gradient: "from-purple-600 to-indigo-700",
+            techIcon: "🚀"
         },
         {
             title: "Finalist for Outstanding Affinity Group",
             subtitle: "Award Recognition",
             icon: "⭐",
             description: "Acknowledged among the top performing affinity groups",
-            gradient: "from-blue-500 to-blue-700"
+            image: "/award3.jpg", // Replace with actual image paths
+            gradient: "from-blue-500 to-cyan-600",
+            techIcon: "✨"
         }
     ];
 
     return (
-        <section ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white overflow-hidden">
+        <section ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#0f0825] to-[#1e1130] text-white overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">
+                    <div className="inline-flex items-center justify-center bg-gradient-to-r from-purple-600 to-pink-600 p-2 rounded-full mb-6">
+                        <span className="text-2xl">🏆</span>
+                    </div>
                     <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
                         Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400">Awards & Recognition</span>
                     </h2>
@@ -68,40 +77,79 @@ export default function WIEAwards() {
                     {awards.map((award, index) => (
                         <div
                             key={index}
-                            className={`relative group overflow-hidden rounded-2xl p-8 bg-gradient-to-br ${award.gradient} transition-all duration-700 ease-out transform hover:scale-105 ${
+                            className={`relative group overflow-hidden rounded-2xl border border-purple-500/20 bg-gradient-to-b from-[#1a103c]/50 to-[#2d0f32]/50 backdrop-blur-sm transition-all duration-700 ease-out transform hover:-translate-y-2 ${
                                 isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                             }`}
                             style={{ transitionDelay: `${index * 150}ms` }}
                         >
-                            {/* Shine effect */}
-                            <div className="absolute inset-0 bg-gradient-to-b from-white/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                            {/* Tech pattern background */}
+                            <div className="absolute inset-0 opacity-10">
+                                <div className="absolute top-0 left-0 w-full h-full pattern-circuit-board pattern-blue-500 pattern-opacity-20 pattern-size-16"></div>
+                            </div>
 
-                            {/* Icon */}
-                            <div className="text-5xl mb-4 transform group-hover:scale-110 transition-transform duration-300">
-                                {award.icon}
+                            {/* Image container */}
+                            <div className="relative h-48 overflow-hidden">
+                                <div className="w-full h-full bg-gradient-to-br from-purple-900 to-pink-800 flex items-center justify-center">
+                                    <div className="text-6xl opacity-70">{award.icon}</div>
+                                </div>
+
+                                {/* Tech badge */}
+                                <div className="absolute top-4 right-4 w-12 h-12 rounded-full bg-black/70 backdrop-blur-sm flex items-center justify-center border border-purple-400/30">
+                                    <span className="text-xl">{award.techIcon}</span>
+                                </div>
+
+                                {/* Gradient overlay */}
+                                <div className="absolute inset-0 bg-gradient-to-t from-[#1a103c] via-transparent to-transparent opacity-80"></div>
                             </div>
 
                             {/* Award content */}
-                            <h3 className="text-xl font-bold mb-2">{award.title}</h3>
-                            <p className="text-white/90 font-semibold mb-4">{award.subtitle}</p>
-                            <p className="text-white/80">{award.description}</p>
+                            <div className="p-6 relative z-10">
+                                <div className="flex items-start justify-between mb-4">
+                                    <h3 className="text-xl font-bold bg-gradient-to-r from-purple-300 to-pink-300 bg-clip-text text-transparent">
+                                        {award.title}
+                                    </h3>
+                                    <div className="text-2xl ml-4">{award.icon}</div>
+                                </div>
 
-                            {/* Decorative elements */}
-                            <div className="absolute -right-4 -bottom-4 w-20 h-20 rounded-full bg-white/10"></div>
-                            <div className="absolute -left-4 -top-4 w-16 h-16 rounded-full bg-white/10"></div>
+                                <p className="text-purple-300 font-semibold text-sm mb-3">{award.subtitle}</p>
+                                <p className="text-gray-300 text-sm leading-relaxed">{award.description}</p>
+
+                                {/* Tech-inspired divider */}
+                                <div className="my-4 h-px bg-gradient-to-r from-transparent via-purple-500/50 to-transparent"></div>
+
+                                {/* Stats / Additional info */}
+                                <div className="flex justify-between items-center text-xs text-gray-400">
+                                    <span>IEEE WIE</span>
+                                    <span>2023-2024</span>
+                                </div>
+                            </div>
+
+                            {/* Hover effect elements */}
+                            <div className="absolute -inset-1 bg-gradient-to-r from-purple-600 to-pink-600 rounded-2xl opacity-0 group-hover:opacity-10 blur-md transition-opacity duration-300"></div>
+                            <div className="absolute inset-0 border border-purple-500/30 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </div>
                     ))}
                 </div>
 
                 {/* Celebration elements */}
                 <div className={`text-center mt-16 transition-all duration-1000 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                    <div className="inline-flex items-center justify-center bg-white/5 backdrop-blur-sm rounded-full px-6 py-3 border border-white/10">
-                        <span className="text-2xl mr-2">🎉</span>
+                    <div className="inline-flex items-center justify-center bg-gradient-to-r from-purple-600/20 to-pink-600/20 backdrop-blur-sm rounded-full px-6 py-3 border border-purple-500/30">
+                        <span className="text-2xl mr-3">🚀</span>
                         <span className="text-purple-200 font-semibold">Proudly celebrating our achievements</span>
-                        <span className="text-2xl ml-2">🎉</span>
+                        <span className="text-2xl ml-3">🌟</span>
                     </div>
                 </div>
             </div>
+
+            {/* Add circuit board pattern CSS */}
+            <style jsx>{`
+                .pattern-circuit-board {
+                    background-image: 
+                        linear-gradient(to right, currentColor 1px, transparent 1px),
+                        linear-gradient(to bottom, currentColor 1px, transparent 1px);
+                    background-size: 16px 16px;
+                }
+            `}</style>
         </section>
     );
 }
