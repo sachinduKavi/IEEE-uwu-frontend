@@ -16,9 +16,9 @@ export default function WIEFooter() {
         <footer className="bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white pt-16 pb-8">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Main Footer Content */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
-                    {/* Brand Column */}
-                    <div className="lg:col-span-1">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                    {/* Brand Column - Expanded to include newsletter */}
+                    <div className="md:col-span-1">
                         <Link to="/" className="flex mb-6">
                             <div className="w-16 h-16 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 flex items-center justify-center mr-4">
                                 <span className="text-2xl font-bold">WIE</span>
@@ -31,6 +31,8 @@ export default function WIEFooter() {
                         <p className="text-gray-300 mb-6">
                             Empowering women in engineering and technology through networking, opportunities, and professional development.
                         </p>
+                        
+
                         <div className="flex space-x-4">
                             <a href="#" className="w-10 h-10 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors">
                                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -95,28 +97,6 @@ export default function WIEFooter() {
                                 </a>
                             </li>
                         </ul>
-                    </div>
-
-                    {/* Newsletter */}
-                    <div>
-                        <h3 className="text-lg font-bold mb-6 text-purple-300">Stay Updated</h3>
-                        <p className="text-gray-300 mb-4">Subscribe to our newsletter for the latest updates and events.</p>
-                        <form onSubmit={handleSubscribe} className="space-y-3">
-                            <input
-                                type="email"
-                                placeholder="Your email address"
-                                className="w-full px-4 py-3 bg-gray-800 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 text-white"
-                                value={email}
-                                onChange={(e) => setEmail(e.target.value)}
-                                required
-                            />
-                            <button
-                                type="submit"
-                                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white font-medium py-3 px-4 rounded-lg transition-all duration-300 transform hover:-translate-y-1"
-                            >
-                                Subscribe Now
-                            </button>
-                        </form>
                     </div>
                 </div>
 
