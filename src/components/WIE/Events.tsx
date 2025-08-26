@@ -108,7 +108,7 @@ export default function WIEEventsTimeline() {
             icon: "🎪",
             color: "bg-indigo-500",
             participants: "",
-            date: "Aug 2024"
+            date: "2024"
         },
         {
             title: "Industry Visit",
@@ -207,19 +207,22 @@ export default function WIEEventsTimeline() {
                                     return (
                                         <button
                                             key={index}
-                                            onClick={() => setActiveEvent(index)}
+                                            onClick={() => {
+                                                console.log('Button clicked, index:', index);
+                                                setActiveEvent(index);
+                                            }}
                                             className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 transform ${
                                                 activeEvent === index
                                                     ? 'scale-110 border-2 border-white shadow-lg z-10 bg-gray-900'
-                                                    : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800'
+                                                    : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800 hover:scale-105'
                                             } ${event.color}`}
                                             style={{
                                                 left: `calc(50% + ${x}px - 1.75rem)`,
                                                 top: `calc(50% + ${y}px - 1.75rem)`,
                                             }}
+                                            aria-label={`Select ${event.title} event`}
                                         >
                                             {event.icon}
-                                            {/* Active indicator */}
                                             {activeEvent === index && (
                                                 <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-green-400 animate-ping"></div>
                                             )}

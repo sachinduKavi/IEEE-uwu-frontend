@@ -144,7 +144,7 @@ export default function WIEAwards() {
             </div>
 
             {/* Add circuit board pattern CSS */}
-            <style jsx>{`
+            <style tsx>{`
                 .pattern-hexagon {
                     background-image:
                             linear-gradient(30deg, currentColor 12%, transparent 12.5%, transparent 87%, currentColor 87.5%, currentColor),
