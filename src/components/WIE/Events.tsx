@@ -197,38 +197,39 @@ export default function WIEEventsTimeline() {
                                     ))}
                                 </div>
 
-                                {events.map((event, index) => {
-                                    const angle = (index * 360) / events.length;
-                                    const radian = (angle * Math.PI) / 180;
-                                    const radius = 150;
-                                    const x = radius * Math.cos(radian);
-                                    const y = radius * Math.sin(radian);
+                                {/* Event buttons positioned in a circle */}
+                                <div className="absolute inset-0">
+                                    {events.map((event, index) => {
+                                        const angle = (index * 360) / events.length;
+                                        const radian = (angle * Math.PI) / 180;
+                                        const radius = 150;
+                                        const x = radius * Math.cos(radian);
+                                        const y = radius * Math.sin(radian);
 
-                                    return (
-                                        <button
-                                            key={index}
-                                            onClick={() => {
-                                                console.log('Button clicked, index:', index);
-                                                setActiveEvent(index);
-                                            }}
-                                            className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 transform ${
-                                                activeEvent === index
-                                                    ? 'scale-110 border-2 border-white shadow-lg z-10 bg-gray-900'
-                                                    : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800 hover:scale-105'
-                                            } ${event.color}`}
-                                            style={{
-                                                left: `calc(50% + ${x}px - 1.75rem)`,
-                                                top: `calc(50% + ${y}px - 1.75rem)`,
-                                            }}
-                                            aria-label={`Select ${event.title} event`}
-                                        >
-                                            {event.icon}
-                                            {activeEvent === index && (
-                                                <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-green-400 animate-ping"></div>
-                                            )}
-                                        </button>
-                                    );
-                                })}
+                                        return (
+                                            <button
+                                                key={index}
+                                                onClick={() => setActiveEvent(index)}
+                                                className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 transform ${
+                                                    activeEvent === index
+                                                        ? 'scale-110 border-2 border-white shadow-lg z-10 bg-gray-900'
+                                                        : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800 hover:scale-105'
+                                                } ${event.color}`}
+                                                style={{
+                                                    left: `calc(50% + ${x}px - 1.75rem)`,
+                                                    top: `calc(50% + ${y}px - 1.75rem)`,
+                                                    transform: 'translate(0, 0)', // Reset any inherited transforms
+                                                }}
+                                                aria-label={`Select ${event.title} event`}
+                                            >
+                                                {event.icon}
+                                                {activeEvent === index && (
+                                                    <div className="absolute -top-1 -right-1 w-3 h-3 rounded-full bg-green-400 animate-ping"></div>
+                                                )}
+                                            </button>
+                                        );
+                                    })}
+                                </div>
 
                                 {/* Center display - Tech element */}
                                 <div className="absolute inset-0 flex items-center justify-center">
@@ -251,8 +252,8 @@ export default function WIEEventsTimeline() {
                                         ←
                                     </button>
                                     <span className="text-xs text-gray-400 flex items-center">
-                    {activeEvent + 1} / {events.length}
-                  </span>
+                                        {activeEvent + 1} / {events.length}
+                                    </span>
                                     <button
                                         onClick={() => setActiveEvent(activeEvent === events.length - 1 ? 0 : activeEvent + 1)}
                                         className="w-8 h-8 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors text-xs"
@@ -309,21 +310,21 @@ export default function WIEEventsTimeline() {
 
             {/* Add custom scrollbar styles to your global CSS file */}
             <style>{`
-        .custom-scrollbar::-webkit-scrollbar {
-          width: 4px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-track {
-          background: rgba(255, 255, 255, 0.05);
-          border-radius: 10px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: rgba(192, 132, 252, 0.5);
-          border-radius: 10px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-          background: rgba(192, 132, 252, 0.7);
-        }
-      `}</style>
+                .custom-scrollbar::-webkit-scrollbar {
+                    width: 4px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-track {
+                    background: rgba(255, 255, 255, 0.05);
+                    border-radius: 10px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb {
+                    background: rgba(192, 132, 252, 0.5);
+                    border-radius: 10px;
+                }
+                .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+                    background: rgba(192, 132, 252, 0.7);
+                }
+            `}</style>
         </section>
     );
 }

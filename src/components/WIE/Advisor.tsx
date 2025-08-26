@@ -42,8 +42,8 @@ export default function AdvisorDisplay() {
     }, []);
 
     const advisor: Advisor = {
-        name: "Dr. L.K. Narangammana",
-        position: "Faculty Advisor",
+        name: "Ms. S.D.H.S. Wickramarathne",
+        position: "Head Of CSI Department",
         image: "/placeholder-avatar.jpg",
         description: "Dr. Narangammana has been the guiding force behind the IEEE WIE Student Branch Affinity Group at Uva Wellassa University since its establishment in 2016. With extensive experience in academia and industry, Dr. Narangammana provides invaluable mentorship and support to empower women in engineering and technology.",
         qualifications: [
