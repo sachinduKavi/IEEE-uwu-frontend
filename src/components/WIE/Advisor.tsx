@@ -45,7 +45,7 @@ export default function AdvisorDisplay() {
         name: "Ms. S.D.H.S. Wickramarathne",
         position: "Head Of CSI Department",
         image: "/placeholder-avatar.jpg",
-        description: "Dr. Narangammana has been the guiding force behind the IEEE WIE Student Branch Affinity Group at Uva Wellassa University since its establishment in 2016. With extensive experience in academia and industry, Dr. Narangammana provides invaluable mentorship and support to empower women in engineering and technology.",
+        description: "Ms. S. D. H. S. Wickramarathne is a Senior Lecturer (Grade I) in the Department of Computer Science and Informatics at Uva Wellassa University. She holds an M.Sc. from the Asian Institute of Technology, Thailand, and a B.Sc. in IT from the University of Moratuwa. She has wide experience in teaching, curriculum development, quality assurance, and student mentoring, and has held key roles in program coordination and academic committees.",
         qualifications: [
             "PhD in Computer Science",
             "Senior Lecturer at Uva Wellassa University",
