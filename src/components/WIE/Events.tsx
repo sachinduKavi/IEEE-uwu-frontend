@@ -198,6 +198,7 @@ export default function WIEEventsTimeline() {
                                 </div>
 
                                 {/* Event buttons positioned in a circle */}
+                                {/* Event buttons positioned in a circle */}
                                 <div className="absolute inset-0">
                                     {events.map((event, index) => {
                                         const angle = (index * 360) / events.length;
@@ -209,16 +210,15 @@ export default function WIEEventsTimeline() {
                                         return (
                                             <button
                                                 key={index}
-                                                onClick={() => setActiveEvent(index)}
-                                                className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 transform ${
-                                                    activeEvent === index
-                                                        ? 'scale-110 border-2 border-white shadow-lg z-10 bg-gray-900'
-                                                        : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800 hover:scale-105'
+                                                onClick={() => setActiveEvent(index)} // ✅ when clicked, change active event
+                                                className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 
+          ${activeEvent === index
+                                                    ? 'scale-125 border-2 border-white shadow-lg z-10 bg-gray-900'
+                                                    : 'scale-100 opacity-80 hover:opacity-100 hover:scale-105 bg-gray-800'
                                                 } ${event.color}`}
                                                 style={{
                                                     left: `calc(50% + ${x}px - 1.75rem)`,
                                                     top: `calc(50% + ${y}px - 1.75rem)`,
-                                                    transform: 'translate(0, 0)', // Reset any inherited transforms
                                                 }}
                                                 aria-label={`Select ${event.title} event`}
                                             >
@@ -230,6 +230,7 @@ export default function WIEEventsTimeline() {
                                         );
                                     })}
                                 </div>
+
 
                                 {/* Center display - Tech element */}
                                 <div className="absolute inset-0 flex items-center justify-center">

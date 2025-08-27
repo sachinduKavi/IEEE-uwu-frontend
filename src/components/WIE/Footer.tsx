@@ -31,7 +31,7 @@ export default function WIEFooter() {
                         <p className="text-gray-300 mb-6">
                             Empowering women in engineering and technology through networking, opportunities, and professional development.
                         </p>
-                        
+
 
                         <div className="flex space-x-4">
                             <a href="#" className="w-10 h-10 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors">
