@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Globe, BookOpen, FileSearch } from "lucide-react";
+import { Globe, Database , FileSearch } from "lucide-react";
 
 export default function Resources() {
   const resources = [
@@ -7,7 +7,7 @@ export default function Resources() {
       title: "IEEE CS Portal",
       description:
         "Access the official IEEE Computer Society website for global resources and publications.",
-      buttonText: "Visit Site",
+      buttonText: "Visit",
       link: "https://www.computer.org/",
       icon: <Globe className="w-8 h-8 text-yellow-600" />,
     },
@@ -20,12 +20,12 @@ export default function Resources() {
       icon: <FileSearch className="w-8 h-8 text-yellow-600" />,
     },
     {
-      title: "Learning Materials",
+      title: "IEEE DataPort",
       description:
-        "Access our curated collection of tutorials, guides, and project resources.",
-      buttonText: "Coming Soon",
-      link: "#",
-      icon: <BookOpen className="w-8 h-8 text-yellow-600" />,
+        "Explore and share datasets across multiple research disciplines through IEEE DataPort.",
+      buttonText: "Visit",
+      link: "https://ieee-dataport.org/",
+      icon: <Database className="w-8 h-8 text-yellow-600" />,
     },
   ];
 

@@ -1,10 +1,12 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../../assets/csChapter/cs logo.png";
+import logo from "../../assets/csChapter/cs logo sm.png";
+import { useNavigate } from "react-router";
 
 export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
+  const navigate = useNavigate();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -29,14 +31,21 @@ export default function NavBar() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   const navItems = [
     { id: "home", label: "Home" },
-    { id: "about", label: "About" },
+    { id: "about", label: "About Us" },
     { id: "team", label: "Our Team" },
-    { id: "membership", label: "Membership" },
+    { id: "membership", label: "Membership Benefits" },
     { id: "resources", label: "Resources" },
     { id: "events", label: "Events" },
-    { id: "contact", label: "Contact" },
+    { id: "contact", label: "Get In Touch" },
   ];
 
   return (
@@ -44,13 +53,16 @@ export default function NavBar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <div className="flex-shrink-0">
+          <div
+            className="flex-shrink-0 cursor-pointer"
+            onClick={scrollToTop}
+          >
             <img className="w-40 h-auto" src={logo} alt="IEEE Logo" />
           </div>
 
           {/* Desktop Links */}
-          <div className="hidden md:block">
-            <div className="ml-10 flex items-baseline space-x-4">
+          <div className="hidden md:flex items-center space-x-4">
+            <div className="flex items-baseline space-x-4">
               {navItems.map((item) => (
                 <a
                   key={item.id}
@@ -65,6 +77,16 @@ export default function NavBar() {
                 </a>
               ))}
             </div>
+
+            {/* Student Branch Button */}
+            <a
+              onClick={()=>navigate('/')}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-4 bg-yellow-500 hover:bg-yellow-600 text-white px-4 py-2 rounded-full text-sm font-medium shadow-md transition-all duration-200 cursor-pointer"
+            >
+              Student Branch
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -97,6 +119,15 @@ export default function NavBar() {
                 {item.label}
               </a>
             ))}
+
+            {/* Student Branch Button in Mobile Menu */}
+            <div
+              onClick={()=>navigate('/')}
+              rel="noopener noreferrer"
+              className="block mt-3 bg-yellow-500 hover:bg-yellow-600 text-white text-center px-4 py-2 rounded-full text-base font-medium shadow-md transition-all duration-200 cursor-pointer"
+            >
+              Student Branch
+            </div>
           </div>
         </div>
       )}
