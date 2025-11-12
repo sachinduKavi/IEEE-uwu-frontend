@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 import { Linkedin } from "lucide-react";
 
 export default function AboutSection() {
-  const stats = [
-    { value: "500+", label: "Active Members" },
-    { value: "50+", label: "Events Per Year" },
-    { value: "15+", label: "Awards Won" },
-    { value: "100+", label: "Workshops Held" },
-  ];
+  // const stats = [
+  //   { value: "500+", label: "Active Members" },
+  //   { value: "50+", label: "Events Per Year" },
+  //   { value: "15+", label: "Awards Won" },
+  //   { value: "100+", label: "Workshops Held" },
+  // ];
 
   const advisor = {
     name: "Mr. Dimuth Pathirana",
@@ -65,7 +65,7 @@ export default function AboutSection() {
         </motion.div>
 
         {/* Stats Section */}
-        <motion.div
+        {/* <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6, delay: 0.3 }}
@@ -85,7 +85,7 @@ export default function AboutSection() {
               <p className="mt-3 text-gray-700 font-medium">{stat.label}</p>
             </motion.div>
           ))}
-        </motion.div>
+        </motion.div> */}
 
         {/* Chapter Advisor Section */}
         <motion.h3
