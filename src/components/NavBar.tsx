@@ -18,6 +18,7 @@ export default function NavBar() {
     { name: "Chapters", to: "#chapters", isAnchor: true },
     { name: "Events", to: "#upcoming-event", isAnchor: true },
     { name: "Open Day", to: "/openDay", isAnchor: false },
+    { name: "Project Lookup", to:"#project-lookup", isAnchor: true}
   ];
 
   useEffect(() => {

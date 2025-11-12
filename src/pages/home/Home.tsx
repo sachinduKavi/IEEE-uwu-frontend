@@ -8,6 +8,7 @@ import ChaptersSection from '../../components/Chapters.tsx';
 import NavBar from '../../components/NavBar.tsx';
 import OpenDaySection from "../../components/OpenDaySection.tsx";
 import {Helmet} from 'react-helmet'
+import ProjectsLookupSection from '../../components/ProjectsLookupSection.tsx';
 
 export default function Home() {
     return (
@@ -29,6 +30,7 @@ export default function Home() {
             <ChaptersSection id="chapters"/>
             <AboutUs id="about-us"/>
             <UpcomingEventSection id="upcoming-event"/>
+            <ProjectsLookupSection id="project-lookup" />
             <Footer/>
         </div>
     )

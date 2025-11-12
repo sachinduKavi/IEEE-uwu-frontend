@@ -1,0 +1,7202 @@
+[
+  {
+    "enrollment": "UWU/CST/21/021",
+    "name": "Kasun Silva",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/171",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/178",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/121",
+    "name": "Sajani Rathnayake",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/199",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/116",
+    "name": "Nethmi Perera",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/045",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/214",
+    "name": "Kasun Silva",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/160",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/278",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/071",
+    "name": "Isuru Wijesinghe",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/221",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/163",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/095",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/164",
+    "name": "Nadeesha Thilakarathne",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/227",
+    "name": "Kavindu Gamage",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/097",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/137",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/119",
+    "name": "Kasun Silva",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/041",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/258",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/095",
+    "name": "Harsha Rathnayake",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/071",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/210",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/114",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/034",
+    "name": "Nethmi Perera",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/167",
+    "name": "Harsha Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/208",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/161",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/267",
+    "name": "Amesh Jayawardena",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/126",
+    "name": "Sajani Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/286",
+    "name": "Dilshan Bandara",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/150",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/237",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/265",
+    "name": "Nadeesha Thilakarathne",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/047",
+    "name": "Kavindu Gamage",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/300",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/202",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/092",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/047",
+    "name": "Isuru Wijesinghe",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/047",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/044",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/194",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/172",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/075",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/158",
+    "name": "Isuru Wijesinghe",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/093",
+    "name": "Amesh Jayawardena",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/002",
+    "name": "Chathura Abeykoon",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/235",
+    "name": "Yasiru Samarasekara",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/253",
+    "name": "Kasun Silva",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/233",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/126",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/026",
+    "name": "Nethmi Perera",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/019",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/170",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/214",
+    "name": "Nethmi Perera",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/234",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/048",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/195",
+    "name": "Harsha Rathnayake",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/150",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/169",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/108",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/248",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/219",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/270",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/289",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/093",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/100",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/061",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/212",
+    "name": "Thinuja Hettiarachchi",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/006",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/035",
+    "name": "Isuru Wijesinghe",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/004",
+    "name": "Amesh Jayawardena",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/203",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/090",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/243",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/080",
+    "name": "Dinithi Weerasinghe",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/237",
+    "name": "Pasindu Madushanka",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/267",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/107",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/034",
+    "name": "Nethmi Perera",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/193",
+    "name": "Dinithi Weerasinghe",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/096",
+    "name": "Chathura Abeykoon",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/017",
+    "name": "Isuru Wijesinghe",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/122",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/269",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/020",
+    "name": "Pasindu Madushanka",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/260",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/098",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/168",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/106",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/268",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/045",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/267",
+    "name": "Pasindu Madushanka",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/296",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/103",
+    "name": "Kasun Silva",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/226",
+    "name": "Dinithi Weerasinghe",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/081",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/106",
+    "name": "Sajani Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/139",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/088",
+    "name": "Amesh Jayawardena",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/277",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/242",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/197",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/092",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/183",
+    "name": "Isuru Wijesinghe",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/239",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/050",
+    "name": "Yasiru Samarasekara",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/119",
+    "name": "Kasun Silva",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/187",
+    "name": "Dilshan Bandara",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/233",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/058",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/145",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/261",
+    "name": "Amesh Jayawardena",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/285",
+    "name": "Dinithi Weerasinghe",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/206",
+    "name": "Chathura Abeykoon",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/281",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/175",
+    "name": "Kasun Silva",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/223",
+    "name": "Chathura Abeykoon",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/089",
+    "name": "Dinithi Weerasinghe",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/059",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/285",
+    "name": "Amesh Jayawardena",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/158",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/195",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/112",
+    "name": "Harsha Rathnayake",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/076",
+    "name": "Dinithi Weerasinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/200",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/106",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/292",
+    "name": "Pasindu Madushanka",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/177",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/066",
+    "name": "Harsha Rathnayake",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/282",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/057",
+    "name": "Harsha Rathnayake",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/222",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/196",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/089",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/185",
+    "name": "Harsha Rathnayake",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/065",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/074",
+    "name": "Kavindu Gamage",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/070",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/218",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/283",
+    "name": "Harsha Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/116",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/296",
+    "name": "Yasiru Samarasekara",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/211",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/018",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/058",
+    "name": "Chathura Abeykoon",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/270",
+    "name": "Harsha Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/265",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/126",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/028",
+    "name": "Nadeesha Thilakarathne",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/241",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/216",
+    "name": "Sanduni Fernando",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/086",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/289",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/294",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/147",
+    "name": "Yasiru Samarasekara",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/143",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/141",
+    "name": "Harsha Rathnayake",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/090",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/190",
+    "name": "Pasindu Madushanka",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/249",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/176",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/254",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/226",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/296",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/136",
+    "name": "Pasindu Madushanka",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/086",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/244",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/195",
+    "name": "Dinithi Weerasinghe",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/135",
+    "name": "Nethmi Perera",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/148",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/162",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/273",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/172",
+    "name": "Isuru Wijesinghe",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/300",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/267",
+    "name": "Sanduni Fernando",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/281",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/007",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/229",
+    "name": "Sanduni Fernando",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/099",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/030",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/062",
+    "name": "Amesh Jayawardena",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/193",
+    "name": "Dinithi Weerasinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/057",
+    "name": "Kavindu Gamage",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/240",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/142",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/083",
+    "name": "Pasindu Madushanka",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/196",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/136",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/103",
+    "name": "Chathura Abeykoon",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/056",
+    "name": "Nethmi Perera",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/055",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/018",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/229",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/001",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/078",
+    "name": "Kavindu Gamage",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/264",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/224",
+    "name": "Dilshan Bandara",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/002",
+    "name": "Dilshan Bandara",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/291",
+    "name": "Sajani Rathnayake",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/156",
+    "name": "Dilshan Bandara",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/274",
+    "name": "Harsha Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/149",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/197",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/055",
+    "name": "Dinithi Weerasinghe",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/044",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/072",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/251",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/256",
+    "name": "Sajani Rathnayake",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/019",
+    "name": "Sanduni Fernando",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/208",
+    "name": "Amesh Jayawardena",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/275",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/037",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/010",
+    "name": "Yasiru Samarasekara",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/125",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/089",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/234",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/055",
+    "name": "Amesh Jayawardena",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/033",
+    "name": "Pasindu Madushanka",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/206",
+    "name": "Sanduni Fernando",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/165",
+    "name": "Harsha Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/089",
+    "name": "Sanduni Fernando",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/073",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/284",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/069",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/081",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/004",
+    "name": "Thinuja Hettiarachchi",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/214",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/106",
+    "name": "Nethmi Perera",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/211",
+    "name": "Kasun Silva",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/093",
+    "name": "Kavindu Gamage",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/155",
+    "name": "Sanduni Fernando",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/099",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/277",
+    "name": "Sajani Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/142",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/243",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/028",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/223",
+    "name": "Isuru Wijesinghe",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/023",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/081",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/037",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/215",
+    "name": "Kasun Silva",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/057",
+    "name": "Sanduni Fernando",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/212",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/038",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/224",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/092",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/100",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/172",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/144",
+    "name": "Nethmi Perera",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/215",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/152",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/296",
+    "name": "Sajani Rathnayake",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/211",
+    "name": "Harsha Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/243",
+    "name": "Harsha Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/220",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/168",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/294",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/021",
+    "name": "Yasiru Samarasekara",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/218",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/232",
+    "name": "Yasiru Samarasekara",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/209",
+    "name": "Kasun Silva",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/123",
+    "name": "Dinithi Weerasinghe",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/157",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/233",
+    "name": "Yasiru Samarasekara",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/095",
+    "name": "Pasindu Madushanka",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/001",
+    "name": "Harsha Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/171",
+    "name": "Sajani Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/139",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/042",
+    "name": "Chathura Abeykoon",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/264",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/057",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/188",
+    "name": "Sanduni Fernando",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/288",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/172",
+    "name": "Kasun Silva",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/298",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/165",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/142",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/232",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/241",
+    "name": "Kavindu Gamage",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/232",
+    "name": "Chathura Abeykoon",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/235",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/148",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/058",
+    "name": "Kavindu Gamage",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/105",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/214",
+    "name": "Dinithi Weerasinghe",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/178",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/097",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/211",
+    "name": "Chathura Abeykoon",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/272",
+    "name": "Harsha Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/156",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/134",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/025",
+    "name": "Nethmi Perera",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/086",
+    "name": "Chathura Abeykoon",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/094",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/122",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/226",
+    "name": "Isuru Wijesinghe",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/288",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/076",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/274",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/256",
+    "name": "Pasindu Madushanka",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/080",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/152",
+    "name": "Yasiru Samarasekara",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/290",
+    "name": "Kavindu Gamage",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/058",
+    "name": "Kavindu Gamage",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/283",
+    "name": "Amesh Jayawardena",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/113",
+    "name": "Yasiru Samarasekara",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/029",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/143",
+    "name": "Kasun Silva",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/045",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/163",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/185",
+    "name": "Dilshan Bandara",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/198",
+    "name": "Sanduni Fernando",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/180",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/111",
+    "name": "Kavindu Gamage",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/227",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/072",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/074",
+    "name": "Kasun Silva",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/034",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/004",
+    "name": "Dilshan Bandara",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/090",
+    "name": "Sajani Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/103",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/284",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/253",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/014",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/154",
+    "name": "Dinithi Weerasinghe",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/148",
+    "name": "Dilshan Bandara",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/015",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/035",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/290",
+    "name": "Dilshan Bandara",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/062",
+    "name": "Sanduni Fernando",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/133",
+    "name": "Nethmi Perera",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/164",
+    "name": "Yasiru Samarasekara",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/084",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/183",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/264",
+    "name": "Kasun Silva",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/086",
+    "name": "Sajani Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/139",
+    "name": "Dinithi Weerasinghe",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/274",
+    "name": "Chathura Abeykoon",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/071",
+    "name": "Sajani Rathnayake",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/211",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/112",
+    "name": "Nethmi Perera",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/287",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/214",
+    "name": "Yasiru Samarasekara",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/068",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/160",
+    "name": "Kavindu Gamage",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/268",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/015",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/066",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/158",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/218",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/010",
+    "name": "Pasindu Madushanka",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/101",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/241",
+    "name": "Amesh Jayawardena",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/034",
+    "name": "Isuru Wijesinghe",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/064",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/095",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/075",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/181",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/259",
+    "name": "Chathura Abeykoon",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/271",
+    "name": "Kasun Silva",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/088",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/051",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/188",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/055",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/218",
+    "name": "Kasun Silva",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/058",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/057",
+    "name": "Sajani Rathnayake",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/148",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/168",
+    "name": "Yasiru Samarasekara",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/234",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/116",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/097",
+    "name": "Harsha Rathnayake",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/092",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/203",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/074",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/087",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/103",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/120",
+    "name": "Harsha Rathnayake",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/298",
+    "name": "Chathura Abeykoon",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/244",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/262",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/063",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/069",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/256",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/168",
+    "name": "Nethmi Perera",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/040",
+    "name": "Dinithi Weerasinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/239",
+    "name": "Kasun Silva",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/259",
+    "name": "Isuru Wijesinghe",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/017",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/231",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/236",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/085",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/200",
+    "name": "Yasiru Samarasekara",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/284",
+    "name": "Dinithi Weerasinghe",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/244",
+    "name": "Sajani Rathnayake",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/201",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/181",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/015",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/179",
+    "name": "Pasindu Madushanka",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/175",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/183",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/127",
+    "name": "Kasun Silva",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/034",
+    "name": "Harsha Rathnayake",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/087",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/236",
+    "name": "Dinithi Weerasinghe",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/137",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/163",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/294",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/106",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/086",
+    "name": "Chathura Abeykoon",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/104",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/148",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/116",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/173",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/219",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/259",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/103",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/281",
+    "name": "Nethmi Perera",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/296",
+    "name": "Yasiru Samarasekara",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/273",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/268",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/124",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/211",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/212",
+    "name": "Isuru Wijesinghe",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/132",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/123",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/126",
+    "name": "Pasindu Madushanka",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/249",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/104",
+    "name": "Nethmi Perera",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/133",
+    "name": "Pasindu Madushanka",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/022",
+    "name": "Kavindu Gamage",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/043",
+    "name": "Sanduni Fernando",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/209",
+    "name": "Nadeesha Thilakarathne",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/072",
+    "name": "Kasun Silva",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/268",
+    "name": "Dinithi Weerasinghe",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/255",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/161",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/121",
+    "name": "Nadeesha Thilakarathne",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/055",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/210",
+    "name": "Isuru Wijesinghe",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/252",
+    "name": "Sajani Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/280",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/075",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/011",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/028",
+    "name": "Kavindu Gamage",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/283",
+    "name": "Dilshan Bandara",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/274",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/005",
+    "name": "Nadeesha Thilakarathne",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/047",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/108",
+    "name": "Harsha Rathnayake",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/163",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/141",
+    "name": "Harsha Rathnayake",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/212",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/052",
+    "name": "Harsha Rathnayake",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/181",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/233",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/228",
+    "name": "Pasindu Madushanka",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/206",
+    "name": "Kasun Silva",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/295",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/265",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/164",
+    "name": "Yasiru Samarasekara",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/089",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/102",
+    "name": "Amesh Jayawardena",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/202",
+    "name": "Nadeesha Thilakarathne",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/011",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/046",
+    "name": "Yasiru Samarasekara",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/026",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/077",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/008",
+    "name": "Kavindu Gamage",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/254",
+    "name": "Amesh Jayawardena",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/137",
+    "name": "Isuru Wijesinghe",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/067",
+    "name": "Dilshan Bandara",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/145",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/093",
+    "name": "Dilshan Bandara",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/149",
+    "name": "Isuru Wijesinghe",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/128",
+    "name": "Sanduni Fernando",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/006",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/109",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/038",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/171",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/024",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/155",
+    "name": "Dilshan Bandara",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/287",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/087",
+    "name": "Sajani Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/068",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/073",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/066",
+    "name": "Yasiru Samarasekara",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/221",
+    "name": "Isuru Wijesinghe",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/265",
+    "name": "Sanduni Fernando",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/252",
+    "name": "Pasindu Madushanka",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/028",
+    "name": "Kasun Silva",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/094",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/240",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/227",
+    "name": "Sanduni Fernando",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/235",
+    "name": "Yasiru Samarasekara",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/179",
+    "name": "Amesh Jayawardena",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/087",
+    "name": "Kavindu Gamage",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/299",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/214",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/049",
+    "name": "Nadeesha Thilakarathne",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/063",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/166",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/246",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/169",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/167",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/109",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/029",
+    "name": "Kavindu Gamage",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/048",
+    "name": "Dilshan Bandara",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/205",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/199",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/062",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/068",
+    "name": "Sanduni Fernando",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/263",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/244",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/047",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/223",
+    "name": "Dinithi Weerasinghe",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/263",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/254",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/149",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/154",
+    "name": "Nethmi Perera",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/268",
+    "name": "Dilshan Bandara",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/283",
+    "name": "Amesh Jayawardena",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/262",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/292",
+    "name": "Harsha Rathnayake",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/300",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/059",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/094",
+    "name": "Harsha Rathnayake",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/214",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/233",
+    "name": "Pasindu Madushanka",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/175",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/095",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/055",
+    "name": "Dilshan Bandara",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/203",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/236",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/156",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/203",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/070",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/097",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/075",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/045",
+    "name": "Isuru Wijesinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/243",
+    "name": "Dilshan Bandara",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/079",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/242",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/104",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/171",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/254",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/019",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/119",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/217",
+    "name": "Chathura Abeykoon",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/138",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/060",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/224",
+    "name": "Thinuja Hettiarachchi",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/241",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/174",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/151",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/185",
+    "name": "Pasindu Madushanka",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/145",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/067",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/052",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/121",
+    "name": "Kasun Silva",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/184",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/090",
+    "name": "Harsha Rathnayake",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/033",
+    "name": "Sanduni Fernando",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/062",
+    "name": "Sajani Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/175",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/078",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/026",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/055",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/288",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/061",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/150",
+    "name": "Kavindu Gamage",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/051",
+    "name": "Nethmi Perera",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/071",
+    "name": "Amesh Jayawardena",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/213",
+    "name": "Pasindu Madushanka",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/243",
+    "name": "Sanduni Fernando",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/044",
+    "name": "Isuru Wijesinghe",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/126",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/117",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/210",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/016",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/044",
+    "name": "Sanduni Fernando",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/223",
+    "name": "Thinuja Hettiarachchi",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/295",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/215",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/161",
+    "name": "Nadeesha Thilakarathne",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/271",
+    "name": "Chathura Abeykoon",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/229",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/177",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/155",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/200",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/110",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/267",
+    "name": "Sanduni Fernando",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/015",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/124",
+    "name": "Harsha Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/259",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/133",
+    "name": "Dinithi Weerasinghe",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/025",
+    "name": "Pasindu Madushanka",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/153",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/174",
+    "name": "Kasun Silva",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/180",
+    "name": "Isuru Wijesinghe",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/194",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/168",
+    "name": "Sajani Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/233",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/042",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/244",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/270",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/136",
+    "name": "Chathura Abeykoon",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/251",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/259",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/263",
+    "name": "Harsha Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/234",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/061",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/062",
+    "name": "Sanduni Fernando",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/268",
+    "name": "Nethmi Perera",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/192",
+    "name": "Isuru Wijesinghe",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/074",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/025",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/111",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/063",
+    "name": "Sajani Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/214",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/173",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/071",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/230",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/210",
+    "name": "Dilshan Bandara",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/277",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/046",
+    "name": "Harsha Rathnayake",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/288",
+    "name": "Dinithi Weerasinghe",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/099",
+    "name": "Chathura Abeykoon",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/292",
+    "name": "Sajani Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/062",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/010",
+    "name": "Isuru Wijesinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/297",
+    "name": "Yasiru Samarasekara",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/206",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/175",
+    "name": "Dilshan Bandara",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/271",
+    "name": "Sanduni Fernando",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/059",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/074",
+    "name": "Nethmi Perera",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/158",
+    "name": "Dilshan Bandara",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/167",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/200",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/166",
+    "name": "Isuru Wijesinghe",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/104",
+    "name": "Kasun Silva",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/253",
+    "name": "Sajani Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/059",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/284",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/209",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/284",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/285",
+    "name": "Dinithi Weerasinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/291",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/073",
+    "name": "Sanduni Fernando",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/276",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/022",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/086",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/129",
+    "name": "Harsha Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/109",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/024",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/154",
+    "name": "Amesh Jayawardena",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/285",
+    "name": "Isuru Wijesinghe",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/259",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/232",
+    "name": "Isuru Wijesinghe",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/108",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/069",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/003",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/285",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/276",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/228",
+    "name": "Dinithi Weerasinghe",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/184",
+    "name": "Dilshan Bandara",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/237",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/005",
+    "name": "Kasun Silva",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/184",
+    "name": "Kasun Silva",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/114",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/144",
+    "name": "Yasiru Samarasekara",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/004",
+    "name": "Kasun Silva",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/143",
+    "name": "Chathura Abeykoon",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/283",
+    "name": "Kasun Silva",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/034",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/133",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/099",
+    "name": "Harsha Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/287",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/027",
+    "name": "Harsha Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/141",
+    "name": "Amesh Jayawardena",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/254",
+    "name": "Sanduni Fernando",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/025",
+    "name": "Isuru Wijesinghe",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/162",
+    "name": "Thinuja Hettiarachchi",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/042",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/217",
+    "name": "Amesh Jayawardena",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/085",
+    "name": "Sanduni Fernando",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/015",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/129",
+    "name": "Kasun Silva",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/175",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/038",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/049",
+    "name": "Dinithi Weerasinghe",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/044",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/161",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/032",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/155",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/053",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/151",
+    "name": "Harsha Rathnayake",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/211",
+    "name": "Kasun Silva",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/233",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/174",
+    "name": "Dinithi Weerasinghe",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/265",
+    "name": "Sanduni Fernando",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/053",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/294",
+    "name": "Nethmi Perera",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/182",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/096",
+    "name": "Kasun Silva",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/066",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/160",
+    "name": "Chathura Abeykoon",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/076",
+    "name": "Yasiru Samarasekara",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/150",
+    "name": "Sanduni Fernando",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/030",
+    "name": "Kasun Silva",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/217",
+    "name": "Sanduni Fernando",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/036",
+    "name": "Sanduni Fernando",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/170",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/154",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/233",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/113",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/239",
+    "name": "Chathura Abeykoon",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/170",
+    "name": "Pasindu Madushanka",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/205",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/006",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/073",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/023",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/090",
+    "name": "Kasun Silva",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/174",
+    "name": "Harsha Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/101",
+    "name": "Thinuja Hettiarachchi",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/011",
+    "name": "Harsha Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/057",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/234",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/270",
+    "name": "Pasindu Madushanka",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/061",
+    "name": "Nethmi Perera",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/099",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/220",
+    "name": "Dinithi Weerasinghe",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/275",
+    "name": "Isuru Wijesinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/127",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/261",
+    "name": "Chathura Abeykoon",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/042",
+    "name": "Pasindu Madushanka",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/086",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/256",
+    "name": "Sajani Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/192",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/243",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/107",
+    "name": "Kasun Silva",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/121",
+    "name": "Dilshan Bandara",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/194",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/282",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/228",
+    "name": "Sajani Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/239",
+    "name": "Sajani Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/231",
+    "name": "Yasiru Samarasekara",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/255",
+    "name": "Sanduni Fernando",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/092",
+    "name": "Yasiru Samarasekara",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/184",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/142",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/037",
+    "name": "Sanduni Fernando",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/171",
+    "name": "Kasun Silva",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/155",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/071",
+    "name": "Harsha Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/005",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/207",
+    "name": "Dilshan Bandara",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/242",
+    "name": "Dinithi Weerasinghe",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/117",
+    "name": "Kasun Silva",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/120",
+    "name": "Sajani Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/237",
+    "name": "Sanduni Fernando",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/097",
+    "name": "Dilshan Bandara",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/225",
+    "name": "Yasiru Samarasekara",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/192",
+    "name": "Nethmi Perera",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/005",
+    "name": "Yasiru Samarasekara",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/116",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/167",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/072",
+    "name": "Nethmi Perera",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/196",
+    "name": "Kasun Silva",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/097",
+    "name": "Yasiru Samarasekara",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/156",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/017",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/014",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/146",
+    "name": "Kasun Silva",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/233",
+    "name": "Thinuja Hettiarachchi",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/088",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/081",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/245",
+    "name": "Kavindu Gamage",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/067",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/244",
+    "name": "Nethmi Perera",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/104",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/104",
+    "name": "Thinuja Hettiarachchi",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/205",
+    "name": "Chathura Abeykoon",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/292",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/295",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/234",
+    "name": "Sanduni Fernando",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/090",
+    "name": "Dilshan Bandara",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/235",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/202",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/141",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/035",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/211",
+    "name": "Pasindu Madushanka",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/040",
+    "name": "Pasindu Madushanka",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/210",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/260",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/237",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/204",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/070",
+    "name": "Sanduni Fernando",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/237",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/225",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/088",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/091",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/087",
+    "name": "Amesh Jayawardena",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/079",
+    "name": "Yasiru Samarasekara",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/018",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/227",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/200",
+    "name": "Kavindu Gamage",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/003",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/128",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/047",
+    "name": "Thinuja Hettiarachchi",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/173",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/050",
+    "name": "Pasindu Madushanka",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/023",
+    "name": "Dilshan Bandara",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/166",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/278",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/110",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/008",
+    "name": "Dilshan Bandara",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/200",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/143",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/035",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/256",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/129",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Parking System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/069",
+    "name": "Sanduni Fernando",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/035",
+    "name": "Sanduni Fernando",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/196",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/120",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/122",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/031",
+    "name": "Nethmi Perera",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/104",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/122",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/169",
+    "name": "Nethmi Perera",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/267",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/118",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/125",
+    "name": "Kasun Silva",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/114",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/094",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/252",
+    "name": "Amesh Jayawardena",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/105",
+    "name": "Nethmi Perera",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/121",
+    "name": "Sajani Rathnayake",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/160",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/218",
+    "name": "Nethmi Perera",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/147",
+    "name": "Chathura Abeykoon",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/247",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/086",
+    "name": "Yasiru Samarasekara",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/080",
+    "name": "Harsha Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/196",
+    "name": "Dilshan Bandara",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/276",
+    "name": "Nethmi Perera",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/195",
+    "name": "Yasiru Samarasekara",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/193",
+    "name": "Sajani Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/171",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/080",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/257",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/208",
+    "name": "Nadeesha Thilakarathne",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/197",
+    "name": "Yasiru Samarasekara",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/210",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/290",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/179",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/030",
+    "name": "Dinithi Weerasinghe",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/125",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/076",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/131",
+    "name": "Kasun Silva",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/007",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/204",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/217",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/155",
+    "name": "Sajani Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/211",
+    "name": "Pasindu Madushanka",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/294",
+    "name": "Pasindu Madushanka",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/138",
+    "name": "Kavindu Gamage",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/004",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/050",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/148",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/192",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/250",
+    "name": "Nethmi Perera",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/291",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/031",
+    "name": "Kavindu Gamage",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/210",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/086",
+    "name": "Amesh Jayawardena",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/064",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/300",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/005",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/050",
+    "name": "Kasun Silva",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/267",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/173",
+    "name": "Chathura Abeykoon",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/176",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/205",
+    "name": "Dilshan Bandara",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/170",
+    "name": "Pasindu Madushanka",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/206",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/063",
+    "name": "Harsha Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/189",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/097",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/185",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/120",
+    "name": "Chathura Abeykoon",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/179",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/198",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/267",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/066",
+    "name": "Yasiru Samarasekara",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/281",
+    "name": "Harsha Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/060",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/125",
+    "name": "Kasun Silva",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/223",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/197",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/244",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/274",
+    "name": "Dinithi Weerasinghe",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/171",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/176",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/120",
+    "name": "Kasun Silva",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/045",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/060",
+    "name": "Chathura Abeykoon",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/195",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/032",
+    "name": "Chathura Abeykoon",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/217",
+    "name": "Sanduni Fernando",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/267",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/055",
+    "name": "Dilshan Bandara",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/162",
+    "name": "Nethmi Perera",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/256",
+    "name": "Dinithi Weerasinghe",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/075",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/159",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/294",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/150",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/079",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/027",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/201",
+    "name": "Isuru Wijesinghe",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/281",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/179",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/271",
+    "name": "Kavindu Gamage",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/281",
+    "name": "Dilshan Bandara",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/298",
+    "name": "Harsha Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/235",
+    "name": "Dinithi Weerasinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/227",
+    "name": "Kavindu Gamage",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/108",
+    "name": "Kasun Silva",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/186",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/076",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/050",
+    "name": "Sanduni Fernando",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/061",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/077",
+    "name": "Dinithi Weerasinghe",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/018",
+    "name": "Amesh Jayawardena",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/155",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/046",
+    "name": "Pasindu Madushanka",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/228",
+    "name": "Sanduni Fernando",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/043",
+    "name": "Amesh Jayawardena",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/012",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/141",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/197",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/293",
+    "name": "Nethmi Perera",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/276",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/285",
+    "name": "Harsha Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/033",
+    "name": "Sajani Rathnayake",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/107",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/093",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/063",
+    "name": "Thinuja Hettiarachchi",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/083",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/044",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/279",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/154",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/072",
+    "name": "Chathura Abeykoon",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/276",
+    "name": "Sajani Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/122",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/111",
+    "name": "Nethmi Perera",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/184",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/039",
+    "name": "Sajani Rathnayake",
+    "project": "Library Management System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/084",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/218",
+    "name": "Kavindu Gamage",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/037",
+    "name": "Dinithi Weerasinghe",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/191",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/215",
+    "name": "Harsha Rathnayake",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/195",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/139",
+    "name": "Amesh Jayawardena",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/034",
+    "name": "Sanduni Fernando",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/171",
+    "name": "Pasindu Madushanka",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/141",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/194",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/270",
+    "name": "Kavindu Gamage",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/049",
+    "name": "Sajani Rathnayake",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/283",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/088",
+    "name": "Sanduni Fernando",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/177",
+    "name": "Pasindu Madushanka",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/245",
+    "name": "Chathura Abeykoon",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/263",
+    "name": "Kavindu Gamage",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/194",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/190",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/235",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/258",
+    "name": "Isuru Wijesinghe",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/157",
+    "name": "Dinithi Weerasinghe",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/209",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/040",
+    "name": "Kavindu Gamage",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/295",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/006",
+    "name": "Dilshan Bandara",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/246",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/208",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/218",
+    "name": "Kavindu Gamage",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/271",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/087",
+    "name": "Dinithi Weerasinghe",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/090",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/027",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/192",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/149",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/110",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/112",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/238",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/183",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/153",
+    "name": "Sanduni Fernando",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/096",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/221",
+    "name": "Yasiru Samarasekara",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/211",
+    "name": "Amesh Jayawardena",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/080",
+    "name": "Pasindu Madushanka",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/241",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/220",
+    "name": "Nadeesha Thilakarathne",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/056",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/072",
+    "name": "Sanduni Fernando",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/184",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/098",
+    "name": "Isuru Wijesinghe",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/216",
+    "name": "Kavindu Gamage",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/102",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/216",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/167",
+    "name": "Pasindu Madushanka",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/068",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/080",
+    "name": "Sanduni Fernando",
+    "project": "Health Monitoring System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/027",
+    "name": "Dinithi Weerasinghe",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/005",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/249",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/079",
+    "name": "Kavindu Gamage",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/144",
+    "name": "Pasindu Madushanka",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/220",
+    "name": "Kasun Silva",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/097",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Parking System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/062",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/099",
+    "name": "Nadeesha Thilakarathne",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/103",
+    "name": "Amesh Jayawardena",
+    "project": "Real Estate Renting App",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/209",
+    "name": "Sajani Rathnayake",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/173",
+    "name": "Dilshan Bandara",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/027",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/144",
+    "name": "Sanduni Fernando",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/164",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/001",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/147",
+    "name": "Yasiru Samarasekara",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/221",
+    "name": "Nethmi Perera",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/172",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/283",
+    "name": "Pasindu Madushanka",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/185",
+    "name": "Kavindu Gamage",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/122",
+    "name": "Dinithi Weerasinghe",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/045",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/022",
+    "name": "Chathura Abeykoon",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/229",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/155",
+    "name": "Kavindu Gamage",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/023",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/287",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/061",
+    "name": "Nadeesha Thilakarathne",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/215",
+    "name": "Sajani Rathnayake",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/086",
+    "name": "Chathura Abeykoon",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/024",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/254",
+    "name": "Dinithi Weerasinghe",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/085",
+    "name": "Yasiru Samarasekara",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/288",
+    "name": "Pasindu Madushanka",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/106",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/005",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/258",
+    "name": "Kavindu Gamage",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/156",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/283",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/274",
+    "name": "Kasun Silva",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/143",
+    "name": "Nadeesha Thilakarathne",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/128",
+    "name": "Harsha Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/001",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/167",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/069",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/167",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/113",
+    "name": "Kavindu Gamage",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/009",
+    "name": "Sajani Rathnayake",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/196",
+    "name": "Dinithi Weerasinghe",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/227",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/298",
+    "name": "Dinithi Weerasinghe",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/229",
+    "name": "Kasun Silva",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/076",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/093",
+    "name": "Yasiru Samarasekara",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/292",
+    "name": "Yasiru Samarasekara",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/011",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/097",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/126",
+    "name": "Yasiru Samarasekara",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/270",
+    "name": "Nethmi Perera",
+    "project": "Weather Prediction AI",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/194",
+    "name": "Dilshan Bandara",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/023",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/074",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/055",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/104",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/084",
+    "name": "Isuru Wijesinghe",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/125",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Health Monitoring System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/011",
+    "name": "Harsha Rathnayake",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/053",
+    "name": "Sajani Rathnayake",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/001",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/219",
+    "name": "Dilshan Bandara",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/116",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/252",
+    "name": "Nethmi Perera",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/145",
+    "name": "Sanduni Fernando",
+    "project": "Online Rental Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/061",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/078",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/093",
+    "name": "Dinithi Weerasinghe",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/147",
+    "name": "Sanduni Fernando",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/256",
+    "name": "Dinithi Weerasinghe",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/002",
+    "name": "Harsha Rathnayake",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/164",
+    "name": "Nethmi Perera",
+    "project": "E-Voting System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/035",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/075",
+    "name": "Amesh Jayawardena",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/198",
+    "name": "Sanduni Fernando",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/247",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/071",
+    "name": "Pasindu Madushanka",
+    "project": "Tourism Recommendation System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/215",
+    "name": "Sajani Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/273",
+    "name": "Sajani Rathnayake",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/043",
+    "name": "Chathura Abeykoon",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/045",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/009",
+    "name": "Sanduni Fernando",
+    "project": "Health Monitoring System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/057",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Event Management Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/072",
+    "name": "Isuru Wijesinghe",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/125",
+    "name": "Kasun Silva",
+    "project": "Real Estate Renting App",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/071",
+    "name": "Amesh Jayawardena",
+    "project": "Weather Prediction AI",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/014",
+    "name": "Kavindu Gamage",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/055",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/081",
+    "name": "Thinuja Hettiarachchi",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/041",
+    "name": "Kasun Silva",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/077",
+    "name": "Pasindu Madushanka",
+    "project": "AI Chatbot Assistant",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/271",
+    "name": "Kavindu Gamage",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/173",
+    "name": "Yasiru Samarasekara",
+    "project": "Student Attendance Tracker",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/057",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/258",
+    "name": "Nethmi Perera",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/233",
+    "name": "Sajani Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/117",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/048",
+    "name": "Sajani Rathnayake",
+    "project": "E-Voting System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/206",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/095",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/240",
+    "name": "Yasiru Samarasekara",
+    "project": "IoT Waste Management",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/085",
+    "name": "Thinuja Hettiarachchi",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/100",
+    "name": "Isuru Wijesinghe",
+    "project": "Online Rental Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/186",
+    "name": "Chathura Abeykoon",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/123",
+    "name": "Isuru Wijesinghe",
+    "project": "AI Chatbot Assistant",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/034",
+    "name": "Kasun Silva",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/097",
+    "name": "Sajani Rathnayake",
+    "project": "Restaurant POS System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/138",
+    "name": "Amesh Jayawardena",
+    "project": "Smart Parking System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/289",
+    "name": "Pasindu Madushanka",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/162",
+    "name": "Amesh Jayawardena",
+    "project": "Library Management System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/145",
+    "name": "Dilshan Bandara",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/23/201",
+    "name": "Kavindu Gamage",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/170",
+    "name": "Dilshan Bandara",
+    "project": "Event Management Platform",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/258",
+    "name": "Pasindu Madushanka",
+    "project": "Student Attendance Tracker",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/196",
+    "name": "Yasiru Samarasekara",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/083",
+    "name": "Nethmi Perera",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/048",
+    "name": "Kavindu Gamage",
+    "project": "Restaurant POS System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/083",
+    "name": "Sajani Rathnayake",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/230",
+    "name": "Pasindu Madushanka",
+    "project": "AI Chatbot Assistant",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/185",
+    "name": "Chathura Abeykoon",
+    "project": "Real Estate Renting App",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/199",
+    "name": "Kasun Silva",
+    "project": "Restaurant POS System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/079",
+    "name": "Chathura Abeykoon",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/008",
+    "name": "Nethmi Perera",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/256",
+    "name": "Amesh Jayawardena",
+    "project": "Inventory Management Tool",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/152",
+    "name": "Nethmi Perera",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/23/181",
+    "name": "Amesh Jayawardena",
+    "project": "Online Rental Platform",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/133",
+    "name": "Yasiru Samarasekara",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/064",
+    "name": "Chathura Abeykoon",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/147",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/226",
+    "name": "Sanduni Fernando",
+    "project": "Health Monitoring System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/23/192",
+    "name": "Amesh Jayawardena",
+    "project": "Tourism Recommendation System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/135",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Event Management Platform",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/126",
+    "name": "Kavindu Gamage",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/080",
+    "name": "Harsha Rathnayake",
+    "project": "Online Rental Platform",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/082",
+    "name": "Chathura Abeykoon",
+    "project": "E-Voting System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/199",
+    "name": "Harsha Rathnayake",
+    "project": "Inventory Management Tool",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/23/239",
+    "name": "Yasiru Samarasekara",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/056",
+    "name": "Amesh Jayawardena",
+    "project": "AI Chatbot Assistant",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/24/222",
+    "name": "Kasun Silva",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/163",
+    "name": "Sanduni Fernando",
+    "project": "Smart Parking System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/244",
+    "name": "Amesh Jayawardena",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/280",
+    "name": "Nethmi Perera",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/164",
+    "name": "Chathura Abeykoon",
+    "project": "Smart Agriculture System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/032",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Student Attendance Tracker",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/243",
+    "name": "Kasun Silva",
+    "project": "Smart Agriculture System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/217",
+    "name": "Isuru Wijesinghe",
+    "project": "Library Management System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/21/073",
+    "name": "Amesh Jayawardena",
+    "project": "Library Management System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/21/153",
+    "name": "Harsha Rathnayake",
+    "project": "Weather Prediction AI",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/269",
+    "name": "Kasun Silva",
+    "project": "Tourism Recommendation System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/22/028",
+    "name": "Amesh Jayawardena",
+    "project": "Event Management Platform",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/153",
+    "name": "Nethmi Perera",
+    "project": "Restaurant POS System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/247",
+    "name": "Yasiru Samarasekara",
+    "project": "Health Monitoring System",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/182",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Weather Prediction AI",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/006",
+    "name": "Sajani Rathnayake",
+    "project": "Student Attendance Tracker",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/040",
+    "name": "Kavindu Gamage",
+    "project": "Tourism Recommendation System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/22/166",
+    "name": "Dinithi Weerasinghe",
+    "project": "Real Estate Renting App",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/078",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Inventory Management Tool",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/24/163",
+    "name": "Amesh Jayawardena",
+    "project": "Student Attendance Tracker",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/23/267",
+    "name": "Kavindu Gamage",
+    "project": "Smart Agriculture System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/231",
+    "name": "Dinithi Weerasinghe",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/112",
+    "name": "Kavindu Gamage",
+    "project": "Restaurant POS System",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/22/194",
+    "name": "Kasun Silva",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/296",
+    "name": "Thinuja Hettiarachchi",
+    "project": "IoT Waste Management",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/21/155",
+    "name": "Nadeesha Thilakarathne",
+    "project": "Library Management System",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/21/256",
+    "name": "Dinithi Weerasinghe",
+    "project": "Inventory Management Tool",
+    "role": "Designer"
+  },
+  {
+    "enrollment": "UWU/CST/24/181",
+    "name": "Sanduni Fernando",
+    "project": "Real Estate Renting App",
+    "role": "Researcher"
+  },
+  {
+    "enrollment": "UWU/CST/24/268",
+    "name": "Pasindu Madushanka",
+    "project": "IoT Waste Management",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/22/235",
+    "name": "Dilshan Bandara",
+    "project": "IoT Waste Management",
+    "role": "Developer"
+  },
+  {
+    "enrollment": "UWU/CST/22/278",
+    "name": "Dilshan Bandara",
+    "project": "E-Voting System",
+    "role": "Tester"
+  },
+  {
+    "enrollment": "UWU/CST/24/146",
+    "name": "Kavindu Gamage",
+    "project": "Smart Parking System",
+    "role": "Team Leader"
+  },
+  {
+    "enrollment": "UWU/CST/21/054",
+    "name": "Amesh Jayawardena",
+    "project": "Tourism Recommendation System",
+    "role": "Team Leader"
+  }
+]
