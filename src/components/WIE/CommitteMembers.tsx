@@ -108,16 +108,16 @@ export default function CommitteeDisplay() {
 
     const juniorCommittee: CommitteeMember[] = [
         {
-            name: "Alex Chen",
-            position: "Junior Coordinator",
+            name: "Ms. Ishini Dissanayake",
+            position: "VICE CHAIRPERSON",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
             }
         },
         {
-            name: "Olivia Martinez",
-            position: "Social Media Manager",
+            name: "Ms. Dinithi Ukwatta",
+            position: "ASSISTANT SECRETARY",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -125,8 +125,8 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "Ethan Wilson",
-            position: "Technical Lead",
+            name: "Ms. Kavisana Kanthavanesan",
+            position: "MEMBER-PUBLIC VISIBILITY",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -134,16 +134,16 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "Sophia Anderson",
-            position: "Design Lead",
+            name: "Ms. Sachini Tharushika",
+            position: "MEMBER-PUBLIC VISIBILITY",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
             }
         },
         {
-            name: "Liam Thompson",
-            position: "Content Creator",
+            name: "Ms. Milasha Subasinghe",
+            position: "MEMBER-EDITORIAL",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -151,37 +151,20 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "Ava Garcia",
-            position: "Volunteer Coordinator",
+            name: "Ms. Jeyamathura Jeyakaneshan",
+            position: "MEMBER-EDITORIAL",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
             }
         },
         {
-            name: "Noah Lee",
-            position: "Marketing Assistant",
+            name: "Ms. Naduni Jayathilake",
+            position: "MEMBER-MEMBERSHIP\n" +
+                "DEVELPOMENT",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
-            }
-        },
-        {
-            name: "Isabella Clark",
-            position: "Event Assistant",
-            image: "/placeholder-avatar.jpg",
-            socials: {
-                linkedin: "#",
-                twitter: "#",
-            }
-        },
-        {
-            name: "Mason Rodriguez",
-            position: "Technical Assistant",
-            image: "/placeholder-avatar.jpg",
-            socials: {
-                linkedin: "#",
-                github: "#",
             }
         }
     ];
