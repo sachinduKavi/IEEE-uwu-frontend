@@ -4,7 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Events() {
   const scrollRef = useRef(null);
-  const [selectedType, setSelectedType] = useState("upcoming");
+  const [selectedType, setSelectedType] = useState("past");
   const [showArrows, setShowArrows] = useState(false);
 
   const colors = {
@@ -18,73 +18,203 @@ export default function Events() {
   };
 
   const allEvents = [
-    // === Upcoming Events ===
     {
       id: "1",
-      title: "UvaXtreem v2",
+      title: "ByteBash v2 – May Meetup",
+      topic: "Docker-Based Deployment Workshop",
       description:
-        "UvaXtreme is a hackathon by the IEEE Student Branch of Uva Wellassa University that promotes innovation, teamwork, and coding skills.",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888497/WhatsApp_Image_2025-10-05_at_18.09.35_d1ca3e95_tp3wu2.jpg",
-      type: "upcoming",
+        "Byte Bash v2 May Meetup introduced students to Docker and cloud deployment, focusing on containerization, image building, and modern DevOps workflows.",
+      date: "21 May 2025",
+      time: "5:30 PM onwards",
+      location: "D1 Lecture Hall, Uva Wellassa University",
+      category: "Workshop",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375094/9320eacf-6c81-42a0-aa67-8687e9df1da1_piledf.jpg",
+      type: "past",
     },
     {
       id: "2",
-      title: "Wellassata AI",
+      title: "ByteBash v2.2 – WordPress Workshop",
+      topic: "Introduction to Freelancing through WordPress",
       description:
-        "A workshop exploring Artificial Intelligence and its potential to shape the future.",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761223744/comming_soon_dmcpma.jpg",
-      type: "upcoming",
+        "A workshop on building websites using WordPress and starting a freelancing career. Covered themes, plugins, layouts, and portfolio building.",
+      date: "23 May 2025",
+      time: "5:30 PM onwards",
+      location: "E3 Computer Lab, Uva Wellassa University",
+      category: "Workshop",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761222752/WhatsApp_Image_2025-10-23_at_18.00.41_15006575_zmnxjv.jpg",
+      type: "past",
     },
     {
       id: "3",
-      title: "School To Tech",
+      title: "WIE Nexus 2025",
+      topic: "Awareness Session on IEEE Women in Engineering",
       description:
-        "An outreach program introducing technology and innovation to school students.",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761223744/comming_soon_dmcpma.jpg",
-      type: "upcoming",
+        "An awareness session introducing students to IEEE WIE, its purpose, and leadership opportunities for volunteers.",
+      date: "29 May 2025",
+      time: "07:30 PM",
+      location: "Via Zoom Platform",
+      category: "Awareness Session",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375193/6b89c766-c092-460e-9f94-b805aaeeb0dc_fksime.jpg",
+      type: "past",
     },
-
-    // === Past Events ===
+    {
+      id: "4",
+      title: "ZerocyBull Webinar",
+      topic: "Cyberbullying and Digital Safety",
+      description:
+        "A webinar on cyberbullying, online safety, digital hygiene, and legal awareness in Sri Lanka.",
+      date: "08 Jun 2025",
+      time: "07:30 PM",
+      location: "Via Zoom Platform",
+      category: "Webinar",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375261/3f43405a-865f-4ff9-a2a7-e81a3679969e_gv5h4h.png",
+      type: "past",
+    },
+    {
+      id: "5",
+      title: "Sponsorship Mastery – Volunteer Training Series | Session 03",
+      topic: "Sponsorship Acquisition & Communication Skills",
+      description:
+        "Training session teaching volunteers how to approach sponsors, write proposals, and manage event partnerships.",
+      date: "15 Jun 2025",
+      time: "7:00 PM onwards",
+      location: "Via Zoom Platform",
+      category: "Training",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375316/24f22a65-c3cd-4a0a-a3e6-717be661b45a_mlmb9f.jpg",
+      type: "past",
+    },
+    {
+      id: "6",
+      title: "IEEE Open Day 2025",
+      topic: "Introduction to IEEE & Student Branch Opportunities",
+      description:
+        "Welcomed new students and introduced IEEE activities, chapters, benefits, and volunteer roles.",
+      date: "6 July 2025",
+      time: "10:00 AM",
+      location: "Technology Lecture Hall 01, Uva Wellassa University",
+      category: "Orientation",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375356/550dbd67-8584-4c4c-bde1-73b081112fa8_jr2k3b.jpg",
+      type: "past",
+    },
     {
       id: "7",
-      title: "Cloud Workshop",
-      date: "May 21, 2025",
-      time: "05:00 PM - 08:00 PM",
-      location: "D1 Lecture Hall",
-      link: "#",
-      category: "Workshop",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888571/WhatsApp_Image_2025-05-18_at_15.29.55_6f9ecd31_ff7amb.jpg",
+      title: "IAS Blog",
+      topic: "IEEE IAS Blog – Student Article Submission",
+      description:
+        "A platform for students to publish technical and creative articles, improve writing skills, and win rewards.",
+      date: "13 July – 13 August 2025",
+      time: "09:13 AM IST (Start)",
+      location: "Online",
+      category: "Blog",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375391/85d1ae06-50a8-4629-97a2-34750770895e_l44eg0.jpg",
       type: "past",
     },
     {
       id: "8",
-      title: "Internship Discussion",
-      date: "August 09, 2025",
-      time: "02:00 PM",
-      location: "D1 Lecture Hall",
-      link: "#",
-      category: "Meetup",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888399/WhatsApp_Image_2025-08-07_at_19.06.45_67e55e42_efrxme.jpg",
+      title: "IEEE Stall at UWU Expo 2025",
+      topic: "IEEE Awareness & Fundraising",
+      description:
+        "Hosted a stall at UWU Expo offering food items and raising funds, along with an IEEE awareness campaign.",
+      date: "16–19 July 2025",
+      time: "10:00 AM – 04:00 PM IST",
+      location: "UWU Expo Grounds",
+      category: "Expo",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375428/26ca00ca-85af-404a-b4f5-2b7baaa4a8a6_ixnvjl.jpg",
       type: "past",
     },
     {
       id: "9",
-      title: "WordPress Workshop",
-      date: "May 23, 2025",
-      time: "05:30 PM - 08:30 PM",
-      location: "E3 Computer Lab",
-      link: "#",
-      category: "Workshop",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761222752/WhatsApp_Image_2025-10-23_at_18.00.41_15006575_zmnxjv.jpg",
+      title: "ByteBash v2.3",
+      topic: "Industry Insights from Interns",
+      description:
+        "Interns shared real-world internship experiences, workplace expectations, and essential skills.",
+      date: "09 Aug 2025",
+      time: "02:00 PM – 05:00 PM",
+      location: "Via Zoom Platform",
+      category: "Meetup",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888399/WhatsApp_Image_2025-08-07_at_19.06.45_67e55e42_efrxme.jpg",
+      type: "past",
+    },
+    {
+      id: "10",
+      title: "UvaXtreme v2 Awareness Session",
+      topic: "Coding Competition Awareness",
+      description:
+        "Introduced students to the UvaXtreme v2 Coding Competition 2025, including structure and registration.",
+      date: "08 Oct 2025",
+      time: "07:00 PM – 09:27 PM",
+      location: "Via Zoom Platform",
+      category: "Awareness Session",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375524/e927bbab-af1c-4089-8a03-063a8bb028f0_l1oo6d.jpg",
+      type: "past",
+    },
+    {
+      id: "11",
+      title: "Professional Development & Career-Ready Skills",
+      topic: "Career Skills & Mentorship",
+      description:
+        "A session with IEEE Young Professionals Sri Lanka to help students build essential workplace skills.",
+      date: "10 Oct 2025",
+      time: "07:30 PM – 09:00 PM",
+      location: "Via Zoom Platform",
+      category: "Career Development",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375591/FB_IMG_1761069274489_qqgvhf.jpg",
+      type: "past",
+    },
+    {
+      id: "12",
+      title: "Mid-Term Full Executive Committee Meeting",
+      topic: "Committee Progress Review",
+      description:
+        "Reviewed term progress, challenges, and strategic planning for upcoming months.",
+      date: "13 Oct 2025",
+      time: "08:00 PM – 10:00 PM",
+      location: "Via Google Meet",
+      category: "Meeting",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761223744/comming_soon_dmcpma.jpg",
+      type: "past",
+    },
+    {
+      id: "13",
+      title: "IEEE Day Celebration 2025 – Phase 1 Webinar",
+      topic: "IEEE Volunteering & Global Opportunities",
+      description:
+        "Webinar featuring speakers discussing IEEE leadership, membership development, and awards.",
+      date: "24 Oct 2025",
+      time: "08:00 PM onwards",
+      location: "Via Zoom Platform",
+      category: "Webinar",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375649/IMG-20251117-WA0017_k9xkuw.jpg",
+      type: "past",
+    },
+    {
+      id: "14",
+      title: "IEEE Day Celebration 2025 – Phase 2 Gathering",
+      topic: "IEEE Day Celebration",
+      description:
+        "An in-person gathering with cake-cutting, networking, and reflections on achievements.",
+      date: "24 Oct 2025",
+      time: "04:30 PM onwards",
+      location: "D1 Lecture Hall, Uva Wellassa University",
+      category: "Celebration",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375693/IMG-20251117-WA0015_fewgou.jpg",
+      type: "past",
+    },
+    {
+      id: "15",
+      title: "IEEE Xtreme 19.0",
+      topic: "Global 24-Hour Coding Competition",
+      description:
+        "Students participated in the 24-hour global IEEE Xtreme coding competition, showcasing problem-solving and teamwork.",
+      date: "25 Oct 2025",
+      time: "From 07:30 PM onwards",
+      location: "D1, D2, D3 Lecture Halls, Uva Wellassa University",
+      category: "Competition",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375726/FB_IMG_1763365627752_klus8m.jpg",
       type: "past",
     },
   ];
+  
 
   const upcomingEvents = allEvents.filter((e) => e.type === "upcoming");
   const pastEvents = allEvents.filter((e) => e.type === "past");
@@ -149,7 +279,7 @@ export default function Events() {
 
         {/* Toggle Buttons */}
         <div className="flex justify-center mb-10 space-x-4">
-          {["upcoming", "past"].map((type) => (
+          {["past", "upcoming"].map((type) => (
             <button
               key={type}
               onClick={() => setSelectedType(type)}
