@@ -76,8 +76,7 @@ export default function CommitteeDisplay() {
         },
         {
             name: "Ms. Hasini Sarathchandra",
-            position: "HEAD OF\n" +
-                "PUBLIC VISIBILITY",
+            position: "HEAD OF PUBLIC VISIBILITY",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -86,8 +85,7 @@ export default function CommitteeDisplay() {
         },
         {
             name: "Ms. Pamudi Karunathilaka",
-            position: "HEAD OF\n" +
-                "EDITORIAL",
+            position: "HEAD OF EDITORIAL",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -96,8 +94,7 @@ export default function CommitteeDisplay() {
         },
         {
             name: "Ms. Nipunee Nawanjana",
-            position: "HEAD OF\n" +
-                "MEMBERSHIP DEVELOPMENT",
+            position: "HEAD OF MEMBERSHIP DEVELOPMENT",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -160,8 +157,7 @@ export default function CommitteeDisplay() {
         },
         {
             name: "Ms. Naduni Jayathilake",
-            position: "MEMBER-MEMBERSHIP\n" +
-                "DEVELPOMENT",
+            position: "MEMBER-MEMBERSHIP DEVELOPMENT",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -170,6 +166,20 @@ export default function CommitteeDisplay() {
     ];
 
     const currentCommittee = activeCommittee === "top" ? topCommittee : juniorCommittee;
+
+    // Split committees into rows based on the layout requirements
+    const topCommitteeRows = [
+        topCommittee.slice(0, 4), // First row: 4 cards
+        topCommittee.slice(4)     // Second row: 3 cards
+    ];
+
+    const juniorCommitteeRows = [
+        juniorCommittee.slice(0, 3), // First row: 3 cards
+        juniorCommittee.slice(3, 6), // Second row: 3 cards
+        juniorCommittee.slice(6)     // Third row: 1 card (will be centered)
+    ];
+
+    const committeeRows = activeCommittee === "top" ? topCommitteeRows : juniorCommitteeRows;
 
     return (
         <section id="wiecommittee" ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#f8f5ff] to-[#f0ebff] text-gray-800 overflow-hidden">
@@ -211,62 +221,83 @@ export default function CommitteeDisplay() {
                     </div>
                 </div>
 
-                {/* Committee Grid */}
-                <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
-                    {currentCommittee.map((member, index) => (
+                {/* Committee Grid with Custom Layout */}
+                <div className={`transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
+                    {committeeRows.map((row, rowIndex) => (
                         <div
-                            key={index}
-                            className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group"
-                            onMouseEnter={() => setSelectedMember(index)}
-                            onMouseLeave={() => setSelectedMember(null)}
+                            key={rowIndex}
+                            className={`flex justify-center gap-6 mb-6 ${
+                                // Center the last row if it has only one card (junior committee)
+                                row.length === 1 ? 'justify-center' : ''
+                            }`}
                         >
-                            <div className="relative h-48 overflow-hidden">
-                                {/* Gradient overlay */}
-                                <div className="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
+                            {row.map((member, index) => {
+                                const absoluteIndex = activeCommittee === "top"
+                                    ? (rowIndex * 4 + index) // For top committee: row1: 0-3, row2: 4-6
+                                    : (rowIndex * 3 + index); // For junior committee: row1: 0-2, row2: 3-5, row3: 6
 
-                                {/* Member image */}
-                                <div
-                                    className="w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center"
-                                >
-                                    <svg className="w-20 h-20 text-purple-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </div>
+                                return (
+                                    <div
+                                        key={absoluteIndex}
+                                        className={`bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group ${
+                                            // Responsive width based on number of cards in row
+                                            row.length === 4 ? 'w-full sm:w-1/2 lg:w-1/4' :
+                                                row.length === 3 ? 'w-full sm:w-1/2 lg:w-1/3' :
+                                                    'w-full sm:w-1/2 lg:w-1/4' // Single card - same width as 4-card row
+                                        }`}
+                                        onMouseEnter={() => setSelectedMember(absoluteIndex)}
+                                        onMouseLeave={() => setSelectedMember(null)}
+                                    >
+                                        <div className="relative h-48 overflow-hidden">
+                                            {/* Gradient overlay */}
+                                            <div className="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
 
-                                {/* Social links */}
-                                <div className="absolute bottom-4 left-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
-                                    {member.socials?.linkedin && (
-                                        <a href={member.socials.linkedin} className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition-colors">
-                                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                                            </svg>
-                                        </a>
-                                    )}
-                                    {member.socials?.twitter && (
-                                        <a href={member.socials.twitter} className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition-colors">
-                                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                                            </svg>
-                                        </a>
-                                    )}
-                                    {member.socials?.github && (
-                                        <a href={member.socials.github} className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition-colors">
-                                            <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
-                                            </svg>
-                                        </a>
-                                    )}
-                                </div>
-                            </div>
+                                            {/* Member image */}
+                                            <div
+                                                className="w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center"
+                                            >
+                                                <svg className="w-20 h-20 text-purple-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
+                                                </svg>
+                                            </div>
 
-                            {/* Member info */}
-                            <div className="p-6">
-                                <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-700 transition-colors">{member.name}</h3>
-                                <p className="text-purple-600 font-medium">{member.position}</p>
+                                            {/* Social links */}
+                                            <div className="absolute bottom-4 left-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-20">
+                                                {member.socials?.linkedin && (
+                                                    <a href={member.socials.linkedin} className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition-colors">
+                                                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                                                        </svg>
+                                                    </a>
+                                                )}
+                                                {member.socials?.twitter && (
+                                                    <a href={member.socials.twitter} className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition-colors">
+                                                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                                        </svg>
+                                                    </a>
+                                                )}
+                                                {member.socials?.github && (
+                                                    <a href={member.socials.github} className="w-8 h-8 rounded-full bg-white flex items-center justify-center text-purple-700 hover:bg-purple-700 hover:text-white transition-colors">
+                                                        <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+                                                        </svg>
+                                                    </a>
+                                                )}
+                                            </div>
+                                        </div>
 
-                                {/* Decorative element */}
-                                <div className="mt-4 w-12 h-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full"></div>
-                            </div>
+                                        {/* Member info */}
+                                        <div className="p-6">
+                                            <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-700 transition-colors">{member.name}</h3>
+                                            <p className="text-purple-600 font-medium whitespace-pre-line">{member.position}</p>
+
+                                            {/* Decorative element */}
+                                            <div className="mt-4 w-12 h-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full"></div>
+                                        </div>
+                                    </div>
+                                );
+                            })}
                         </div>
                     ))}
                 </div>
