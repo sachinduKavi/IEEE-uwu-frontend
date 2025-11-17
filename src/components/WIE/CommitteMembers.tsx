@@ -40,8 +40,8 @@ export default function CommitteeDisplay() {
 
     const topCommittee: CommitteeMember[] = [
         {
-            name: "Jane Smith",
-            position: "Chairperson",
+            name: "Ms. Layanjala Jayasundara",
+            position: "CHAIRPERSON",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -49,8 +49,8 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "John Doe",
-            position: "Vice Chair",
+            name: "Ms.Chamodya Perera",
+            position: "SECRETARY",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -58,8 +58,8 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "Emily Johnson",
-            position: "Secretary",
+            name: "Ms.Prathibha Dulakshini",
+            position: "TREASURER",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -67,16 +67,17 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "Michael Brown",
-            position: "Treasurer",
+            name: "Ms. Ishini Dewamiththa",
+            position: "WEBMASTER",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
             }
         },
         {
-            name: "Sarah Williams",
-            position: "Events Coordinator",
+            name: "Ms. Hasini Sarathchandra",
+            position: "HEAD OF\n" +
+                "PUBLIC VISIBILITY",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
@@ -84,8 +85,19 @@ export default function CommitteeDisplay() {
             }
         },
         {
-            name: "David Miller",
-            position: "Outreach Director",
+            name: "Ms. Pamudi Karunathilaka",
+            position: "HEAD OF\n" +
+                "EDITORIAL",
+            image: "/placeholder-avatar.jpg",
+            socials: {
+                linkedin: "#",
+                github: "#",
+            }
+        },
+        {
+            name: "Ms. Nipunee Nawanjana",
+            position: "HEAD OF\n" +
+                "MEMBERSHIP DEVELOPMENT",
             image: "/placeholder-avatar.jpg",
             socials: {
                 linkedin: "#",
