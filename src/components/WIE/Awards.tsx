@@ -56,7 +56,7 @@ export default function WIEAwards() {
     ];
 
     return (
-        <section ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#0f0825] to-[#1e1130] text-white overflow-hidden">
+        <section id="wieawards" ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#0f0825] to-[#1e1130] text-white overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">

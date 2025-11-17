@@ -158,7 +158,7 @@ export default function WIEEventsTimeline() {
     ];
 
     return (
-        <section ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white overflow-hidden">
+        <section id="wieevents" ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -198,7 +198,6 @@ export default function WIEEventsTimeline() {
                                 </div>
 
                                 {/* Event buttons positioned in a circle */}
-                                {/* Event buttons positioned in a circle */}
                                 <div className="absolute inset-0">
                                     {events.map((event, index) => {
                                         const angle = (index * 360) / events.length;
@@ -210,11 +209,11 @@ export default function WIEEventsTimeline() {
                                         return (
                                             <button
                                                 key={index}
-                                                onClick={() => setActiveEvent(index)} // ✅ when clicked, change active event
-                                                className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 
-          ${activeEvent === index
-                                                    ? 'scale-125 border-2 border-white shadow-lg z-10 bg-gray-900'
-                                                    : 'scale-100 opacity-80 hover:opacity-100 hover:scale-105 bg-gray-800'
+                                                onClick={() => setActiveEvent(index)}
+                                                className={`absolute w-14 h-14 rounded-lg flex items-center justify-center text-xl transition-all duration-500 ${
+                                                    activeEvent === index
+                                                        ? 'scale-110 border-2 border-white shadow-lg z-10 bg-gray-900'
+                                                        : 'scale-100 opacity-90 hover:opacity-100 bg-gray-800 hover:scale-105'
                                                 } ${event.color}`}
                                                 style={{
                                                     left: `calc(50% + ${x}px - 1.75rem)`,
@@ -230,7 +229,6 @@ export default function WIEEventsTimeline() {
                                         );
                                     })}
                                 </div>
-
 
                                 {/* Center display - Tech element */}
                                 <div className="absolute inset-0 flex items-center justify-center">
@@ -253,8 +251,8 @@ export default function WIEEventsTimeline() {
                                         ←
                                     </button>
                                     <span className="text-xs text-gray-400 flex items-center">
-                                        {activeEvent + 1} / {events.length}
-                                    </span>
+                    {activeEvent + 1} / {events.length}
+                  </span>
                                     <button
                                         onClick={() => setActiveEvent(activeEvent === events.length - 1 ? 0 : activeEvent + 1)}
                                         className="w-8 h-8 rounded-full bg-purple-700 hover:bg-purple-600 flex items-center justify-center transition-colors text-xs"
@@ -309,23 +307,23 @@ export default function WIEEventsTimeline() {
                 </div>
             </div>
 
-            {/* Add custom scrollbar styles to your global CSS file */}
+            {/* Add custom scrollbar styles */}
             <style>{`
-                .custom-scrollbar::-webkit-scrollbar {
-                    width: 4px;
-                }
-                .custom-scrollbar::-webkit-scrollbar-track {
-                    background: rgba(255, 255, 255, 0.05);
-                    border-radius: 10px;
-                }
-                .custom-scrollbar::-webkit-scrollbar-thumb {
-                    background: rgba(192, 132, 252, 0.5);
-                    border-radius: 10px;
-                }
-                .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-                    background: rgba(192, 132, 252, 0.7);
-                }
-            `}</style>
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: rgba(255, 255, 255, 0.05);
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: rgba(192, 132, 252, 0.5);
+          border-radius: 10px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+          background: rgba(192, 132, 252, 0.7);
+        }
+      `}</style>
         </section>
     );
 }

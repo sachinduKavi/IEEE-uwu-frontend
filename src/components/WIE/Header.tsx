@@ -12,10 +12,13 @@ export default function WIEHeader() {
     const navigate = useNavigate();
 
     const navigation = [
-        { name: "Home", to: "#home", isAnchor: true },
-        { name: "About", to: "#about", isAnchor: true },
-        { name: "Chapters", to: "#chapters", isAnchor: true },
-        { name: "Events", to: "#upcoming-event", isAnchor: true },
+        { name: "Home", to: "#wiehome", isAnchor: true },
+        { name: "About", to: "#wieabout", isAnchor: true },
+        { name: "Advisor", to: "#wieadvisor", isAnchor: true },
+        { name: "Committee", to: "#wiecommittee", isAnchor: true },
+        { name: "Awards", to: "#wieawards", isAnchor: true },
+        { name: "Events", to: "#wieevents", isAnchor: true },
+        { name: "Benefits", to: "#wiebenefits", isAnchor: true },
     ];
 
     useEffect(() => {

@@ -177,7 +177,7 @@ export default function CommitteeDisplay() {
     const currentCommittee = activeCommittee === "top" ? topCommittee : juniorCommittee;
 
     return (
-        <section ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#f8f5ff] to-[#f0ebff] text-gray-800 overflow-hidden">
+        <section id="wiecommittee" ref={sectionRef} className="py-20 lg:py-28 bg-gradient-to-br from-[#f8f5ff] to-[#f0ebff] text-gray-800 overflow-hidden">
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">

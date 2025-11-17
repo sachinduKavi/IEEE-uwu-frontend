@@ -25,7 +25,7 @@ export default function WIEHero() {
     }, [heroTexts.length]);
 
     return (
-        <section id="home" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden bg-white">
+        <section id="wiehome" className="relative min-h-screen flex items-center justify-center pt-16 overflow-hidden bg-white">
             {/* Decorative elements */}
             <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-purple-50 to-white z-0"></div>
 
