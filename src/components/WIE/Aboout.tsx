@@ -9,9 +9,14 @@ export default function WIEAbout() {
             ([entry]) => {
                 if (entry.isIntersecting) {
                     setIsVisible(true);
+                    // Once visible, stop observing
+                    observer.unobserve(entry.target);
                 }
             },
-            { threshold: 0.2 }
+            {
+                threshold: 0.1,
+                rootMargin: '-50px' // Adjust this value as needed
+            }
         );
 
         if (sectionRef.current) {
@@ -26,7 +31,11 @@ export default function WIEAbout() {
     }, []);
 
     return (
-        <section id="wieabout"  className="py-20 lg:py-28 bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white overflow-hidden">
+        <section
+            id="wieabout"
+            ref={sectionRef}
+            className="py-20 lg:py-28 bg-gradient-to-br from-[#1a103c] to-[#2d0f32] text-white overflow-hidden"
+        >
             <div className="container mx-auto px-4 sm:px-6 lg:px-8">
                 {/* Section Header */}
                 <div className="text-center mb-16">
@@ -54,7 +63,6 @@ export default function WIEAbout() {
                                 We've launched pioneering programs like Sri Lanka's first ladies-only hackathon "SHECODERess," along with career guidance workshops and design hackathons that inspire and support young women in technology fields.
                             </p>
                         </div>
-
                     </div>
 
                     {/* Image/Graphic */}
@@ -108,7 +116,6 @@ export default function WIEAbout() {
                         </p>
                     </div>
                 </div>
-
             </div>
         </section>
     );
