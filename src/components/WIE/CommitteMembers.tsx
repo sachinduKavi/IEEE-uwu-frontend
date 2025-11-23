@@ -1,9 +1,27 @@
 import { useState, useRef, useEffect } from "react";
+// Import your images
+import layanjala from '../../assets/WIE/laya.jpg';
+import chamodya from '../../assets/WIE/chamodya.png';
+import prathibha from '../../assets/WIE/prathiba.jpg';
+import ishini from '../../assets/WIE/WebMaster -Ishini Dewamiththa.jpeg';
+import hasini from '../../assets/WIE/hasini.jpg';
+import pamudi from '../../assets/WIE/default.jpg';
+import nipunee from '../../assets/WIE/nipuniee.jpg';
+
+// Junior committee imports
+import ishiniD from '../../assets/WIE/Vice chairperson - Ishini Dissanayake.jpg';
+import dinithi from '../../assets/WIE/Assistant Secretary - Dinithi Ukwatta .jpg';
+import kavisana from '../../assets/WIE/Pv member - Kavisana Kanthavanesan.jpg';
+import sachini from '../../assets/WIE/PV member - W. Sachini Tharushika.jpg';
+import milasha from '../../assets/WIE/Editorial Member - Milasha Subasinghe.jpg';
+import jeyamathura from '../../assets/WIE/Editorial Member - Jeyamathura Jeyakaneshan .jpg';
+import naduni from '../../assets/WIE/MD Member - Naduni Jayathilake.jpg';
+
 
 interface CommitteeMember {
     name: string;
     position: string;
-    image: string;
+    image: string; // This can be either imported image or path string
     socials?: {
         linkedin?: string;
         twitter?: string;
@@ -42,25 +60,25 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Layanjala Jayasundara",
             position: "CHAIRPERSON",
-            image: "/placeholder-avatar.jpg",
+            image: layanjala, // Use imported image
             socials: {
                 linkedin: "#",
                 twitter: "#",
             }
         },
         {
-            name: "Ms.Chamodya Perera",
+            name: "Ms. Chamodya Perera",
             position: "SECRETARY",
-            image: "/placeholder-avatar.jpg",
+            image: chamodya,
             socials: {
                 linkedin: "#",
                 github: "#",
             }
         },
         {
-            name: "Ms.Prathibha Dulakshini",
+            name: "Ms. Prathibha Dulakshini",
             position: "TREASURER",
-            image: "/placeholder-avatar.jpg",
+            image: prathibha,
             socials: {
                 linkedin: "#",
                 twitter: "#",
@@ -69,7 +87,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Ishini Dewamiththa",
             position: "WEBMASTER",
-            image: "/placeholder-avatar.jpg",
+            image: ishini,
             socials: {
                 linkedin: "#",
             }
@@ -77,7 +95,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Hasini Sarathchandra",
             position: "HEAD OF PUBLIC VISIBILITY",
-            image: "/placeholder-avatar.jpg",
+            image: hasini,
             socials: {
                 linkedin: "#",
                 twitter: "#",
@@ -86,7 +104,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Pamudi Karunathilaka",
             position: "HEAD OF EDITORIAL",
-            image: "/placeholder-avatar.jpg",
+            image:pamudi ,
             socials: {
                 linkedin: "#",
                 github: "#",
@@ -95,7 +113,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Nipunee Nawanjana",
             position: "HEAD OF MEMBERSHIP DEVELOPMENT",
-            image: "/placeholder-avatar.jpg",
+            image: nipunee,
             socials: {
                 linkedin: "#",
                 github: "#",
@@ -107,7 +125,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Ishini Dissanayake",
             position: "VICE CHAIRPERSON",
-            image: "/placeholder-avatar.jpg",
+            image: ishiniD,
             socials: {
                 linkedin: "#",
             }
@@ -115,7 +133,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Dinithi Ukwatta",
             position: "ASSISTANT SECRETARY",
-            image: "/placeholder-avatar.jpg",
+            image: dinithi,
             socials: {
                 linkedin: "#",
                 twitter: "#",
@@ -124,7 +142,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Kavisana Kanthavanesan",
             position: "MEMBER-PUBLIC VISIBILITY",
-            image: "/placeholder-avatar.jpg",
+            image: kavisana,
             socials: {
                 linkedin: "#",
                 github: "#",
@@ -133,7 +151,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Sachini Tharushika",
             position: "MEMBER-PUBLIC VISIBILITY",
-            image: "/placeholder-avatar.jpg",
+            image: sachini,
             socials: {
                 linkedin: "#",
             }
@@ -141,7 +159,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Milasha Subasinghe",
             position: "MEMBER-EDITORIAL",
-            image: "/placeholder-avatar.jpg",
+            image: milasha,
             socials: {
                 linkedin: "#",
                 twitter: "#",
@@ -150,7 +168,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Jeyamathura Jeyakaneshan",
             position: "MEMBER-EDITORIAL",
-            image: "/placeholder-avatar.jpg",
+            image: jeyamathura,
             socials: {
                 linkedin: "#",
             }
@@ -158,7 +176,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Naduni Jayathilake",
             position: "MEMBER-MEMBERSHIP DEVELOPMENT",
-            image: "/placeholder-avatar.jpg",
+            image: naduni,
             socials: {
                 linkedin: "#",
             }
