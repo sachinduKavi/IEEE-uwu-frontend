@@ -17,11 +17,10 @@ import milasha from '../../assets/WIE/Editorial Member - Milasha Subasinghe.jpg'
 import jeyamathura from '../../assets/WIE/Editorial Member - Jeyamathura Jeyakaneshan .jpg';
 import naduni from '../../assets/WIE/MD Member - Naduni Jayathilake.jpg';
 
-
 interface CommitteeMember {
     name: string;
     position: string;
-    image: string; // This can be either imported image or path string
+    image: string;
     socials?: {
         linkedin?: string;
         twitter?: string;
@@ -60,7 +59,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Layanjala Jayasundara",
             position: "CHAIRPERSON",
-            image: layanjala, // Use imported image
+            image: layanjala,
             socials: {
                 linkedin: "#",
                 twitter: "#",
@@ -104,7 +103,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Pamudi Karunathilaka",
             position: "HEAD OF EDITORIAL",
-            image:pamudi ,
+            image: pamudi,
             socials: {
                 linkedin: "#",
                 github: "#",
@@ -187,14 +186,14 @@ export default function CommitteeDisplay() {
 
     // Split committees into rows based on the layout requirements
     const topCommitteeRows = [
-        topCommittee.slice(0, 4), // First row: 4 cards
-        topCommittee.slice(4)     // Second row: 3 cards
+        topCommittee.slice(0, 4),
+        topCommittee.slice(4)
     ];
 
     const juniorCommitteeRows = [
-        juniorCommittee.slice(0, 3), // First row: 3 cards
-        juniorCommittee.slice(3, 6), // Second row: 3 cards
-        juniorCommittee.slice(6)     // Third row: 1 card (will be centered)
+        juniorCommittee.slice(0, 3),
+        juniorCommittee.slice(3, 6),
+        juniorCommittee.slice(6)
     ];
 
     const committeeRows = activeCommittee === "top" ? topCommitteeRows : juniorCommitteeRows;
@@ -245,23 +244,21 @@ export default function CommitteeDisplay() {
                         <div
                             key={rowIndex}
                             className={`flex justify-center gap-6 mb-6 ${
-                                // Center the last row if it has only one card (junior committee)
                                 row.length === 1 ? 'justify-center' : ''
                             }`}
                         >
                             {row.map((member, index) => {
                                 const absoluteIndex = activeCommittee === "top"
-                                    ? (rowIndex * 4 + index) // For top committee: row1: 0-3, row2: 4-6
-                                    : (rowIndex * 3 + index); // For junior committee: row1: 0-2, row2: 3-5, row3: 6
+                                    ? (rowIndex * 4 + index)
+                                    : (rowIndex * 3 + index);
 
                                 return (
                                     <div
                                         key={absoluteIndex}
                                         className={`bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group ${
-                                            // Responsive width based on number of cards in row
                                             row.length === 4 ? 'w-full sm:w-1/2 lg:w-1/4' :
                                                 row.length === 3 ? 'w-full sm:w-1/2 lg:w-1/3' :
-                                                    'w-full sm:w-1/2 lg:w-1/4' // Single card - same width as 4-card row
+                                                    'w-full sm:w-1/2 lg:w-1/4'
                                         }`}
                                         onMouseEnter={() => setSelectedMember(absoluteIndex)}
                                         onMouseLeave={() => setSelectedMember(null)}
@@ -270,13 +267,13 @@ export default function CommitteeDisplay() {
                                             {/* Gradient overlay */}
                                             <div className="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
 
-                                            {/* Member image */}
-                                            <div
-                                                className="w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center"
-                                            >
-                                                <svg className="w-20 h-20 text-purple-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                                    <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
-                                                </svg>
+                                            {/* Member image - CORRECTED: Using actual image */}
+                                            <div className="w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center overflow-hidden">
+                                                <img
+                                                    src={member.image}
+                                                    alt={member.name}
+                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                                />
                                             </div>
 
                                             {/* Social links */}
@@ -309,8 +306,6 @@ export default function CommitteeDisplay() {
                                         <div className="p-6">
                                             <h3 className="text-xl font-bold text-gray-900 group-hover:text-purple-700 transition-colors">{member.name}</h3>
                                             <p className="text-purple-600 font-medium whitespace-pre-line">{member.position}</p>
-
-                                            {/* Decorative element */}
                                             <div className="mt-4 w-12 h-1 bg-gradient-to-r from-purple-400 to-pink-400 rounded-full"></div>
                                         </div>
                                     </div>
