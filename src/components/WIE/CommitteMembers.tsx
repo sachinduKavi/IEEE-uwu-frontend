@@ -62,7 +62,7 @@ export default function CommitteeDisplay() {
             image: layanjala,
             socials: {
                 linkedin: "#",
-                twitter: "#",
+                
             }
         },
         {
@@ -71,7 +71,7 @@ export default function CommitteeDisplay() {
             image: chamodya,
             socials: {
                 linkedin: "#",
-                github: "#",
+
             }
         },
         {
@@ -80,7 +80,7 @@ export default function CommitteeDisplay() {
             image: prathibha,
             socials: {
                 linkedin: "#",
-                twitter: "#",
+
             }
         },
         {
@@ -97,7 +97,7 @@ export default function CommitteeDisplay() {
             image: hasini,
             socials: {
                 linkedin: "#",
-                twitter: "#",
+
             }
         },
         {
@@ -106,7 +106,7 @@ export default function CommitteeDisplay() {
             image: pamudi,
             socials: {
                 linkedin: "#",
-                github: "#",
+
             }
         },
         {
@@ -115,7 +115,7 @@ export default function CommitteeDisplay() {
             image: nipunee,
             socials: {
                 linkedin: "#",
-                github: "#",
+
             }
         }
     ];
@@ -267,12 +267,13 @@ export default function CommitteeDisplay() {
                                             {/* Gradient overlay */}
                                             <div className="absolute inset-0 bg-gradient-to-t from-purple-900/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></div>
 
-                                            {/* Member image - CORRECTED: Using actual image */}
-                                            <div className="w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center overflow-hidden">
+                                            {/* Member image with better cropping */}
+                                            <div className="w-full h-full flex items-center justify-center overflow-hidden bg-gray-100">
                                                 <img
                                                     src={member.image}
                                                     alt={member.name}
-                                                    className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
+                                                    className="w-full h-full object-cover object-center scale-105 group-hover:scale-110 transition-transform duration-500"
+                                                    style={{ objectPosition: '50% 30%' }} // Adjust this to focus on faces
                                                 />
                                             </div>
 
