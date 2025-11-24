@@ -2,10 +2,10 @@ import { useState, useRef, useEffect } from "react";
 // Import your images
 import layanjala from '../../assets/WIE/laya.jpg';
 import chamodya from '../../assets/WIE/chamodya.png';
-import prathibha from '../../assets/WIE/prathiba.jpg';
+import prathiba from '../../assets/WIE/prathiba.jpg'
 import ishini from '../../assets/WIE/WebMaster -Ishini Dewamiththa.jpeg';
 import hasini from '../../assets/WIE/hasini.jpg';
-import pamudi from '../../assets/WIE/default.jpg';
+import pamudi from '../../assets/WIE/pamudi.jpeg';
 import nipunee from '../../assets/WIE/nipuniee.jpg';
 
 // Junior committee imports
@@ -77,7 +77,7 @@ export default function CommitteeDisplay() {
         {
             name: "Ms. Prathibha Dulakshini",
             position: "TREASURER",
-            image: prathibha,
+            image: prathiba,
             socials: {
                 linkedin: "https://www.linkedin.com/in/prathibhasiriwardhana/",
 
