@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 
 export default function WIEHero() {
     const [currentTextIndex, setCurrentTextIndex] = useState(0);
@@ -61,31 +60,49 @@ export default function WIEHero() {
                         Dedicated to promoting women engineers and scientists, and inspiring girls around the world to follow their academic interests in a career in engineering and science.
                     </p>
 
-                    {/* Call to action buttons */}
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mt-10">
-                        <Link
-                            to="#about"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                document.querySelector('#about')?.scrollIntoView({ behavior: 'smooth' });
-                            }}
-                            className="px-8 py-3 bg-gradient-to-r from-purple-600 to-purple-800 text-white font-semibold rounded-full hover:from-purple-700 hover:to-purple-900 transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-200"
-                        >
-                            Learn More
-                        </Link>
-                        <Link
-                            to="#upcoming-event"
-                            onClick={(e) => {
-                                e.preventDefault();
-                                document.querySelector('#upcoming-event')?.scrollIntoView({ behavior: 'smooth' });
-                            }}
-                            className="px-8 py-3 border-2 border-purple-600 text-purple-700 font-semibold rounded-full hover:bg-purple-50 transition-all duration-300 transform hover:scale-105"
-                        >
-                            Upcoming Events
-                        </Link>
+                    {/* Stats Section - Replaces buttons */}
+                    {/* Replace the stats section with this */}
+                  
+                    {/*<div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto mt-12">*/}
+                    {/*    <div className="flex flex-col items-center text-center p-4">*/}
+                    {/*        <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-3">*/}
+                    {/*            <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">*/}
+                    {/*                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />*/}
+                    {/*            </svg>*/}
+                    {/*        </div>*/}
+                    {/*        <h3 className="font-semibold text-gray-900 mb-1">Mentorship</h3>*/}
+                    {/*        <p className="text-sm text-gray-600">Professional guidance programs</p>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="flex flex-col items-center text-center p-4">*/}
+                    {/*        <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-3">*/}
+                    {/*            <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">*/}
+                    {/*                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />*/}
+                    {/*            </svg>*/}
+                    {/*        </div>*/}
+                    {/*        <h3 className="font-semibold text-gray-900 mb-1">Networking</h3>*/}
+                    {/*        <p className="text-sm text-gray-600">Global community connections</p>*/}
+                    {/*    </div>*/}
+                    {/*    <div className="flex flex-col items-center text-center p-4">*/}
+                    {/*        <div className="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center mb-3">*/}
+                    {/*            <svg className="w-6 h-6 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">*/}
+                    {/*                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />*/}
+                    {/*            </svg>*/}
+                    {/*        </div>*/}
+                    {/*        <h3 className="font-semibold text-gray-900 mb-1">Innovation</h3>*/}
+                    {/*        <p className="text-sm text-gray-600">Cutting-edge research</p>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+
+                    {/* Scroll indicator */}
+                    <div className="mt-16 animate-bounce">
+                        <div className="flex flex-col items-center text-purple-600">
+                            <span className="text-sm font-medium mb-2">Explore More</span>
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+                            </svg>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
     );
