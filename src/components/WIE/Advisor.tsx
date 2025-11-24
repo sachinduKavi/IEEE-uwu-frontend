@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import advisorImage from "../../assets/WIE/Ms.-S.D.H.S.-Wickramarathne.jpg"; // Renamed import
 
 interface SocialLinks {
     linkedin?: string;
@@ -44,7 +45,7 @@ export default function AdvisorDisplay() {
     const advisor: Advisor = {
         name: "Ms. S.D.H.S. Wickramarathne",
         position: "Head Of CSI Department",
-        image: "/placeholder-avatar.jpg",
+        image: advisorImage, // Now using the renamed import
         description: "Ms. S. D. H. S. Wickramarathne is a Senior Lecturer (Grade I) in the Department of Computer Science and Informatics at Uva Wellassa University. She holds an M.Sc. from the Asian Institute of Technology, Thailand, and a B.Sc. in IT from the University of Moratuwa. She has wide experience in teaching, curriculum development, quality assurance, and student mentoring, and has held key roles in program coordination and academic committees.",
         qualifications: [
             "PhD in Computer Science",
@@ -54,8 +55,8 @@ export default function AdvisorDisplay() {
             "IEEE Senior Member"
         ],
         socials: {
-            linkedin: "#",
-            email: "mailto:advisor@example.com",
+            linkedin: "https://www.linkedin.com/in/harshani-wickramarathna-7a519710/",
+            email: "mailto:harshani@uwu.ac.lk",
         }
     };
 
@@ -79,11 +80,12 @@ export default function AdvisorDisplay() {
                         <div className="relative">
                             {/* Main image container */}
                             <div className="w-72 h-72 lg:w-80 lg:h-80 rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
-                                <div className="w-full h-full bg-gradient-to-br from-purple-100 to-purple-200 flex items-center justify-center">
-                                    <svg className="w-32 h-32 text-purple-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                                        <path fillRule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clipRule="evenodd"></path>
-                                    </svg>
-                                </div>
+                                {/* Replace the placeholder SVG with actual image */}
+                                <img
+                                    src={advisor.image}
+                                    alt={advisor.name}
+                                    className="w-full h-full object-cover"
+                                />
                             </div>
 
                             {/* Decorative elements */}
@@ -107,6 +109,25 @@ export default function AdvisorDisplay() {
                                 {advisor.description}
                             </p>
 
+                            {/*/!* Qualifications *!/*/}
+                            {/*<div className="mb-8">*/}
+                            {/*    <h4 className="text-lg font-semibold text-gray-900 mb-4 flex items-center">*/}
+                            {/*        <svg className="w-5 h-5 text-purple-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">*/}
+                            {/*            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>*/}
+                            {/*        </svg>*/}
+                            {/*        Key Qualifications*/}
+                            {/*    </h4>*/}
+                            {/*    <div className="grid grid-cols-1 md:grid-cols-2 gap-2">*/}
+                            {/*        {advisor.qualifications.map((qualification, index) => (*/}
+                            {/*            <div key={index} className="flex items-center">*/}
+                            {/*                <svg className="w-4 h-4 text-purple-500 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">*/}
+                            {/*                    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd"></path>*/}
+                            {/*                </svg>*/}
+                            {/*                <span className="text-gray-700">{qualification}</span>*/}
+                            {/*            </div>*/}
+                            {/*        ))}*/}
+                            {/*    </div>*/}
+                            {/*</div>*/}
 
                             {/* Social Links */}
                             <div>
@@ -124,13 +145,6 @@ export default function AdvisorDisplay() {
                                             </svg>
                                         </a>
                                     )}
-                                    {advisor.socials.twitter && (
-                                        <a href={advisor.socials.twitter} className="w-12 h-12 rounded-full bg-purple-100 hover:bg-purple-200 flex items-center justify-center text-purple-700 transition-colors">
-                                            <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
-                                            </svg>
-                                        </a>
-                                    )}
                                     {advisor.socials.email && (
                                         <a href={advisor.socials.email} className="w-12 h-12 rounded-full bg-purple-100 hover:bg-purple-200 flex items-center justify-center text-purple-700 transition-colors">
                                             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -138,17 +152,9 @@ export default function AdvisorDisplay() {
                                             </svg>
                                         </a>
                                     )}
-                                    {advisor.socials.website && (
-                                        <a href={advisor.socials.website} className="w-12 h-12 rounded-full bg-purple-100 hover:bg-purple-200 flex items-center justify-center text-purple-700 transition-colors">
-                                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
-                                            </svg>
-                                        </a>
-                                    )}
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
