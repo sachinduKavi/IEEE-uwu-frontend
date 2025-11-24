@@ -57,7 +57,7 @@ export default function WIEAbout() {
                                 IEEE Women in Engineering (WIE) is a global organization dedicated to promoting women in engineering and science.
                             </p>
                             <p className="text-lg text-gray-300 leading-relaxed mb-6">
-                                Established in 2016 at UWU Student Branch, our WIE Affinity Group has been actively empowering female undergraduates in IT and engineering through various initiatives under the guidance of Dr. L.K. Narangammana.
+                                Established in 2016 at UWU Student Branch, our WIE Affinity Group has been actively empowering female undergraduates in IT and engineering through various initiatives under the guidance of Ms. S.D.H.S. Wickramarathne.
                             </p>
                             <p className="text-lg text-gray-300 leading-relaxed">
                                 We've launched pioneering programs like Sri Lanka's first ladies-only hackathon "SHECODERess," along with career guidance workshops and design hackathons that inspire and support young women in technology fields.
