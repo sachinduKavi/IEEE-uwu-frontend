@@ -12,7 +12,7 @@ export default function WIEHeader() {
     const navigate = useNavigate();
 
     const navigation = [
-        { name: "Home", to: "#wiehome", isAnchor: true },
+        { name: "Home", to: "#wie", isAnchor: true },
         { name: "About", to: "#wieabout", isAnchor: true },
         { name: "Advisor", to: "#wieadvisor", isAnchor: true },
         { name: "Committee", to: "#wiecommittee", isAnchor: true },
@@ -26,7 +26,7 @@ export default function WIEHeader() {
             setScrolled(window.scrollY > 10);
 
             // Only update active link if we're on the home page
-            if (window.location.pathname === '/') {
+            if (window.location.pathname === '/wie') {
                 const sections = navigation.filter(item => item.isAnchor).map(item => item.to.substring(1));
                 const scrollPosition = window.scrollY + 100;
 
@@ -58,8 +58,8 @@ export default function WIEHeader() {
             setActiveLink(to);
             setIsMobileMenuOpen(false);
 
-            if (window.location.pathname !== '/') {
-                navigate('/');
+            if (window.location.pathname !== '/wie') {
+                navigate('/wie');
                 setTimeout(() => {
                     const element = document.querySelector(to);
                     if (element) {
