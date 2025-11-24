@@ -62,7 +62,7 @@ export default function CommitteeDisplay() {
             image: layanjala,
             socials: {
                 linkedin: "#",
-                
+
             }
         },
         {
@@ -70,7 +70,7 @@ export default function CommitteeDisplay() {
             position: "SECRETARY",
             image: chamodya,
             socials: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/chamodya-perera-762b5831b/",
 
             }
         },
@@ -79,7 +79,7 @@ export default function CommitteeDisplay() {
             position: "TREASURER",
             image: prathibha,
             socials: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/prathibhasiriwardhana/",
 
             }
         },
@@ -88,7 +88,7 @@ export default function CommitteeDisplay() {
             position: "WEBMASTER",
             image: ishini,
             socials: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/ishini-dewamiththa/",
             }
         },
         {
@@ -96,7 +96,7 @@ export default function CommitteeDisplay() {
             position: "HEAD OF PUBLIC VISIBILITY",
             image: hasini,
             socials: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/hasini-sarathchandra-7895452a0/",
 
             }
         },
@@ -105,7 +105,7 @@ export default function CommitteeDisplay() {
             position: "HEAD OF EDITORIAL",
             image: pamudi,
             socials: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/pamudi-karunathilaka/",
 
             }
         },
@@ -114,7 +114,7 @@ export default function CommitteeDisplay() {
             position: "HEAD OF MEMBERSHIP DEVELOPMENT",
             image: nipunee,
             socials: {
-                linkedin: "#",
+                linkedin: "https://www.linkedin.com/in/nipuni-nawanjana-93b416300/",
 
             }
         }
@@ -255,11 +255,7 @@ export default function CommitteeDisplay() {
                                 return (
                                     <div
                                         key={absoluteIndex}
-                                        className={`bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group ${
-                                            row.length === 4 ? 'w-full sm:w-1/2 lg:w-1/4' :
-                                                row.length === 3 ? 'w-full sm:w-1/2 lg:w-1/3' :
-                                                    'w-full sm:w-1/2 lg:w-1/4'
-                                        }`}
+                                        className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-2 group flex-1 min-w-[280px] max-w-[320px] mx-3"
                                         onMouseEnter={() => setSelectedMember(absoluteIndex)}
                                         onMouseLeave={() => setSelectedMember(null)}
                                     >
