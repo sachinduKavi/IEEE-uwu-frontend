@@ -10,7 +10,7 @@ export default function NavBar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home","about", "events", "team", "contact","membership","resources"];
+      const sections = ["home","about", "events", "team", "contact","membership","resources","gallery"];
       let current = "";
 
       sections.forEach((id) => {
@@ -45,6 +45,7 @@ export default function NavBar() {
     { id: "membership", label: "Membership Benefits" },
     { id: "resources", label: "Resources" },
     { id: "events", label: "Events" },
+    { id: "gallery", label: "Gallery" },
     { id: "contact", label: "Get In Touch" },
   ];
 

@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="flex items-center gap-3 bg-yellow-100 p-4 rounded-xl shadow-md hover:shadow-lg transition">
             <Mail className="w-6 h-6 text-yellow-600" />
             <a
-              href="mailto:contact@ieeecs.edu"
+              href="mailto:csieeeuwusb@gmail.com"
               className="text-gray-800 font-medium hover:text-yellow-600 transition"
             >
               csieeeuwusb@gmail.com

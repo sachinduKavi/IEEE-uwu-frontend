@@ -4,21 +4,21 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function Events() {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const [selectedType, setSelectedType] = useState("upcoming");
+  const [selectedType, setSelectedType] = useState("past");
   const [showArrows, setShowArrows] = useState(false);
 
   // coming soon image url = https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761223744/comming_soon_dmcpma.jpg
   const allEvents = [
     // === Upcoming Events (only title + description + optional image) ===
-    {
-      id: "1",
-      title: "UvaXtreem v2",
-      description:
-        "UvaXtreme is a hackathon by the IEEE Student Branch of Uva Wellassa University that promotes innovation, teamwork, and coding skills. It prepares students for IEEEXtreme by tackling real-world challenges and enhancing technical abilities.",
-      image:
-        "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888497/WhatsApp_Image_2025-10-05_at_18.09.35_d1ca3e95_tp3wu2.jpg",
-      type: "upcoming",
-    },
+    // {
+    //   id: "1",
+    //   title: "UvaXtreem v2",
+    //   description:
+    //     "UvaXtreme is a hackathon by the IEEE Student Branch of Uva Wellassa University that promotes innovation, teamwork, and coding skills. It prepares students for IEEEXtreme by tackling real-world challenges and enhancing technical abilities.",
+    //   image:
+    //     "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888497/WhatsApp_Image_2025-10-05_at_18.09.35_d1ca3e95_tp3wu2.jpg",
+    //   type: "upcoming",
+    // },
     {
       id: "2",
       title: "Wellassata AI",
@@ -44,7 +44,6 @@ export default function Events() {
       date: "May 21, 2025",
       time: "05:00 PM - 08:00 PM",
       location: "D1 Lecture Hall",
-      link: "#",
       category: "Workshop",
       image:
         "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888571/WhatsApp_Image_2025-05-18_at_15.29.55_6f9ecd31_ff7amb.jpg",
@@ -56,7 +55,6 @@ export default function Events() {
       date: "August 09, 2025",
       time: "02:00 PM",
       location: "D1 Lecture Hall",
-      link: "#",
       category: "Meetup",
       image:
         "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1760888399/WhatsApp_Image_2025-08-07_at_19.06.45_67e55e42_efrxme.jpg",
@@ -68,10 +66,35 @@ export default function Events() {
       date: "May 23, 2025",
       time: "05:30 PM - 08:30 PM",
       location: "E3 Computer Lab",
-      link: "#",
       category: "Workshop",
       image:
         "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1761222752/WhatsApp_Image_2025-10-23_at_18.00.41_15006575_zmnxjv.jpg",
+      type: "past",
+    },
+    {
+      id: "10",
+      title: "UvaXtreme v2 Awareness Session",
+      topic: "Coding Competition Awareness",
+      description:
+        "Introduced students to the UvaXtreme v2 Coding Competition 2025, including structure and registration.",
+      date: "08 Oct 2025",
+      time: "07:00 PM – 09:27 PM",
+      location: "Via Zoom Platform",
+      category: "Awareness Session",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375524/e927bbab-af1c-4089-8a03-063a8bb028f0_l1oo6d.jpg",
+      type: "past",
+    },
+    {
+      id: "11",
+      title: "UvaXtreem v2",
+      topic: "Coding Competition",
+      description:
+        "UvaXtreme is a hackathon by the IEEE Student Branch of Uva Wellassa University that promotes innovation, teamwork, and coding skills. It prepares students for IEEEXtreme by tackling real-world challenges and enhancing technical abilities.",
+      date: "23 Nov 2025",
+      time: "10:00 AM – 03:00 PM",
+      location: "A1 Lecture Hall",
+      category: "Hackathon",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1764147750/WhatsApp_Image_2025-11-26_at_11.41.24_268455e2_rio6r0.jpg",
       type: "past",
     },
   ];
@@ -138,17 +161,7 @@ export default function Events() {
         </motion.h2>
 
         {/* Buttons */}
-        <div className="flex justify-center mb-10 space-x-4">
-          <button
-            onClick={() => setSelectedType("upcoming")}
-            className={`px-5 py-2 rounded-full font-semibold transition-all ${
-              selectedType === "upcoming"
-                ? "bg-yellow-500 text-white shadow-md"
-                : "bg-white text-gray-700 hover:bg-yellow-100"
-            }`}
-          >
-            Upcoming Events
-          </button>
+        <div className="flex justify-center mb-10 space-x-4">   
           <button
             onClick={() => setSelectedType("past")}
             className={`px-5 py-2 rounded-full font-semibold transition-all ${
@@ -158,6 +171,16 @@ export default function Events() {
             }`}
           >
             Past Events
+          </button>
+          <button
+            onClick={() => setSelectedType("upcoming")}
+            className={`px-5 py-2 rounded-full font-semibold transition-all ${
+              selectedType === "upcoming"
+                ? "bg-yellow-500 text-white shadow-md"
+                : "bg-white text-gray-700 hover:bg-yellow-100"
+            }`}
+          >
+            Upcoming Events
           </button>
         </div>
 

@@ -213,6 +213,19 @@ export default function Events() {
       image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1763375726/FB_IMG_1763365627752_klus8m.jpg",
       type: "past",
     },
+    {
+      id: "16",
+      title: "UvaXtreem v2",
+      topic: "Coding Competition",
+      description:
+        "UvaXtreme is a hackathon by the IEEE Student Branch of Uva Wellassa University that promotes innovation, teamwork, and coding skills. It prepares students for IEEEXtreme by tackling real-world challenges and enhancing technical abilities.",
+      date: "23 Nov 2025",
+      time: "10:00 AM – 03:00 PM",
+      location: "A1 Lecture Hall",
+      category: "Hackathon",
+      image: "https://res.cloudinary.com/dmue6alcq/image/upload/q_auto/v1764147750/WhatsApp_Image_2025-11-26_at_11.41.24_268455e2_rio6r0.jpg",
+      type: "past",
+    },
   ];
   
 
